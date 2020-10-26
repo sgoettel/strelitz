@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:09.119+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2532" WIDTH="1584">
+         <TopMargin HEIGHT="87" WIDTH="1584" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="0" WIDTH="87" VPOS="87" HPOS="0"/>
+         <RightMargin HEIGHT="0" WIDTH="1497" VPOS="87" HPOS="87"/>
+         <BottomMargin HEIGHT="2445" WIDTH="1584" VPOS="87" HPOS="0"/>
+         <PrintSpace HEIGHT="0" WIDTH="0" VPOS="87" HPOS="87">
+            <TextBlock ID="r1" HEIGHT="152" WIDTH="88" VPOS="23" HPOS="998">
+               <Shape>
+                  <Polygon POINTS="998,23 998,175 1086,175 1086,23"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="130"
+                         HEIGHT="52"
+                         WIDTH="89"
+                         VPOS="78"
+                         HPOS="998">
+                  <String ID="string_r1l1"
+                          HEIGHT="52"
+                          WIDTH="89"
+                          VPOS="78"
+                          HPOS="998"
+                          CONTENT="76"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="2098" WIDTH="709" VPOS="90" HPOS="33">
+               <Shape>
+                  <Polygon POINTS="33,90 33,2188 742,2188 742,90"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="150"
+                         HEIGHT="75"
+                         WIDTH="668"
+                         VPOS="75"
+                         HPOS="44">
+                  <String ID="string_r2l1"
+                          HEIGHT="75"
+                          WIDTH="668"
+                          VPOS="75"
+                          HPOS="44"
+                          CONTENT="Hendel H. Bock 469"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="237"
+                         HEIGHT="80"
+                         WIDTH="670"
+                         VPOS="157"
+                         HPOS="46">
+                  <String ID="string_r2l2"
+                          HEIGHT="80"
+                          WIDTH="670"
+                          VPOS="157"
+                          HPOS="46"
+                          CONTENT="Hesy Bock 470"/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="326"
+                         HEIGHT="91"
+                         WIDTH="684"
+                         VPOS="235"
+                         HPOS="40">
+                  <String ID="string_r2l3"
+                          HEIGHT="91"
+                          WIDTH="684"
+                          VPOS="235"
+                          HPOS="40"
+                          CONTENT="Hendel J Cohn 476"/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="404"
+                         HEIGHT="98"
+                         WIDTH="697"
+                         VPOS="306"
+                         HPOS="30">
+                  <String ID="string_r2l4"
+                          HEIGHT="98"
+                          WIDTH="697"
+                          VPOS="306"
+                          HPOS="30"
+                          CONTENT="Heymān Markus 479"/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="482"
+                         HEIGHT="84"
+                         WIDTH="674"
+                         VPOS="398"
+                         HPOS="42">
+                  <String ID="string_r2l5"
+                          HEIGHT="84"
+                          WIDTH="674"
+                          VPOS="398"
+                          HPOS="42"
+                          CONTENT="Hirsch Pom̄er 501"/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="562"
+                         HEIGHT="91"
+                         WIDTH="654"
+                         VPOS="471"
+                         HPOS="55">
+                  <String ID="string_r2l6"
+                          HEIGHT="91"
+                          WIDTH="654"
+                          VPOS="471"
+                          HPOS="55"
+                          CONTENT="Hrisch Paul 505"/>
+               </TextLine>
+               <TextLine ID="r2l7"
+                         BASELINE="634"
+                         HEIGHT="77"
+                         WIDTH="652"
+                         VPOS="557"
+                         HPOS="51">
+                  <String ID="string_r2l7"
+                          HEIGHT="77"
+                          WIDTH="652"
+                          VPOS="557"
+                          HPOS="51"
+                          CONTENT="Hanna G. Pom̅er 512"/>
+               </TextLine>
+               <TextLine ID="r2l8"
+                         BASELINE="713"
+                         HEIGHT="86"
+                         WIDTH="501"
+                         VPOS="627"
+                         HPOS="68">
+                  <String ID="string_r2l8"
+                          HEIGHT="86"
+                          WIDTH="501"
+                          VPOS="627"
+                          HPOS="68"
+                          CONTENT="Heyman Bars-"/>
+               </TextLine>
+               <TextLine ID="r2l9"
+                         BASELINE="760"
+                         HEIGHT="75"
+                         WIDTH="218"
+                         VPOS="685"
+                         HPOS="163">
+                  <String ID="string_r2l9"
+                          HEIGHT="75"
+                          WIDTH="218"
+                          VPOS="685"
+                          HPOS="163"
+                          CONTENT="dorff"/>
+               </TextLine>
+               <TextLine ID="r2l10"
+                         BASELINE="834"
+                         HEIGHT="82"
+                         WIDTH="551"
+                         VPOS="752"
+                         HPOS="140">
+                  <String ID="string_r2l10"
+                          HEIGHT="82"
+                          WIDTH="551"
+                          VPOS="752"
+                          HPOS="140"
+                          CONTENT="Hirschburg Israel 551."/>
+               </TextLine>
+               <TextLine ID="r2l11"
+                         BASELINE="897"
+                         HEIGHT="69"
+                         WIDTH="545"
+                         VPOS="828"
+                         HPOS="145">
+                  <String ID="string_r2l11"
+                          HEIGHT="69"
+                          WIDTH="545"
+                          VPOS="828"
+                          HPOS="145"
+                          CONTENT="Horwitz Götz 600."/>
+               </TextLine>
+               <TextLine ID="r2l12"
+                         BASELINE="968"
+                         HEIGHT="76"
+                         WIDTH="559"
+                         VPOS="892"
+                         HPOS="113">
+                  <String ID="string_r2l12"
+                          HEIGHT="76"
+                          WIDTH="559"
+                          VPOS="892"
+                          HPOS="113"
+                          CONTENT="Hamburger Dr Tochter 613"/>
+               </TextLine>
+               <TextLine ID="r2l13"
+                         BASELINE="1030"
+                         HEIGHT="78"
+                         WIDTH="608"
+                         VPOS="952"
+                         HPOS="115">
+                  <String ID="string_r2l13"
+                          HEIGHT="78"
+                          WIDTH="608"
+                          VPOS="952"
+                          HPOS="115"
+                          CONTENT="Herzfeld N-Brandenbg 634"/>
+               </TextLine>
+               <TextLine ID="r2l14"
+                         BASELINE="1108"
+                         HEIGHT="82"
+                         WIDTH="605"
+                         VPOS="1026"
+                         HPOS="128">
+                  <String ID="string_r2l14"
+                          HEIGHT="82"
+                          WIDTH="605"
+                          VPOS="1026"
+                          HPOS="128"
+                          CONTENT="Hirsch Golde 647"/>
+               </TextLine>
+               <TextLine ID="r2l15"
+                         BASELINE="1184"
+                         HEIGHT="68"
+                         WIDTH="601"
+                         VPOS="1116"
+                         HPOS="126">
+                  <String ID="string_r2l15"
+                          HEIGHT="68"
+                          WIDTH="601"
+                          VPOS="1116"
+                          HPOS="126"
+                          CONTENT="Heine Jacob 568"/>
+               </TextLine>
+               <TextLine ID="r2l16"
+                         BASELINE="1268"
+                         HEIGHT="65"
+                         WIDTH="614"
+                         VPOS="1203"
+                         HPOS="130">
+                  <String ID="string_r2l16"
+                          HEIGHT="65"
+                          WIDTH="614"
+                          VPOS="1203"
+                          HPOS="130"
+                          CONTENT="Heine Frummet 570"/>
+               </TextLine>
+               <TextLine ID="r2l17"
+                         BASELINE="1352"
+                         HEIGHT="86"
+                         WIDTH="598"
+                         VPOS="1266"
+                         HPOS="133">
+                  <String ID="string_r2l17"
+                          HEIGHT="86"
+                          WIDTH="598"
+                          VPOS="1266"
+                          HPOS="133"
+                          CONTENT="Heine Sophie 657"/>
+               </TextLine>
+               <TextLine ID="r2l18"
+                         BASELINE="1408"
+                         HEIGHT="67"
+                         WIDTH="587"
+                         VPOS="1341"
+                         HPOS="129">
+                  <String ID="string_r2l18"
+                          HEIGHT="67"
+                          WIDTH="587"
+                          VPOS="1341"
+                          HPOS="129"
+                          CONTENT="Hallinger aus Fürstenberg 665."/>
+               </TextLine>
+               <TextLine ID="r2l19"
+                         BASELINE="1381"
+                         HEIGHT="31"
+                         WIDTH="88"
+                         VPOS="1350"
+                         HPOS="308">
+                  <String ID="string_r2l19"
+                          HEIGHT="31"
+                          WIDTH="88"
+                          VPOS="1350"
+                          HPOS="308"
+                          CONTENT="Julius"/>
+               </TextLine>
+               <TextLine ID="r2l20"
+                         BASELINE="1474"
+                         HEIGHT="70"
+                         WIDTH="613"
+                         VPOS="1404"
+                         HPOS="119">
+                  <String ID="string_r2l20"
+                          HEIGHT="70"
+                          WIDTH="613"
+                          VPOS="1404"
+                          HPOS="119"
+                          CONTENT="Heyne Meyer 666"/>
+               </TextLine>
+               <TextLine ID="r2l21"
+                         BASELINE="1562"
+                         HEIGHT="58"
+                         WIDTH="592"
+                         VPOS="1504"
+                         HPOS="129">
+                  <String ID="string_r2l21"
+                          HEIGHT="58"
+                          WIDTH="592"
+                          VPOS="1504"
+                          HPOS="129"
+                          CONTENT="Hirsch, Joseph 673."/>
+               </TextLine>
+               <TextLine ID="r2l22"
+                         BASELINE="1641"
+                         HEIGHT="60"
+                         WIDTH="581"
+                         VPOS="1581"
+                         HPOS="137">
+                  <String ID="string_r2l22"
+                          HEIGHT="60"
+                          WIDTH="581"
+                          VPOS="1581"
+                          HPOS="137"
+                          CONTENT="Heyne, Meyer Ww 667."/>
+               </TextLine>
+               <TextLine ID="r2l23"
+                         BASELINE="1710"
+                         HEIGHT="56"
+                         WIDTH="581"
+                         VPOS="1654"
+                         HPOS="140">
+                  <String ID="string_r2l23"
+                          HEIGHT="56"
+                          WIDTH="581"
+                          VPOS="1654"
+                          HPOS="140"
+                          CONTENT="Hochman̅, Benjamin 685"/>
+               </TextLine>
+               <TextLine ID="r2l24"
+                         BASELINE="1782"
+                         HEIGHT="56"
+                         WIDTH="598"
+                         VPOS="1726"
+                         HPOS="139">
+                  <String ID="string_r2l24"
+                          HEIGHT="56"
+                          WIDTH="598"
+                          VPOS="1726"
+                          HPOS="139"
+                          CONTENT="Heine, Abraham 653"/>
+               </TextLine>
+               <TextLine ID="r2l25"
+                         BASELINE="1840"
+                         HEIGHT="57"
+                         WIDTH="591"
+                         VPOS="1783"
+                         HPOS="137">
+                  <String ID="string_r2l25"
+                          HEIGHT="57"
+                          WIDTH="591"
+                          VPOS="1783"
+                          HPOS="137"
+                          CONTENT="Hallinger, Pauline 703"/>
+               </TextLine>
+               <TextLine ID="r2l26"
+                         BASELINE="1900"
+                         HEIGHT="59"
+                         WIDTH="604"
+                         VPOS="1841"
+                         HPOS="132">
+                  <String ID="string_r2l26"
+                          HEIGHT="59"
+                          WIDTH="604"
+                          VPOS="1841"
+                          HPOS="132"
+                          CONTENT="Hallinger Mendel 706."/>
+               </TextLine>
+               <TextLine ID="r2l27"
+                         BASELINE="1964"
+                         HEIGHT="60"
+                         WIDTH="610"
+                         VPOS="1904"
+                         HPOS="129">
+                  <String ID="string_r2l27"
+                          HEIGHT="60"
+                          WIDTH="610"
+                          VPOS="1904"
+                          HPOS="129"
+                          CONTENT="Hamburger Frl. Selma 733"/>
+               </TextLine>
+               <TextLine ID="r2l28"
+                         BASELINE="2018"
+                         HEIGHT="58"
+                         WIDTH="620"
+                         VPOS="1960"
+                         HPOS="119">
+                  <String ID="string_r2l28"
+                          HEIGHT="58"
+                          WIDTH="620"
+                          VPOS="1960"
+                          HPOS="119"
+                          CONTENT="Hallinger Moses 754."/>
+               </TextLine>
+               <TextLine ID="r2l29"
+                         BASELINE="2079"
+                         HEIGHT="57"
+                         WIDTH="618"
+                         VPOS="2022"
+                         HPOS="119">
+                  <String ID="string_r2l29"
+                          HEIGHT="57"
+                          WIDTH="618"
+                          VPOS="2022"
+                          HPOS="119"
+                          CONTENT="Heimann Rechel 766."/>
+               </TextLine>
+               <TextLine ID="r2l30"
+                         BASELINE="2133"
+                         HEIGHT="56"
+                         WIDTH="581"
+                         VPOS="2077"
+                         HPOS="126">
+                  <String ID="string_r2l30"
+                          HEIGHT="56"
+                          WIDTH="581"
+                          VPOS="2077"
+                          HPOS="126"
+                          CONTENT="Louis Hallinger 815"/>
+               </TextLine>
+               <TextLine ID="r2l31"
+                         BASELINE="2182"
+                         HEIGHT="60"
+                         WIDTH="565"
+                         VPOS="2122"
+                         HPOS="141">
+                  <String ID="string_r2l31"
+                          HEIGHT="60"
+                          WIDTH="565"
+                          VPOS="2122"
+                          HPOS="141"
+                          CONTENT="Dr. J Hamburger 819"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

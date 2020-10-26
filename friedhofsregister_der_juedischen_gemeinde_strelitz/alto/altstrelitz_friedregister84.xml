@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:12.113+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2532" WIDTH="1532">
+         <TopMargin HEIGHT="5" WIDTH="1532" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2448" WIDTH="522" VPOS="5" HPOS="0"/>
+         <RightMargin HEIGHT="2448" WIDTH="23" VPOS="5" HPOS="1509"/>
+         <BottomMargin HEIGHT="79" WIDTH="1532" VPOS="2453" HPOS="0"/>
+         <PrintSpace HEIGHT="2448" WIDTH="987" VPOS="5" HPOS="522">
+            <TextBlock ID="r1" HEIGHT="154" WIDTH="78" VPOS="24" HPOS="572">
+               <Shape>
+                  <Polygon POINTS="572,24 572,178 650,178 650,24"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="133"
+                         HEIGHT="110"
+                         WIDTH="85"
+                         VPOS="23"
+                         HPOS="565">
+                  <String ID="string_r1l1"
+                          HEIGHT="110"
+                          WIDTH="85"
+                          VPOS="23"
+                          HPOS="565"
+                          CONTENT="82"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="2436" WIDTH="732" VPOS="14" HPOS="770">
+               <Shape>
+                  <Polygon POINTS="770,14 777,2442 1502,2450 1495,22"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="117"
+                         HEIGHT="76"
+                         WIDTH="664"
+                         VPOS="41"
+                         HPOS="791">
+                  <String ID="string_r2l1"
+                          HEIGHT="76"
+                          WIDTH="664"
+                          VPOS="41"
+                          HPOS="791"
+                          CONTENT="Moses Siemon 4"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="177"
+                         HEIGHT="88"
+                         WIDTH="646"
+                         VPOS="89"
+                         HPOS="785">
+                  <String ID="string_r2l2"
+                          HEIGHT="88"
+                          WIDTH="646"
+                          VPOS="89"
+                          HPOS="785"
+                          CONTENT="Mendel Strelitz 10"/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="236"
+                         HEIGHT="84"
+                         WIDTH="652"
+                         VPOS="152"
+                         HPOS="778">
+                  <String ID="string_r2l3"
+                          HEIGHT="84"
+                          WIDTH="652"
+                          VPOS="152"
+                          HPOS="778"
+                          CONTENT="Miriam Siemon 21"/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="294"
+                         HEIGHT="88"
+                         WIDTH="657"
+                         VPOS="206"
+                         HPOS="778">
+                  <String ID="string_r2l4"
+                          HEIGHT="88"
+                          WIDTH="657"
+                          VPOS="206"
+                          HPOS="778"
+                          CONTENT="Moses Marcus 26"/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="359"
+                         HEIGHT="96"
+                         WIDTH="653"
+                         VPOS="263"
+                         HPOS="789">
+                  <String ID="string_r2l5"
+                          HEIGHT="96"
+                          WIDTH="653"
+                          VPOS="263"
+                          HPOS="789"
+                          CONTENT="Meyer Jacob Cohn 48"/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="427"
+                         HEIGHT="100"
+                         WIDTH="662"
+                         VPOS="327"
+                         HPOS="789">
+                  <String ID="string_r2l6"
+                          HEIGHT="100"
+                          WIDTH="662"
+                          VPOS="327"
+                          HPOS="789"
+                          CONTENT="Male.Joseph 62"/>
+               </TextLine>
+               <TextLine ID="r2l7"
+                         BASELINE="496"
+                         HEIGHT="96"
+                         WIDTH="653"
+                         VPOS="400"
+                         HPOS="795">
+                  <String ID="string_r2l7"
+                          HEIGHT="96"
+                          WIDTH="653"
+                          VPOS="400"
+                          HPOS="795"
+                          CONTENT="Moses Mendel 69"/>
+               </TextLine>
+               <TextLine ID="r2l8"
+                         BASELINE="569"
+                         HEIGHT="83"
+                         WIDTH="649"
+                         VPOS="486"
+                         HPOS="797">
+                  <String ID="string_r2l8"
+                          HEIGHT="83"
+                          WIDTH="649"
+                          VPOS="486"
+                          HPOS="797"
+                          CONTENT="Mathe Jos. Levy 90"/>
+               </TextLine>
+               <TextLine ID="r2l9"
+                         BASELINE="644"
+                         HEIGHT="90"
+                         WIDTH="659"
+                         VPOS="554"
+                         HPOS="786">
+                  <String ID="string_r2l9"
+                          HEIGHT="90"
+                          WIDTH="659"
+                          VPOS="554"
+                          HPOS="786"
+                          CONTENT="Michel Levy 92"/>
+               </TextLine>
+               <TextLine ID="r2l10"
+                         BASELINE="715"
+                         HEIGHT="95"
+                         WIDTH="645"
+                         VPOS="620"
+                         HPOS="788">
+                  <String ID="string_r2l10"
+                          HEIGHT="95"
+                          WIDTH="645"
+                          VPOS="620"
+                          HPOS="788"
+                          CONTENT="Mirel Siemon Brd 98"/>
+               </TextLine>
+               <TextLine ID="r2l11"
+                         BASELINE="790"
+                         HEIGHT="100"
+                         WIDTH="644"
+                         VPOS="690"
+                         HPOS="786">
+                  <String ID="string_r2l11"
+                          HEIGHT="100"
+                          WIDTH="644"
+                          VPOS="690"
+                          HPOS="786"
+                          CONTENT="Mamle Itzig 99"/>
+               </TextLine>
+               <TextLine ID="r2l12"
+                         BASELINE="868"
+                         HEIGHT="106"
+                         WIDTH="658"
+                         VPOS="762"
+                         HPOS="783">
+                  <String ID="string_r2l12"
+                          HEIGHT="106"
+                          WIDTH="658"
+                          VPOS="762"
+                          HPOS="783"
+                          CONTENT="Mahle Levin Emanuel 102"/>
+               </TextLine>
+               <TextLine ID="r2l13"
+                         BASELINE="945"
+                         HEIGHT="95"
+                         WIDTH="652"
+                         VPOS="850"
+                         HPOS="773">
+                  <String ID="string_r2l13"
+                          HEIGHT="95"
+                          WIDTH="652"
+                          VPOS="850"
+                          HPOS="773"
+                          CONTENT="Moses Mendel Levy 113"/>
+               </TextLine>
+               <TextLine ID="r2l14"
+                         BASELINE="1014"
+                         HEIGHT="99"
+                         WIDTH="641"
+                         VPOS="915"
+                         HPOS="775">
+                  <String ID="string_r2l14"
+                          HEIGHT="99"
+                          WIDTH="641"
+                          VPOS="915"
+                          HPOS="775"
+                          CONTENT="Meyer Lissauer 116"/>
+               </TextLine>
+               <TextLine ID="r2l15"
+                         BASELINE="1091"
+                         HEIGHT="106"
+                         WIDTH="646"
+                         VPOS="985"
+                         HPOS="774">
+                  <String ID="string_r2l15"
+                          HEIGHT="106"
+                          WIDTH="646"
+                          VPOS="985"
+                          HPOS="774"
+                          CONTENT="Michel Cohn 121"/>
+               </TextLine>
+               <TextLine ID="r2l16"
+                         BASELINE="1160"
+                         HEIGHT="106"
+                         WIDTH="638"
+                         VPOS="1054"
+                         HPOS="782">
+                  <String ID="string_r2l16"
+                          HEIGHT="106"
+                          WIDTH="638"
+                          VPOS="1054"
+                          HPOS="782"
+                          CONTENT="Mendel Stavenhagen 126"/>
+               </TextLine>
+               <TextLine ID="r2l17"
+                         BASELINE="1222"
+                         HEIGHT="99"
+                         WIDTH="624"
+                         VPOS="1123"
+                         HPOS="784">
+                  <String ID="string_r2l17"
+                          HEIGHT="99"
+                          WIDTH="624"
+                          VPOS="1123"
+                          HPOS="784"
+                          CONTENT="Meyer Markheim 147"/>
+               </TextLine>
+               <TextLine ID="r2l18"
+                         BASELINE="1292"
+                         HEIGHT="102"
+                         WIDTH="623"
+                         VPOS="1190"
+                         HPOS="777">
+                  <String ID="string_r2l18"
+                          HEIGHT="102"
+                          WIDTH="623"
+                          VPOS="1190"
+                          HPOS="777"
+                          CONTENT="Michaelis Brdbg. 153."/>
+               </TextLine>
+               <TextLine ID="r2l19"
+                         BASELINE="1369"
+                         HEIGHT="104"
+                         WIDTH="627"
+                         VPOS="1265"
+                         HPOS="786">
+                  <String ID="string_r2l19"
+                          HEIGHT="104"
+                          WIDTH="627"
+                          VPOS="1265"
+                          HPOS="786"
+                          CONTENT="Moses Stavenhagen 154"/>
+               </TextLine>
+               <TextLine ID="r2l20"
+                         BASELINE="1435"
+                         HEIGHT="98"
+                         WIDTH="623"
+                         VPOS="1337"
+                         HPOS="790">
+                  <String ID="string_r2l20"
+                          HEIGHT="98"
+                          WIDTH="623"
+                          VPOS="1337"
+                          HPOS="790"
+                          CONTENT="Meyer Dannenwald 158"/>
+               </TextLine>
+               <TextLine ID="r2l21"
+                         BASELINE="1506"
+                         HEIGHT="97"
+                         WIDTH="617"
+                         VPOS="1409"
+                         HPOS="791">
+                  <String ID="string_r2l21"
+                          HEIGHT="97"
+                          WIDTH="617"
+                          VPOS="1409"
+                          HPOS="791"
+                          CONTENT="Marius Gumprich 163"/>
+               </TextLine>
+               <TextLine ID="r2l22"
+                         BASELINE="1582"
+                         HEIGHT="105"
+                         WIDTH="619"
+                         VPOS="1477"
+                         HPOS="789">
+                  <String ID="string_r2l22"
+                          HEIGHT="105"
+                          WIDTH="619"
+                          VPOS="1477"
+                          HPOS="789"
+                          CONTENT="Minna Siesskind 167"/>
+               </TextLine>
+               <TextLine ID="r2l23"
+                         BASELINE="1646"
+                         HEIGHT="98"
+                         WIDTH="617"
+                         VPOS="1548"
+                         HPOS="793">
+                  <String ID="string_r2l23"
+                          HEIGHT="98"
+                          WIDTH="617"
+                          VPOS="1548"
+                          HPOS="793"
+                          CONTENT="Marcus Ahron 172"/>
+               </TextLine>
+               <TextLine ID="r2l24"
+                         BASELINE="1719"
+                         HEIGHT="108"
+                         WIDTH="623"
+                         VPOS="1611"
+                         HPOS="789">
+                  <String ID="string_r2l24"
+                          HEIGHT="108"
+                          WIDTH="623"
+                          VPOS="1611"
+                          HPOS="789"
+                          CONTENT="Moses Neustadt 177"/>
+               </TextLine>
+               <TextLine ID="r2l25"
+                         BASELINE="1799"
+                         HEIGHT="107"
+                         WIDTH="613"
+                         VPOS="1692"
+                         HPOS="796">
+                  <String ID="string_r2l25"
+                          HEIGHT="107"
+                          WIDTH="613"
+                          VPOS="1692"
+                          HPOS="796"
+                          CONTENT="Moses Defflis 179"/>
+               </TextLine>
+               <TextLine ID="r2l26"
+                         BASELINE="1873"
+                         HEIGHT="111"
+                         WIDTH="618"
+                         VPOS="1762"
+                         HPOS="790">
+                  <String ID="string_r2l26"
+                          HEIGHT="111"
+                          WIDTH="618"
+                          VPOS="1762"
+                          HPOS="790"
+                          CONTENT="Marcus Cohn 199"/>
+               </TextLine>
+               <TextLine ID="r2l27"
+                         BASELINE="1941"
+                         HEIGHT="104"
+                         WIDTH="624"
+                         VPOS="1837"
+                         HPOS="776">
+                  <String ID="string_r2l27"
+                          HEIGHT="104"
+                          WIDTH="624"
+                          VPOS="1837"
+                          HPOS="776"
+                          CONTENT="Meyer Jekusiel 200"/>
+               </TextLine>
+               <TextLine ID="r2l28"
+                         BASELINE="2007"
+                         HEIGHT="91"
+                         WIDTH="633"
+                         VPOS="1916"
+                         HPOS="787">
+                  <String ID="string_r2l28"
+                          HEIGHT="91"
+                          WIDTH="633"
+                          VPOS="1916"
+                          HPOS="787"
+                          CONTENT="Minkle Meseritz 207"/>
+               </TextLine>
+               <TextLine ID="r2l29"
+                         BASELINE="2073"
+                         HEIGHT="82"
+                         WIDTH="610"
+                         VPOS="1991"
+                         HPOS="787">
+                  <String ID="string_r2l29"
+                          HEIGHT="82"
+                          WIDTH="610"
+                          VPOS="1991"
+                          HPOS="787"
+                          CONTENT="Meyer Dargun 240"/>
+               </TextLine>
+               <TextLine ID="r2l30"
+                         BASELINE="2153"
+                         HEIGHT="96"
+                         WIDTH="624"
+                         VPOS="2057"
+                         HPOS="788">
+                  <String ID="string_r2l30"
+                          HEIGHT="96"
+                          WIDTH="624"
+                          VPOS="2057"
+                          HPOS="788"
+                          CONTENT="Moses Horwitz 244"/>
+               </TextLine>
+               <TextLine ID="r2l31"
+                         BASELINE="2231"
+                         HEIGHT="96"
+                         WIDTH="620"
+                         VPOS="2135"
+                         HPOS="799">
+                  <String ID="string_r2l31"
+                          HEIGHT="96"
+                          WIDTH="620"
+                          VPOS="2135"
+                          HPOS="799"
+                          CONTENT="Moses Danziger 258"/>
+               </TextLine>
+               <TextLine ID="r2l32"
+                         BASELINE="2297"
+                         HEIGHT="85"
+                         WIDTH="624"
+                         VPOS="2212"
+                         HPOS="794">
+                  <String ID="string_r2l32"
+                          HEIGHT="85"
+                          WIDTH="624"
+                          VPOS="2212"
+                          HPOS="794"
+                          CONTENT="Moses Marwitz 261"/>
+               </TextLine>
+               <TextLine ID="r2l33"
+                         BASELINE="2365"
+                         HEIGHT="75"
+                         WIDTH="630"
+                         VPOS="2290"
+                         HPOS="790">
+                  <String ID="string_r2l33"
+                          HEIGHT="75"
+                          WIDTH="630"
+                          VPOS="2290"
+                          HPOS="790"
+                          CONTENT="Moses H. Landsberg 267"/>
+               </TextLine>
+               <TextLine ID="r2l34"
+                         BASELINE="2431"
+                         HEIGHT="73"
+                         WIDTH="602"
+                         VPOS="2358"
+                         HPOS="829">
+                  <String ID="string_r2l34"
+                          HEIGHT="73"
+                          WIDTH="602"
+                          VPOS="2358"
+                          HPOS="829"
+                          CONTENT="M. H Marcus Wittwer 626"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

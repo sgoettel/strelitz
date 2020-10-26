@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:05.106+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2526" WIDTH="1504">
+         <TopMargin HEIGHT="0" WIDTH="1504" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2526" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2526" WIDTH="0" VPOS="0" HPOS="1504"/>
+         <BottomMargin HEIGHT="0" WIDTH="1504" VPOS="2526" HPOS="0"/>
+         <PrintSpace HEIGHT="2526" WIDTH="1504" VPOS="0" HPOS="0">
+            <TextBlock ID="r1" HEIGHT="2468" WIDTH="648" VPOS="25" HPOS="698">
+               <Shape>
+                  <Polygon POINTS="698,25 706,2493 1346,2493 1338,25"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="126"
+                         HEIGHT="56"
+                         WIDTH="91"
+                         VPOS="70"
+                         HPOS="948">
+                  <String ID="string_r1l1"
+                          HEIGHT="56"
+                          WIDTH="91"
+                          VPOS="70"
+                          HPOS="948"
+                          CONTENT="67"/>
+               </TextLine>
+               <TextLine ID="r1l2"
+                         BASELINE="269"
+                         HEIGHT="87"
+                         WIDTH="617"
+                         VPOS="182"
+                         HPOS="714">
+                  <String ID="string_r1l2"
+                          HEIGHT="87"
+                          WIDTH="617"
+                          VPOS="182"
+                          HPOS="714"
+                          CONTENT="Blumchen Jacob 29"/>
+               </TextLine>
+               <TextLine ID="r1l3"
+                         BASELINE="340"
+                         HEIGHT="92"
+                         WIDTH="606"
+                         VPOS="248"
+                         HPOS="722">
+                  <String ID="string_r1l3"
+                          HEIGHT="92"
+                          WIDTH="606"
+                          VPOS="248"
+                          HPOS="722"
+                          CONTENT="Bune 30"/>
+               </TextLine>
+               <TextLine ID="r1l4"
+                         BASELINE="408"
+                         HEIGHT="97"
+                         WIDTH="613"
+                         VPOS="311"
+                         HPOS="724">
+                  <String ID="string_r1l4"
+                          HEIGHT="97"
+                          WIDTH="613"
+                          VPOS="311"
+                          HPOS="724"
+                          CONTENT="Blumle Ruben 79"/>
+               </TextLine>
+               <TextLine ID="r1l5"
+                         BASELINE="496"
+                         HEIGHT="104"
+                         WIDTH="614"
+                         VPOS="392"
+                         HPOS="710">
+                  <String ID="string_r1l5"
+                          HEIGHT="104"
+                          WIDTH="614"
+                          VPOS="392"
+                          HPOS="710"
+                          CONTENT="Bella Meyer 81"/>
+               </TextLine>
+               <TextLine ID="r1l6"
+                         BASELINE="566"
+                         HEIGHT="96"
+                         WIDTH="622"
+                         VPOS="470"
+                         HPOS="710">
+                  <String ID="string_r1l6"
+                          HEIGHT="96"
+                          WIDTH="622"
+                          VPOS="470"
+                          HPOS="710"
+                          CONTENT="Berachia Gerson 82"/>
+               </TextLine>
+               <TextLine ID="r1l7"
+                         BASELINE="646"
+                         HEIGHT="102"
+                         WIDTH="626"
+                         VPOS="544"
+                         HPOS="705">
+                  <String ID="string_r1l7"
+                          HEIGHT="102"
+                          WIDTH="626"
+                          VPOS="544"
+                          HPOS="705"
+                          CONTENT="Blumchen 86"/>
+               </TextLine>
+               <TextLine ID="r1l8"
+                         BASELINE="713"
+                         HEIGHT="97"
+                         WIDTH="619"
+                         VPOS="616"
+                         HPOS="713">
+                  <String ID="string_r1l8"
+                          HEIGHT="97"
+                          WIDTH="619"
+                          VPOS="616"
+                          HPOS="713"
+                          CONTENT="Breine Mos. Danziger 88"/>
+               </TextLine>
+               <TextLine ID="r1l9"
+                         BASELINE="790"
+                         HEIGHT="104"
+                         WIDTH="613"
+                         VPOS="686"
+                         HPOS="716">
+                  <String ID="string_r1l9"
+                          HEIGHT="104"
+                          WIDTH="613"
+                          VPOS="686"
+                          HPOS="716"
+                          CONTENT="Blumch: Wesenbg 128"/>
+               </TextLine>
+               <TextLine ID="r1l10"
+                         BASELINE="872"
+                         HEIGHT="105"
+                         WIDTH="632"
+                         VPOS="767"
+                         HPOS="707">
+                  <String ID="string_r1l10"
+                          HEIGHT="105"
+                          WIDTH="632"
+                          VPOS="767"
+                          HPOS="707"
+                          CONTENT="Blume Liepman̄ 132"/>
+               </TextLine>
+               <TextLine ID="r1l11"
+                         BASELINE="955"
+                         HEIGHT="106"
+                         WIDTH="622"
+                         VPOS="849"
+                         HPOS="716">
+                  <String ID="string_r1l11"
+                          HEIGHT="106"
+                          WIDTH="622"
+                          VPOS="849"
+                          HPOS="716"
+                          CONTENT="Blümch: Israel 139"/>
+               </TextLine>
+               <TextLine ID="r1l12"
+                         BASELINE="1032"
+                         HEIGHT="113"
+                         WIDTH="627"
+                         VPOS="919"
+                         HPOS="710">
+                  <String ID="string_r1l12"
+                          HEIGHT="113"
+                          WIDTH="627"
+                          VPOS="919"
+                          HPOS="710"
+                          CONTENT="Blümle Friedl: 145"/>
+               </TextLine>
+               <TextLine ID="r1l13"
+                         BASELINE="1100"
+                         HEIGHT="121"
+                         WIDTH="629"
+                         VPOS="979"
+                         HPOS="710">
+                  <String ID="string_r1l13"
+                          HEIGHT="121"
+                          WIDTH="629"
+                          VPOS="979"
+                          HPOS="710"
+                          CONTENT="Breindel Joessel 239"/>
+               </TextLine>
+               <TextLine ID="r1l14"
+                         BASELINE="1175"
+                         HEIGHT="108"
+                         WIDTH="616"
+                         VPOS="1067"
+                         HPOS="721">
+                  <String ID="string_r1l14"
+                          HEIGHT="108"
+                          WIDTH="616"
+                          VPOS="1067"
+                          HPOS="721"
+                          CONTENT="Bella Itzig 269"/>
+               </TextLine>
+               <TextLine ID="r1l15"
+                         BASELINE="1256"
+                         HEIGHT="94"
+                         WIDTH="609"
+                         VPOS="1162"
+                         HPOS="721">
+                  <String ID="string_r1l15"
+                          HEIGHT="94"
+                          WIDTH="609"
+                          VPOS="1162"
+                          HPOS="721"
+                          CONTENT="Behr Heyman̄ 288."/>
+               </TextLine>
+               <TextLine ID="r1l16"
+                         BASELINE="1342"
+                         HEIGHT="98"
+                         WIDTH="632"
+                         VPOS="1244"
+                         HPOS="707">
+                  <String ID="string_r1l16"
+                          HEIGHT="98"
+                          WIDTH="632"
+                          VPOS="1244"
+                          HPOS="707"
+                          CONTENT="Blume Pom̄er 296"/>
+               </TextLine>
+               <TextLine ID="r1l17"
+                         BASELINE="1418"
+                         HEIGHT="102"
+                         WIDTH="619"
+                         VPOS="1316"
+                         HPOS="714">
+                  <String ID="string_r1l17"
+                          HEIGHT="102"
+                          WIDTH="619"
+                          VPOS="1316"
+                          HPOS="714"
+                          CONTENT="Blüme H Barid. 327"/>
+               </TextLine>
+               <TextLine ID="r1l18"
+                         BASELINE="1498"
+                         HEIGHT="107"
+                         WIDTH="604"
+                         VPOS="1391"
+                         HPOS="713">
+                  <String ID="string_r1l18"
+                          HEIGHT="107"
+                          WIDTH="604"
+                          VPOS="1391"
+                          HPOS="713"
+                          CONTENT="Bella David 333"/>
+               </TextLine>
+               <TextLine ID="r1l19"
+                         BASELINE="1569"
+                         HEIGHT="105"
+                         WIDTH="617"
+                         VPOS="1464"
+                         HPOS="723">
+                  <String ID="string_r1l19"
+                          HEIGHT="105"
+                          WIDTH="617"
+                          VPOS="1464"
+                          HPOS="723"
+                          CONTENT="Blüme J. Barid 354"/>
+               </TextLine>
+               <TextLine ID="r1l20"
+                         BASELINE="1663"
+                         HEIGHT="113"
+                         WIDTH="627"
+                         VPOS="1550"
+                         HPOS="709">
+                  <String ID="string_r1l20"
+                          HEIGHT="113"
+                          WIDTH="627"
+                          VPOS="1550"
+                          HPOS="709"
+                          CONTENT="Benjamin Leo 360"/>
+               </TextLine>
+               <TextLine ID="r1l21"
+                         BASELINE="1743"
+                         HEIGHT="106"
+                         WIDTH="619"
+                         VPOS="1637"
+                         HPOS="727">
+                  <String ID="string_r1l21"
+                          HEIGHT="106"
+                          WIDTH="619"
+                          VPOS="1637"
+                          HPOS="727"
+                          CONTENT="Blume Sanders 366"/>
+               </TextLine>
+               <TextLine ID="r1l22"
+                         BASELINE="1816"
+                         HEIGHT="91"
+                         WIDTH="605"
+                         VPOS="1725"
+                         HPOS="727">
+                  <String ID="string_r1l22"
+                          HEIGHT="91"
+                          WIDTH="605"
+                          VPOS="1725"
+                          HPOS="727"
+                          CONTENT="Bertha Abrah 367"/>
+               </TextLine>
+               <TextLine ID="r1l23"
+                         BASELINE="1894"
+                         HEIGHT="95"
+                         WIDTH="621"
+                         VPOS="1799"
+                         HPOS="717">
+                  <String ID="string_r1l23"
+                          HEIGHT="95"
+                          WIDTH="621"
+                          VPOS="1799"
+                          HPOS="717"
+                          CONTENT="Breindel Joessel 368"/>
+               </TextLine>
+               <TextLine ID="r1l24"
+                         BASELINE="1973"
+                         HEIGHT="100"
+                         WIDTH="635"
+                         VPOS="1873"
+                         HPOS="707">
+                  <String ID="string_r1l24"
+                          HEIGHT="100"
+                          WIDTH="635"
+                          VPOS="1873"
+                          HPOS="707"
+                          CONTENT="Blümch: Drucker 398"/>
+               </TextLine>
+               <TextLine ID="r1l25"
+                         BASELINE="2054"
+                         HEIGHT="90"
+                         WIDTH="613"
+                         VPOS="1964"
+                         HPOS="720">
+                  <String ID="string_r1l25"
+                          HEIGHT="90"
+                          WIDTH="613"
+                          VPOS="1964"
+                          HPOS="720"
+                          CONTENT="Blume Siemon 403"/>
+               </TextLine>
+               <TextLine ID="r1l26"
+                         BASELINE="2135"
+                         HEIGHT="96"
+                         WIDTH="630"
+                         VPOS="2039"
+                         HPOS="714">
+                  <String ID="string_r1l26"
+                          HEIGHT="96"
+                          WIDTH="630"
+                          VPOS="2039"
+                          HPOS="714"
+                          CONTENT="Beine Dan̄enw: 444"/>
+               </TextLine>
+               <TextLine ID="r1l27"
+                         BASELINE="2207"
+                         HEIGHT="87"
+                         WIDTH="614"
+                         VPOS="2120"
+                         HPOS="716">
+                  <String ID="string_r1l27"
+                          HEIGHT="87"
+                          WIDTH="614"
+                          VPOS="2120"
+                          HPOS="716"
+                          CONTENT="Bune Isr: Brdbg 445"/>
+               </TextLine>
+               <TextLine ID="r1l28"
+                         BASELINE="2284"
+                         HEIGHT="85"
+                         WIDTH="636"
+                         VPOS="2199"
+                         HPOS="706">
+                  <String ID="string_r1l28"
+                          HEIGHT="85"
+                          WIDTH="636"
+                          VPOS="2199"
+                          HPOS="706"
+                          CONTENT="Beile Wittstock 452"/>
+               </TextLine>
+               <TextLine ID="r1l29"
+                         BASELINE="2348"
+                         HEIGHT="86"
+                         WIDTH="625"
+                         VPOS="2262"
+                         HPOS="722">
+                  <String ID="string_r1l29"
+                          HEIGHT="86"
+                          WIDTH="625"
+                          VPOS="2262"
+                          HPOS="722"
+                          CONTENT="Beile Conse 487"/>
+               </TextLine>
+               <TextLine ID="r1l30"
+                         BASELINE="2411"
+                         HEIGHT="76"
+                         WIDTH="560"
+                         VPOS="2335"
+                         HPOS="728">
+                  <String ID="string_r1l30"
+                          HEIGHT="76"
+                          WIDTH="560"
+                          VPOS="2335"
+                          HPOS="728"
+                          CONTENT="Bertha Smuelis 517"/>
+               </TextLine>
+               <TextLine ID="r1l31"
+                         BASELINE="2481"
+                         HEIGHT="68"
+                         WIDTH="582"
+                         VPOS="2413"
+                         HPOS="744">
+                  <String ID="string_r1l31"
+                          HEIGHT="68"
+                          WIDTH="582"
+                          VPOS="2413"
+                          HPOS="744"
+                          CONTENT="Beile H. Veit 530"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:17.097+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2547" WIDTH="1532">
+         <TopMargin HEIGHT="24" WIDTH="1532" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="545" WIDTH="508" VPOS="24" HPOS="0"/>
+         <RightMargin HEIGHT="545" WIDTH="15" VPOS="24" HPOS="1517"/>
+         <BottomMargin HEIGHT="1978" WIDTH="1532" VPOS="569" HPOS="0"/>
+         <PrintSpace HEIGHT="545" WIDTH="1009" VPOS="24" HPOS="508">
+            <TextBlock ID="r1" HEIGHT="159" WIDTH="79" VPOS="41" HPOS="548">
+               <Shape>
+                  <Polygon POINTS="548,41 548,200 627,200 627,41"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="155"
+                         HEIGHT="94"
+                         WIDTH="72"
+                         VPOS="61"
+                         HPOS="549">
+                  <String ID="string_r1l1"
+                          HEIGHT="94"
+                          WIDTH="72"
+                          VPOS="61"
+                          HPOS="549"
+                          CONTENT="91"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="509" WIDTH="737" VPOS="62" HPOS="754">
+               <Shape>
+                  <Polygon POINTS="757,72 1389,62 1491,98 1491,515 1378,571 754,571"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="147"
+                         HEIGHT="56"
+                         WIDTH="705"
+                         VPOS="91"
+                         HPOS="773">
+                  <String ID="string_r2l1"
+                          HEIGHT="56"
+                          WIDTH="705"
+                          VPOS="91"
+                          HPOS="773"
+                          CONTENT="Traune Hirsch 6"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="232"
+                         HEIGHT="93"
+                         WIDTH="725"
+                         VPOS="139"
+                         HPOS="766">
+                  <String ID="string_r2l2"
+                          HEIGHT="93"
+                          WIDTH="725"
+                          VPOS="139"
+                          HPOS="766"
+                          CONTENT="Taube Brachie 204"/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="308"
+                         HEIGHT="94"
+                         WIDTH="723"
+                         VPOS="214"
+                         HPOS="758">
+                  <String ID="string_r2l3"
+                          HEIGHT="94"
+                          WIDTH="723"
+                          VPOS="214"
+                          HPOS="758"
+                          CONTENT="Täubch Itzig Levy 215"/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="392"
+                         HEIGHT="108"
+                         WIDTH="724"
+                         VPOS="284"
+                         HPOS="765">
+                  <String ID="string_r2l4"
+                          HEIGHT="108"
+                          WIDTH="724"
+                          VPOS="284"
+                          HPOS="765"
+                          CONTENT="Täubchen Moses 308"/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="471"
+                         HEIGHT="107"
+                         WIDTH="737"
+                         VPOS="364"
+                         HPOS="754">
+                  <String ID="string_r2l5"
+                          HEIGHT="107"
+                          WIDTH="737"
+                          VPOS="364"
+                          HPOS="754"
+                          CONTENT="Tertze Itzig Barsdorf 313."/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="559"
+                         HEIGHT="111"
+                         WIDTH="720"
+                         VPOS="448"
+                         HPOS="766">
+                  <String ID="string_r2l6"
+                          HEIGHT="111"
+                          WIDTH="720"
+                          VPOS="448"
+                          HPOS="766"
+                          CONTENT="Taube Hirsch 361"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

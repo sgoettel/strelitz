@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:18.251+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2518" WIDTH="1555">
+         <TopMargin HEIGHT="2" WIDTH="1555" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="1019" WIDTH="755" VPOS="2" HPOS="0"/>
+         <RightMargin HEIGHT="1019" WIDTH="21" VPOS="2" HPOS="1534"/>
+         <BottomMargin HEIGHT="1497" WIDTH="1555" VPOS="1021" HPOS="0"/>
+         <PrintSpace HEIGHT="1019" WIDTH="779" VPOS="2" HPOS="755">
+            <TextBlock ID="r1" HEIGHT="83" WIDTH="81" VPOS="15" HPOS="1344">
+               <Shape>
+                  <Polygon POINTS="1344,15 1344,98 1425,98 1425,15"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="84"
+                         HEIGHT="50"
+                         WIDTH="67"
+                         VPOS="34"
+                         HPOS="1352">
+                  <String ID="string_r1l1"
+                          HEIGHT="50"
+                          WIDTH="67"
+                          VPOS="34"
+                          HPOS="1352"
+                          CONTENT="94"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="908" WIDTH="762" VPOS="49" HPOS="783">
+               <Shape>
+                  <Polygon POINTS="783,49 783,957 1545,957 1545,49"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="136"
+                         HEIGHT="85"
+                         WIDTH="699"
+                         VPOS="51"
+                         HPOS="825">
+                  <String ID="string_r2l1"
+                          HEIGHT="85"
+                          WIDTH="699"
+                          VPOS="51"
+                          HPOS="825"
+                          CONTENT="Wolf Jacob 5"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="217"
+                         HEIGHT="101"
+                         WIDTH="692"
+                         VPOS="116"
+                         HPOS="827">
+                  <String ID="string_r2l2"
+                          HEIGHT="101"
+                          WIDTH="692"
+                          VPOS="116"
+                          HPOS="827"
+                          CONTENT="Wolf 80."/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="293"
+                         HEIGHT="107"
+                         WIDTH="698"
+                         VPOS="186"
+                         HPOS="822">
+                  <String ID="string_r2l3"
+                          HEIGHT="107"
+                          WIDTH="698"
+                          VPOS="186"
+                          HPOS="822"
+                          CONTENT="Wolf Jacob 110"/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="368"
+                         HEIGHT="107"
+                         WIDTH="706"
+                         VPOS="261"
+                         HPOS="787">
+                  <String ID="string_r2l4"
+                          HEIGHT="107"
+                          WIDTH="706"
+                          VPOS="261"
+                          HPOS="787"
+                          CONTENT="Wolf Vorsteher 155"/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="444"
+                         HEIGHT="109"
+                         WIDTH="711"
+                         VPOS="335"
+                         HPOS="805">
+                  <String ID="string_r2l5"
+                          HEIGHT="109"
+                          WIDTH="711"
+                          VPOS="335"
+                          HPOS="805"
+                          CONTENT="Wolf Schäfer 243."/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="521"
+                         HEIGHT="116"
+                         WIDTH="717"
+                         VPOS="405"
+                         HPOS="801">
+                  <String ID="string_r2l6"
+                          HEIGHT="116"
+                          WIDTH="717"
+                          VPOS="405"
+                          HPOS="801"
+                          CONTENT="Wolf Paul 407"/>
+               </TextLine>
+               <TextLine ID="r2l7"
+                         BASELINE="587"
+                         HEIGHT="101"
+                         WIDTH="713"
+                         VPOS="486"
+                         HPOS="807">
+                  <String ID="string_r2l7"
+                          HEIGHT="101"
+                          WIDTH="713"
+                          VPOS="486"
+                          HPOS="807"
+                          CONTENT="Wolf Sachs 436"/>
+               </TextLine>
+               <TextLine ID="r2l8"
+                         BASELINE="666"
+                         HEIGHT="112"
+                         WIDTH="721"
+                         VPOS="554"
+                         HPOS="791">
+                  <String ID="string_r2l8"
+                          HEIGHT="112"
+                          WIDTH="721"
+                          VPOS="554"
+                          HPOS="791"
+                          CONTENT="Wolf Mich: Cohn 498"/>
+               </TextLine>
+               <TextLine ID="r2l9"
+                         BASELINE="744"
+                         HEIGHT="112"
+                         WIDTH="739"
+                         VPOS="632"
+                         HPOS="771">
+                  <String ID="string_r2l9"
+                          HEIGHT="112"
+                          WIDTH="739"
+                          VPOS="632"
+                          HPOS="771"
+                          CONTENT="Wolf Wolfson 535"/>
+               </TextLine>
+               <TextLine ID="r2l10"
+                         BASELINE="809"
+                         HEIGHT="98"
+                         WIDTH="700"
+                         VPOS="711"
+                         HPOS="821">
+                  <String ID="string_r2l10"
+                          HEIGHT="98"
+                          WIDTH="700"
+                          VPOS="711"
+                          HPOS="821"
+                          CONTENT="Wolf Israel Neubrandenburg 553a"/>
+               </TextLine>
+               <TextLine ID="r2l11"
+                         BASELINE="882"
+                         HEIGHT="75"
+                         WIDTH="713"
+                         VPOS="807"
+                         HPOS="807">
+                  <String ID="string_r2l11"
+                          HEIGHT="75"
+                          WIDTH="713"
+                          VPOS="807"
+                          HPOS="807"
+                          CONTENT="Wittstock, Jacob 437"/>
+               </TextLine>
+               <TextLine ID="r2l12"
+                         BASELINE="947"
+                         HEIGHT="79"
+                         WIDTH="707"
+                         VPOS="868"
+                         HPOS="800">
+                  <String ID="string_r2l12"
+                          HEIGHT="79"
+                          WIDTH="707"
+                          VPOS="868"
+                          HPOS="800"
+                          CONTENT="Wolfsohn, Regina 814"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>
