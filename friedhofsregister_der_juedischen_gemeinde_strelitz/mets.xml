@@ -1,0 +1,3996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:TEI="http://www.tei-c.org/ns/1.0"
+           xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:DC="http://purl.org/dc/elements/1.1/"
+           xmlns:mods="http://www.loc.gov/mods/v3"
+           xmlns:mets="http://www.loc.gov/METS/"
+           xmlns:DV="http://dfg-viewer.de/"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+           xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd">
+   <mets:dmdSec ID="dmdSec_0001">
+      <mets:mdWrap MDTYPE="MODS">
+         <mets:xmlData>
+            <mods:mods>
+               <mods:location>
+                  <mods:physicalLocation>Leo Baeck Institut</mods:physicalLocation>
+                  <mods:shelfLocator/>
+                  <mods:url/>
+               </mods:location>
+               <mods:originInfo>
+                  <mods:place>
+                     <mods:placeTerm type="text">s.l.</mods:placeTerm>
+                  </mods:place>
+                  <mods:dateIssued encoding="w3cdtf" keyDate="yes">1923</mods:dateIssued>
+                  <mods:publisher/>
+               </mods:originInfo>
+               <mods:originInfo>
+                  <mods:dateCaptured encoding="w3cdtf">2020-04-11T09:05:35Z</mods:dateCaptured>
+                  <mods:edition>[Electronic ed.]</mods:edition>
+               </mods:originInfo>
+               <mods:classification authority="DTA">Gebrauchsliteratur</mods:classification>
+               <mods:classification authority="DTA">Manuskript</mods:classification>
+               <mods:identifier type="dtaid">34919</mods:identifier>
+               <mods:titleInfo>
+                   <mods:title>Jacob, Jacobson: Friedhofsregister der jüdischen Gemeinde zu Strelitz. [s. l.], 1923.</mods:title>
+                   <mods:subTitle>Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)</mods:subTitle>
+               </mods:titleInfo>
+              
+               <mods:language>
+                  <mods:languageTerm authority="iso639-2b" type="code">deu</mods:languageTerm>
+                   <mods:languageTerm authority="iso639-2b" type="code">hbo</mods:languageTerm>
+               </mods:language>
+               <mods:relatedItem type="series">
+                  <mods:titleInfo>
+                     <mods:title/>
+                  </mods:titleInfo>
+               </mods:relatedItem>
+               <mods:name type="personal">
+                  <mods:role>
+                     <mods:roleTerm authority="marcrelator" type="code">aut</mods:roleTerm>
+                  </mods:role>
+                  <mods:namePart type="family">Jacobson</mods:namePart>
+                  <mods:namePart type="given">Jacob</mods:namePart>
+                  <mods:displayForm>Jacob Jacobson</mods:displayForm>
+               </mods:name>
+               <mods:physicalDescription>
+                  <mods:extent/>
+               </mods:physicalDescription>
+               <mods:extension>
+                  <zvdd:zvddWrap xmlns:zvdd="http://zvdd.gdz-cms.de/">
+                      <zvdd:titleWord>Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)</zvdd:titleWord>
+                  </zvdd:zvddWrap>
+               </mods:extension>
+            </mods:mods>
+         </mets:xmlData>
+      </mets:mdWrap>
+   </mets:dmdSec>
+   <mets:amdSec ID="amdSec_0001">
+      <mets:rightsMD ID="rights_0001">
+         <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS" MIMETYPE="text/xml">
+            <mets:xmlData>
+               <DV:rights>
+                  <DV:owner>Berlin-Brandenburgische Akademie der Wissenschaften Deutsches Textarchiv</DV:owner>
+                  <DV:ownerLogo>http://www.deutschestextarchiv.de/static/images/dta.svg</DV:ownerLogo>
+                  <DV:ownerSiteURL>http://deutschestextarchiv.de</DV:ownerSiteURL>
+                  <DV:ownerContact>mailto:redaktion@deutschestextarchiv.de</DV:ownerContact>
+               </DV:rights>
+            </mets:xmlData>
+         </mets:mdWrap>
+      </mets:rightsMD>
+      <mets:digiprovMD ID="digiprovMD_0001">
+         <mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+            <mets:xmlData>
+               <DV:links>
+                  <DV:reference/>
+                   <DV:presentation>http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929</DV:presentation>
+               </DV:links>
+            </mets:xmlData>
+         </mets:mdWrap>
+      </mets:digiprovMD>
+   </mets:amdSec>
+   <mets:fileSec>
+   
+      
+      
+
+<mets:fileGrp USE="DEFAULT">
+
+         <mets:file ID="IMG_DEFAULT_1" SEQ="1" MIMETYPE="image/jpeg">
+            
+            <mets:FLocat LOCTYPE="URL"
+               xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister2.jpg"/>
+            
+         </mets:file>
+         
+        <mets:file ID="IMG_DEFAULT_2" SEQ="2" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister3.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_3" SEQ="3" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister4.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_4" SEQ="4" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister5.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_5" SEQ="5" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister6.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_6" SEQ="6" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister7.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_7" SEQ="7" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister8.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_8" SEQ="8" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister9.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_9" SEQ="9" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister10.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_10" SEQ="10" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister11.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_11" SEQ="11" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister12.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_12" SEQ="12" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister13.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_13" SEQ="13" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister14.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_14" SEQ="14" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister15.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_15" SEQ="15" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister16.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_16" SEQ="16" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister17.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_17" SEQ="17" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister18.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_18" SEQ="18" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister19.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_19" SEQ="19" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister20.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_20" SEQ="20" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister21.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_21" SEQ="21" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister22.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_22" SEQ="22" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister23.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_23" SEQ="23" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister24.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_24" SEQ="24" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister25.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_25" SEQ="25" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister26.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_26" SEQ="26" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister27.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_27" SEQ="27" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister28.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_28" SEQ="28" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister29.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_29" SEQ="29" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister30.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_30" SEQ="30" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister31.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_31" SEQ="31" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister32.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_32" SEQ="32" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister33.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_33" SEQ="33" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister34.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_34" SEQ="34" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister35.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_35" SEQ="35" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister36.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_36" SEQ="36" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister37.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_37" SEQ="37" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister38.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_38" SEQ="38" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister39.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_39" SEQ="39" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister40.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_40" SEQ="40" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister41.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_41" SEQ="41" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister42.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_42" SEQ="42" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister43.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_43" SEQ="43" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister44.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_44" SEQ="44" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister45.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_45" SEQ="45" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister46.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_46" SEQ="46" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister47.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_47" SEQ="47" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister48.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_48" SEQ="48" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister49.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_49" SEQ="49" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister50.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_50" SEQ="50" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister51.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_51" SEQ="51" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister52.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_52" SEQ="52" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister53.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_53" SEQ="53" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister54.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_54" SEQ="54" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister55.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_55" SEQ="55" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister56.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_56" SEQ="56" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister57.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_57" SEQ="57" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister58.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_58" SEQ="58" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister59.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_59" SEQ="59" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister60.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_60" SEQ="60" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister61.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_61" SEQ="61" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister62.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_62" SEQ="62" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister63.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_63" SEQ="63" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister64.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_64" SEQ="64" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister65.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_65" SEQ="65" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister66.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_66" SEQ="66" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister67.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_67" SEQ="67" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister68.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_68" SEQ="68" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister69.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_69" SEQ="69" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister70.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_70" SEQ="70" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister71.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_71" SEQ="71" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister72.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_72" SEQ="72" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister73.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_73" SEQ="73" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister74.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_74" SEQ="74" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister75.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_75" SEQ="75" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister76.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_76" SEQ="76" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister77.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_77" SEQ="77" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister78.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_78" SEQ="78" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister79.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_79" SEQ="79" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister80.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_80" SEQ="80" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister81.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_81" SEQ="81" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister82.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_82" SEQ="82" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister83.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_83" SEQ="83" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister84.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_84" SEQ="84" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister85.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_85" SEQ="85" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister86.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_86" SEQ="86" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister87.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_87" SEQ="87" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister88.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_88" SEQ="88" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister89.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_89" SEQ="89" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister90.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_90" SEQ="90" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister91.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_91" SEQ="91" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister92.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_92" SEQ="92" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister93.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_93" SEQ="93" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister94.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_94" SEQ="94" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister95.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_95" SEQ="95" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister96.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_DEFAULT_96" SEQ="96" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister97.jpg"/>
+
+            </mets:file>
+        </mets:fileGrp>
+
+      
+
+<mets:fileGrp USE="MIN">
+
+         <mets:file ID="IMG_MIN_1" SEQ="1" MIMETYPE="image/jpeg">
+            
+            <mets:FLocat LOCTYPE="URL"
+               xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister2.jpg"/>
+            
+         </mets:file>
+         
+        <mets:file ID="IMG_MIN_2" SEQ="2" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister3.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_3" SEQ="3" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister4.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_4" SEQ="4" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister5.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_5" SEQ="5" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister6.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_6" SEQ="6" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister7.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_7" SEQ="7" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister8.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_8" SEQ="8" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister9.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_9" SEQ="9" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister10.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_10" SEQ="10" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister11.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_11" SEQ="11" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister12.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_12" SEQ="12" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister13.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_13" SEQ="13" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister14.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_14" SEQ="14" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister15.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_15" SEQ="15" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister16.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_16" SEQ="16" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister17.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_17" SEQ="17" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister18.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_18" SEQ="18" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister19.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_19" SEQ="19" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister20.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_20" SEQ="20" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister21.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_21" SEQ="21" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister22.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_22" SEQ="22" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister23.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_23" SEQ="23" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister24.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_24" SEQ="24" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister25.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_25" SEQ="25" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister26.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_26" SEQ="26" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister27.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_27" SEQ="27" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister28.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_28" SEQ="28" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister29.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_29" SEQ="29" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister30.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_30" SEQ="30" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister31.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_31" SEQ="31" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister32.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_32" SEQ="32" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister33.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_33" SEQ="33" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister34.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_34" SEQ="34" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister35.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_35" SEQ="35" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister36.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_36" SEQ="36" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister37.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_37" SEQ="37" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister38.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_38" SEQ="38" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister39.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_39" SEQ="39" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister40.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_40" SEQ="40" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister41.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_41" SEQ="41" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister42.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_42" SEQ="42" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister43.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_43" SEQ="43" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister44.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_44" SEQ="44" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister45.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_45" SEQ="45" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister46.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_46" SEQ="46" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister47.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_47" SEQ="47" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister48.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_48" SEQ="48" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister49.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_49" SEQ="49" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister50.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_50" SEQ="50" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister51.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_51" SEQ="51" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister52.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_52" SEQ="52" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister53.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_53" SEQ="53" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister54.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_54" SEQ="54" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister55.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_55" SEQ="55" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister56.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_56" SEQ="56" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister57.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_57" SEQ="57" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister58.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_58" SEQ="58" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister59.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_59" SEQ="59" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister60.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_60" SEQ="60" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister61.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_61" SEQ="61" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister62.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_62" SEQ="62" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister63.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_63" SEQ="63" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister64.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_64" SEQ="64" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister65.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_65" SEQ="65" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister66.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_66" SEQ="66" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister67.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_67" SEQ="67" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister68.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_68" SEQ="68" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister69.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_69" SEQ="69" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister70.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_70" SEQ="70" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister71.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_71" SEQ="71" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister72.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_72" SEQ="72" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister73.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_73" SEQ="73" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister74.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_74" SEQ="74" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister75.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_75" SEQ="75" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister76.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_76" SEQ="76" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister77.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_77" SEQ="77" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister78.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_78" SEQ="78" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister79.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_79" SEQ="79" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister80.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_80" SEQ="80" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister81.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_81" SEQ="81" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister82.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_82" SEQ="82" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister83.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_83" SEQ="83" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister84.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_84" SEQ="84" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister85.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_85" SEQ="85" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister86.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_86" SEQ="86" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister87.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_87" SEQ="87" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister88.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_88" SEQ="88" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister89.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_89" SEQ="89" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister90.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_90" SEQ="90" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister91.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_91" SEQ="91" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister92.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_92" SEQ="92" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister93.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_93" SEQ="93" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister94.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_94" SEQ="94" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister95.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_95" SEQ="95" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister96.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MIN_96" SEQ="96" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister97.jpg"/>
+
+            </mets:file>
+        </mets:fileGrp>
+
+
+
+
+      <mets:fileGrp USE="THUMBS">
+
+         <mets:file ID="IMG_THUMB_1" SEQ="1" MIMETYPE="image/jpeg">
+            
+            <mets:FLocat LOCTYPE="URL"
+               xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister2.jpg"/>
+            
+         </mets:file>
+         
+        <mets:file ID="IMG_THUMB_2" SEQ="2" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister3.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_3" SEQ="3" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister4.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_4" SEQ="4" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister5.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_5" SEQ="5" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister6.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_6" SEQ="6" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister7.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_7" SEQ="7" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister8.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_8" SEQ="8" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister9.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_9" SEQ="9" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister10.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_10" SEQ="10" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister11.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_11" SEQ="11" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister12.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_12" SEQ="12" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister13.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_13" SEQ="13" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister14.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_14" SEQ="14" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister15.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_15" SEQ="15" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister16.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_16" SEQ="16" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister17.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_17" SEQ="17" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister18.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_18" SEQ="18" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister19.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_19" SEQ="19" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister20.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_20" SEQ="20" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister21.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_21" SEQ="21" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister22.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_22" SEQ="22" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister23.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_23" SEQ="23" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister24.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_24" SEQ="24" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister25.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_25" SEQ="25" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister26.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_26" SEQ="26" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister27.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_27" SEQ="27" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister28.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_28" SEQ="28" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister29.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_29" SEQ="29" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister30.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_30" SEQ="30" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister31.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_31" SEQ="31" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister32.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_32" SEQ="32" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister33.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_33" SEQ="33" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister34.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_34" SEQ="34" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister35.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_35" SEQ="35" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister36.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_36" SEQ="36" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister37.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_37" SEQ="37" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister38.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_38" SEQ="38" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister39.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_39" SEQ="39" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister40.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_40" SEQ="40" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister41.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_41" SEQ="41" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister42.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_42" SEQ="42" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister43.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_43" SEQ="43" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister44.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_44" SEQ="44" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister45.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_45" SEQ="45" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister46.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_46" SEQ="46" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister47.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_47" SEQ="47" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister48.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_48" SEQ="48" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister49.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_49" SEQ="49" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister50.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_50" SEQ="50" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister51.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_51" SEQ="51" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister52.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_52" SEQ="52" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister53.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_53" SEQ="53" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister54.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_54" SEQ="54" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister55.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_55" SEQ="55" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister56.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_56" SEQ="56" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister57.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_57" SEQ="57" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister58.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_58" SEQ="58" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister59.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_59" SEQ="59" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister60.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_60" SEQ="60" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister61.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_61" SEQ="61" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister62.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_62" SEQ="62" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister63.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_63" SEQ="63" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister64.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_64" SEQ="64" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister65.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_65" SEQ="65" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister66.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_66" SEQ="66" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister67.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_67" SEQ="67" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister68.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_68" SEQ="68" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister69.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_69" SEQ="69" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister70.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_70" SEQ="70" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister71.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_71" SEQ="71" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister72.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_72" SEQ="72" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister73.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_73" SEQ="73" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister74.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_74" SEQ="74" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister75.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_75" SEQ="75" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister76.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_76" SEQ="76" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister77.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_77" SEQ="77" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister78.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_78" SEQ="78" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister79.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_79" SEQ="79" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister80.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_80" SEQ="80" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister81.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_81" SEQ="81" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister82.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_82" SEQ="82" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister83.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_83" SEQ="83" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister84.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_84" SEQ="84" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister85.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_85" SEQ="85" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister86.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_86" SEQ="86" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister87.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_87" SEQ="87" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister88.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_88" SEQ="88" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister89.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_89" SEQ="89" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister90.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_90" SEQ="90" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister91.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_91" SEQ="91" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister92.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_92" SEQ="92" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister93.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_93" SEQ="93" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister94.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_94" SEQ="94" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister95.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_95" SEQ="95" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister96.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_THUMB_96" SEQ="96" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister97.jpg"/>
+
+            </mets:file>
+        </mets:fileGrp>
+
+
+
+
+
+
+<mets:fileGrp USE="MAX">
+
+         <mets:file ID="IMG_MAX_1" SEQ="1" MIMETYPE="image/jpeg">
+            
+            <mets:FLocat LOCTYPE="URL"
+               xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister2.jpg"/>
+            
+         </mets:file>
+         
+        <mets:file ID="IMG_MAX_2" SEQ="2" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister3.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_3" SEQ="3" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister4.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_4" SEQ="4" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister5.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_5" SEQ="5" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister6.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_6" SEQ="6" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister7.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_7" SEQ="7" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister8.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_8" SEQ="8" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister9.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_9" SEQ="9" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister10.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_10" SEQ="10" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister11.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_11" SEQ="11" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister12.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_12" SEQ="12" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister13.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_13" SEQ="13" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister14.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_14" SEQ="14" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister15.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_15" SEQ="15" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister16.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_16" SEQ="16" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister17.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_17" SEQ="17" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister18.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_18" SEQ="18" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister19.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_19" SEQ="19" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister20.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_20" SEQ="20" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister21.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_21" SEQ="21" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister22.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_22" SEQ="22" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister23.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_23" SEQ="23" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister24.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_24" SEQ="24" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister25.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_25" SEQ="25" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister26.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_26" SEQ="26" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister27.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_27" SEQ="27" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister28.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_28" SEQ="28" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister29.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_29" SEQ="29" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister30.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_30" SEQ="30" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister31.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_31" SEQ="31" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister32.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_32" SEQ="32" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister33.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_33" SEQ="33" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister34.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_34" SEQ="34" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister35.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_35" SEQ="35" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister36.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_36" SEQ="36" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister37.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_37" SEQ="37" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister38.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_38" SEQ="38" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister39.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_39" SEQ="39" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister40.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_40" SEQ="40" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister41.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_41" SEQ="41" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister42.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_42" SEQ="42" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister43.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_43" SEQ="43" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister44.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_44" SEQ="44" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister45.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_45" SEQ="45" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister46.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_46" SEQ="46" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister47.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_47" SEQ="47" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister48.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_48" SEQ="48" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister49.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_49" SEQ="49" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister50.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_50" SEQ="50" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister51.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_51" SEQ="51" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister52.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_52" SEQ="52" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister53.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_53" SEQ="53" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister54.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_54" SEQ="54" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister55.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_55" SEQ="55" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister56.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_56" SEQ="56" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister57.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_57" SEQ="57" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister58.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_58" SEQ="58" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister59.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_59" SEQ="59" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister60.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_60" SEQ="60" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister61.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_61" SEQ="61" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister62.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_62" SEQ="62" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister63.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_63" SEQ="63" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister64.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_64" SEQ="64" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister65.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_65" SEQ="65" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister66.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_66" SEQ="66" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister67.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_67" SEQ="67" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister68.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_68" SEQ="68" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister69.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_69" SEQ="69" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister70.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_70" SEQ="70" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister71.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_71" SEQ="71" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister72.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_72" SEQ="72" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister73.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_73" SEQ="73" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister74.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_74" SEQ="74" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister75.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_75" SEQ="75" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister76.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_76" SEQ="76" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister77.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_77" SEQ="77" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister78.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_78" SEQ="78" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister79.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_79" SEQ="79" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister80.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_80" SEQ="80" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister81.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_81" SEQ="81" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister82.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_82" SEQ="82" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister83.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_83" SEQ="83" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister84.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_84" SEQ="84" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister85.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_85" SEQ="85" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister86.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_86" SEQ="86" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister87.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_87" SEQ="87" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister88.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_88" SEQ="88" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister89.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_89" SEQ="89" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister90.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_90" SEQ="90" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister91.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_91" SEQ="91" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister92.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_92" SEQ="92" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister93.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_93" SEQ="93" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister94.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_94" SEQ="94" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister95.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_95" SEQ="95" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister96.jpg"/>
+
+            </mets:file>
+            <mets:file ID="IMG_MAX_96" SEQ="96" MIMETYPE="image/jpeg">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/jpg/altstrelitz_friedregister97.jpg"/>
+
+            </mets:file>
+        </mets:fileGrp>
+
+
+
+
+      <mets:fileGrp USE="FULLTEXT">
+
+         <mets:file ID="ALTO_1" SEQ="1" MIMETYPE="image/jpeg">
+            
+            <mets:FLocat LOCTYPE="URL"
+               xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister2.xml"/>
+            
+         </mets:file>
+
+        <mets:file ID="ALTO_2" SEQ="2" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister3.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_3" SEQ="3" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister4.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_4" SEQ="4" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister5.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_5" SEQ="5" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister6.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_6" SEQ="6" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister7.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_7" SEQ="7" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister8.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_8" SEQ="8" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister9.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_9" SEQ="9" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister10.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_10" SEQ="10" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister11.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_11" SEQ="11" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister12.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_12" SEQ="12" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister13.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_13" SEQ="13" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister14.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_14" SEQ="14" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister15.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_15" SEQ="15" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister16.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_16" SEQ="16" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister17.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_17" SEQ="17" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister18.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_18" SEQ="18" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister19.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_19" SEQ="19" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister20.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_20" SEQ="20" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister21.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_21" SEQ="21" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister22.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_22" SEQ="22" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister23.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_23" SEQ="23" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister24.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_24" SEQ="24" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister25.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_25" SEQ="25" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister26.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_26" SEQ="26" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister27.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_27" SEQ="27" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister28.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_28" SEQ="28" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister29.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_29" SEQ="29" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister30.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_30" SEQ="30" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister31.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_31" SEQ="31" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister32.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_32" SEQ="32" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister33.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_33" SEQ="33" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister34.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_34" SEQ="34" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister35.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_35" SEQ="35" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister36.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_36" SEQ="36" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister37.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_37" SEQ="37" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister38.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_38" SEQ="38" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister39.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_39" SEQ="39" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister40.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_40" SEQ="40" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister41.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_41" SEQ="41" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister42.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_42" SEQ="42" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister43.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_43" SEQ="43" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister44.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_44" SEQ="44" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister45.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_45" SEQ="45" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister46.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_46" SEQ="46" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister47.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_47" SEQ="47" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister48.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_48" SEQ="48" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister49.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_49" SEQ="49" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister50.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_50" SEQ="50" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister51.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_51" SEQ="51" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister52.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_52" SEQ="52" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister53.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_53" SEQ="53" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister54.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_54" SEQ="54" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister55.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_55" SEQ="55" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister56.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_56" SEQ="56" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister57.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_57" SEQ="57" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister58.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_58" SEQ="58" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister59.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_59" SEQ="59" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister60.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_60" SEQ="60" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister61.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_61" SEQ="61" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister62.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_62" SEQ="62" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister63.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_63" SEQ="63" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister64.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_64" SEQ="64" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister65.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_65" SEQ="65" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister66.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_66" SEQ="66" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister67.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_67" SEQ="67" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister68.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_68" SEQ="68" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister69.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_69" SEQ="69" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister70.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_70" SEQ="70" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister71.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_71" SEQ="71" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister72.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_72" SEQ="72" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister73.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_73" SEQ="73" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister74.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_74" SEQ="74" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister75.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_75" SEQ="75" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister76.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_76" SEQ="76" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister77.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_77" SEQ="77" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister78.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_78" SEQ="78" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister79.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_79" SEQ="79" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister80.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_80" SEQ="80" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister81.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_81" SEQ="81" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister82.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_82" SEQ="82" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister83.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_83" SEQ="83" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister84.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_84" SEQ="84" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister85.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_85" SEQ="85" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister86.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_86" SEQ="86" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister87.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_87" SEQ="87" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister88.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_88" SEQ="88" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister89.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_89" SEQ="89" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister90.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_90" SEQ="90" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister91.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_91" SEQ="91" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister92.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_92" SEQ="92" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister93.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_93" SEQ="93" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister94.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_94" SEQ="94" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister95.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_95" SEQ="95" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister96.xml"/>
+
+            </mets:file>
+            <mets:file ID="ALTO_96" SEQ="96" MIMETYPE="text/xml">
+
+                <mets:FLocat LOCTYPE="URL"
+                    xlink:href="https://kaskade.dwds.de/~goettel/strelitz/alto/altstrelitz_friedregister97.xml"/>
+
+            </mets:file>
+        </mets:fileGrp>
+
+
+
+
+      
+   </mets:fileSec>
+   <mets:structMap TYPE="LOGICAL">
+      <mets:div TYPE="Monograph"
+                DMDID="dmdSec_0001"
+                ADMID="amdSec_0001"
+                ID="loc_0001"/>
+   </mets:structMap>
+   <mets:structMap TYPE="PHYSICAL">
+      <mets:div TYPE="physSequence" ID="phys_0000">
+         
+
+         <mets:div ID="PAGE_1" ORDER="1" TYPE="page">
+            
+            <mets:fptr FILEID="IMG_DEFAULT_1"/>
+            <mets:fptr FILEID="IMG_MAX_1"/>
+            <mets:fptr FILEID="IMG_MIN_1"/>
+            <mets:fptr FILEID="IMG_THUMB_1"/>
+            <mets:fptr FILEID="ALTO_1"/>
+            
+         </mets:div>
+         
+<mets:div ID="PAGE_2" ORDER="2" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_2"/>
+                <mets:fptr FILEID="IMG_MAX_2"/>
+                <mets:fptr FILEID="IMG_MIN_2"/>
+                <mets:fptr FILEID="IMG_THUMB_2"/>
+                <mets:fptr FILEID="ALTO_2"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_3" ORDER="3" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_3"/>
+                <mets:fptr FILEID="IMG_MAX_3"/>
+                <mets:fptr FILEID="IMG_MIN_3"/>
+                <mets:fptr FILEID="IMG_THUMB_3"/>
+                <mets:fptr FILEID="ALTO_3"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_4" ORDER="4" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_4"/>
+                <mets:fptr FILEID="IMG_MAX_4"/>
+                <mets:fptr FILEID="IMG_MIN_4"/>
+                <mets:fptr FILEID="IMG_THUMB_4"/>
+                <mets:fptr FILEID="ALTO_4"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_5" ORDER="5" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_5"/>
+                <mets:fptr FILEID="IMG_MAX_5"/>
+                <mets:fptr FILEID="IMG_MIN_5"/>
+                <mets:fptr FILEID="IMG_THUMB_5"/>
+                <mets:fptr FILEID="ALTO_5"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_6" ORDER="6" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_6"/>
+                <mets:fptr FILEID="IMG_MAX_6"/>
+                <mets:fptr FILEID="IMG_MIN_6"/>
+                <mets:fptr FILEID="IMG_THUMB_6"/>
+                <mets:fptr FILEID="ALTO_6"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_7" ORDER="7" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_7"/>
+                <mets:fptr FILEID="IMG_MAX_7"/>
+                <mets:fptr FILEID="IMG_MIN_7"/>
+                <mets:fptr FILEID="IMG_THUMB_7"/>
+                <mets:fptr FILEID="ALTO_7"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_8" ORDER="8" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_8"/>
+                <mets:fptr FILEID="IMG_MAX_8"/>
+                <mets:fptr FILEID="IMG_MIN_8"/>
+                <mets:fptr FILEID="IMG_THUMB_8"/>
+                <mets:fptr FILEID="ALTO_8"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_9" ORDER="9" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_9"/>
+                <mets:fptr FILEID="IMG_MAX_9"/>
+                <mets:fptr FILEID="IMG_MIN_9"/>
+                <mets:fptr FILEID="IMG_THUMB_9"/>
+                <mets:fptr FILEID="ALTO_9"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_10" ORDER="10" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_10"/>
+                <mets:fptr FILEID="IMG_MAX_10"/>
+                <mets:fptr FILEID="IMG_MIN_10"/>
+                <mets:fptr FILEID="IMG_THUMB_10"/>
+                <mets:fptr FILEID="ALTO_10"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_11" ORDER="11" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_11"/>
+                <mets:fptr FILEID="IMG_MAX_11"/>
+                <mets:fptr FILEID="IMG_MIN_11"/>
+                <mets:fptr FILEID="IMG_THUMB_11"/>
+                <mets:fptr FILEID="ALTO_11"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_12" ORDER="12" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_12"/>
+                <mets:fptr FILEID="IMG_MAX_12"/>
+                <mets:fptr FILEID="IMG_MIN_12"/>
+                <mets:fptr FILEID="IMG_THUMB_12"/>
+                <mets:fptr FILEID="ALTO_12"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_13" ORDER="13" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_13"/>
+                <mets:fptr FILEID="IMG_MAX_13"/>
+                <mets:fptr FILEID="IMG_MIN_13"/>
+                <mets:fptr FILEID="IMG_THUMB_13"/>
+                <mets:fptr FILEID="ALTO_13"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_14" ORDER="14" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_14"/>
+                <mets:fptr FILEID="IMG_MAX_14"/>
+                <mets:fptr FILEID="IMG_MIN_14"/>
+                <mets:fptr FILEID="IMG_THUMB_14"/>
+                <mets:fptr FILEID="ALTO_14"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_15" ORDER="15" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_15"/>
+                <mets:fptr FILEID="IMG_MAX_15"/>
+                <mets:fptr FILEID="IMG_MIN_15"/>
+                <mets:fptr FILEID="IMG_THUMB_15"/>
+                <mets:fptr FILEID="ALTO_15"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_16" ORDER="16" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_16"/>
+                <mets:fptr FILEID="IMG_MAX_16"/>
+                <mets:fptr FILEID="IMG_MIN_16"/>
+                <mets:fptr FILEID="IMG_THUMB_16"/>
+                <mets:fptr FILEID="ALTO_16"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_17" ORDER="17" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_17"/>
+                <mets:fptr FILEID="IMG_MAX_17"/>
+                <mets:fptr FILEID="IMG_MIN_17"/>
+                <mets:fptr FILEID="IMG_THUMB_17"/>
+                <mets:fptr FILEID="ALTO_17"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_18" ORDER="18" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_18"/>
+                <mets:fptr FILEID="IMG_MAX_18"/>
+                <mets:fptr FILEID="IMG_MIN_18"/>
+                <mets:fptr FILEID="IMG_THUMB_18"/>
+                <mets:fptr FILEID="ALTO_18"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_19" ORDER="19" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_19"/>
+                <mets:fptr FILEID="IMG_MAX_19"/>
+                <mets:fptr FILEID="IMG_MIN_19"/>
+                <mets:fptr FILEID="IMG_THUMB_19"/>
+                <mets:fptr FILEID="ALTO_19"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_20" ORDER="20" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_20"/>
+                <mets:fptr FILEID="IMG_MAX_20"/>
+                <mets:fptr FILEID="IMG_MIN_20"/>
+                <mets:fptr FILEID="IMG_THUMB_20"/>
+                <mets:fptr FILEID="ALTO_20"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_21" ORDER="21" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_21"/>
+                <mets:fptr FILEID="IMG_MAX_21"/>
+                <mets:fptr FILEID="IMG_MIN_21"/>
+                <mets:fptr FILEID="IMG_THUMB_21"/>
+                <mets:fptr FILEID="ALTO_21"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_22" ORDER="22" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_22"/>
+                <mets:fptr FILEID="IMG_MAX_22"/>
+                <mets:fptr FILEID="IMG_MIN_22"/>
+                <mets:fptr FILEID="IMG_THUMB_22"/>
+                <mets:fptr FILEID="ALTO_22"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_23" ORDER="23" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_23"/>
+                <mets:fptr FILEID="IMG_MAX_23"/>
+                <mets:fptr FILEID="IMG_MIN_23"/>
+                <mets:fptr FILEID="IMG_THUMB_23"/>
+                <mets:fptr FILEID="ALTO_23"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_24" ORDER="24" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_24"/>
+                <mets:fptr FILEID="IMG_MAX_24"/>
+                <mets:fptr FILEID="IMG_MIN_24"/>
+                <mets:fptr FILEID="IMG_THUMB_24"/>
+                <mets:fptr FILEID="ALTO_24"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_25" ORDER="25" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_25"/>
+                <mets:fptr FILEID="IMG_MAX_25"/>
+                <mets:fptr FILEID="IMG_MIN_25"/>
+                <mets:fptr FILEID="IMG_THUMB_25"/>
+                <mets:fptr FILEID="ALTO_25"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_26" ORDER="26" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_26"/>
+                <mets:fptr FILEID="IMG_MAX_26"/>
+                <mets:fptr FILEID="IMG_MIN_26"/>
+                <mets:fptr FILEID="IMG_THUMB_26"/>
+                <mets:fptr FILEID="ALTO_26"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_27" ORDER="27" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_27"/>
+                <mets:fptr FILEID="IMG_MAX_27"/>
+                <mets:fptr FILEID="IMG_MIN_27"/>
+                <mets:fptr FILEID="IMG_THUMB_27"/>
+                <mets:fptr FILEID="ALTO_27"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_28" ORDER="28" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_28"/>
+                <mets:fptr FILEID="IMG_MAX_28"/>
+                <mets:fptr FILEID="IMG_MIN_28"/>
+                <mets:fptr FILEID="IMG_THUMB_28"/>
+                <mets:fptr FILEID="ALTO_28"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_29" ORDER="29" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_29"/>
+                <mets:fptr FILEID="IMG_MAX_29"/>
+                <mets:fptr FILEID="IMG_MIN_29"/>
+                <mets:fptr FILEID="IMG_THUMB_29"/>
+                <mets:fptr FILEID="ALTO_29"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_30" ORDER="30" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_30"/>
+                <mets:fptr FILEID="IMG_MAX_30"/>
+                <mets:fptr FILEID="IMG_MIN_30"/>
+                <mets:fptr FILEID="IMG_THUMB_30"/>
+                <mets:fptr FILEID="ALTO_30"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_31" ORDER="31" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_31"/>
+                <mets:fptr FILEID="IMG_MAX_31"/>
+                <mets:fptr FILEID="IMG_MIN_31"/>
+                <mets:fptr FILEID="IMG_THUMB_31"/>
+                <mets:fptr FILEID="ALTO_31"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_32" ORDER="32" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_32"/>
+                <mets:fptr FILEID="IMG_MAX_32"/>
+                <mets:fptr FILEID="IMG_MIN_32"/>
+                <mets:fptr FILEID="IMG_THUMB_32"/>
+                <mets:fptr FILEID="ALTO_32"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_33" ORDER="33" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_33"/>
+                <mets:fptr FILEID="IMG_MAX_33"/>
+                <mets:fptr FILEID="IMG_MIN_33"/>
+                <mets:fptr FILEID="IMG_THUMB_33"/>
+                <mets:fptr FILEID="ALTO_33"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_34" ORDER="34" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_34"/>
+                <mets:fptr FILEID="IMG_MAX_34"/>
+                <mets:fptr FILEID="IMG_MIN_34"/>
+                <mets:fptr FILEID="IMG_THUMB_34"/>
+                <mets:fptr FILEID="ALTO_34"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_35" ORDER="35" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_35"/>
+                <mets:fptr FILEID="IMG_MAX_35"/>
+                <mets:fptr FILEID="IMG_MIN_35"/>
+                <mets:fptr FILEID="IMG_THUMB_35"/>
+                <mets:fptr FILEID="ALTO_35"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_36" ORDER="36" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_36"/>
+                <mets:fptr FILEID="IMG_MAX_36"/>
+                <mets:fptr FILEID="IMG_MIN_36"/>
+                <mets:fptr FILEID="IMG_THUMB_36"/>
+                <mets:fptr FILEID="ALTO_36"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_37" ORDER="37" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_37"/>
+                <mets:fptr FILEID="IMG_MAX_37"/>
+                <mets:fptr FILEID="IMG_MIN_37"/>
+                <mets:fptr FILEID="IMG_THUMB_37"/>
+                <mets:fptr FILEID="ALTO_37"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_38" ORDER="38" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_38"/>
+                <mets:fptr FILEID="IMG_MAX_38"/>
+                <mets:fptr FILEID="IMG_MIN_38"/>
+                <mets:fptr FILEID="IMG_THUMB_38"/>
+                <mets:fptr FILEID="ALTO_38"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_39" ORDER="39" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_39"/>
+                <mets:fptr FILEID="IMG_MAX_39"/>
+                <mets:fptr FILEID="IMG_MIN_39"/>
+                <mets:fptr FILEID="IMG_THUMB_39"/>
+                <mets:fptr FILEID="ALTO_39"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_40" ORDER="40" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_40"/>
+                <mets:fptr FILEID="IMG_MAX_40"/>
+                <mets:fptr FILEID="IMG_MIN_40"/>
+                <mets:fptr FILEID="IMG_THUMB_40"/>
+                <mets:fptr FILEID="ALTO_40"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_41" ORDER="41" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_41"/>
+                <mets:fptr FILEID="IMG_MAX_41"/>
+                <mets:fptr FILEID="IMG_MIN_41"/>
+                <mets:fptr FILEID="IMG_THUMB_41"/>
+                <mets:fptr FILEID="ALTO_41"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_42" ORDER="42" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_42"/>
+                <mets:fptr FILEID="IMG_MAX_42"/>
+                <mets:fptr FILEID="IMG_MIN_42"/>
+                <mets:fptr FILEID="IMG_THUMB_42"/>
+                <mets:fptr FILEID="ALTO_42"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_43" ORDER="43" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_43"/>
+                <mets:fptr FILEID="IMG_MAX_43"/>
+                <mets:fptr FILEID="IMG_MIN_43"/>
+                <mets:fptr FILEID="IMG_THUMB_43"/>
+                <mets:fptr FILEID="ALTO_43"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_44" ORDER="44" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_44"/>
+                <mets:fptr FILEID="IMG_MAX_44"/>
+                <mets:fptr FILEID="IMG_MIN_44"/>
+                <mets:fptr FILEID="IMG_THUMB_44"/>
+                <mets:fptr FILEID="ALTO_44"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_45" ORDER="45" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_45"/>
+                <mets:fptr FILEID="IMG_MAX_45"/>
+                <mets:fptr FILEID="IMG_MIN_45"/>
+                <mets:fptr FILEID="IMG_THUMB_45"/>
+                <mets:fptr FILEID="ALTO_45"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_46" ORDER="46" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_46"/>
+                <mets:fptr FILEID="IMG_MAX_46"/>
+                <mets:fptr FILEID="IMG_MIN_46"/>
+                <mets:fptr FILEID="IMG_THUMB_46"/>
+                <mets:fptr FILEID="ALTO_46"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_47" ORDER="47" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_47"/>
+                <mets:fptr FILEID="IMG_MAX_47"/>
+                <mets:fptr FILEID="IMG_MIN_47"/>
+                <mets:fptr FILEID="IMG_THUMB_47"/>
+                <mets:fptr FILEID="ALTO_47"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_48" ORDER="48" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_48"/>
+                <mets:fptr FILEID="IMG_MAX_48"/>
+                <mets:fptr FILEID="IMG_MIN_48"/>
+                <mets:fptr FILEID="IMG_THUMB_48"/>
+                <mets:fptr FILEID="ALTO_48"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_49" ORDER="49" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_49"/>
+                <mets:fptr FILEID="IMG_MAX_49"/>
+                <mets:fptr FILEID="IMG_MIN_49"/>
+                <mets:fptr FILEID="IMG_THUMB_49"/>
+                <mets:fptr FILEID="ALTO_49"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_50" ORDER="50" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_50"/>
+                <mets:fptr FILEID="IMG_MAX_50"/>
+                <mets:fptr FILEID="IMG_MIN_50"/>
+                <mets:fptr FILEID="IMG_THUMB_50"/>
+                <mets:fptr FILEID="ALTO_50"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_51" ORDER="51" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_51"/>
+                <mets:fptr FILEID="IMG_MAX_51"/>
+                <mets:fptr FILEID="IMG_MIN_51"/>
+                <mets:fptr FILEID="IMG_THUMB_51"/>
+                <mets:fptr FILEID="ALTO_51"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_52" ORDER="52" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_52"/>
+                <mets:fptr FILEID="IMG_MAX_52"/>
+                <mets:fptr FILEID="IMG_MIN_52"/>
+                <mets:fptr FILEID="IMG_THUMB_52"/>
+                <mets:fptr FILEID="ALTO_52"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_53" ORDER="53" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_53"/>
+                <mets:fptr FILEID="IMG_MAX_53"/>
+                <mets:fptr FILEID="IMG_MIN_53"/>
+                <mets:fptr FILEID="IMG_THUMB_53"/>
+                <mets:fptr FILEID="ALTO_53"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_54" ORDER="54" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_54"/>
+                <mets:fptr FILEID="IMG_MAX_54"/>
+                <mets:fptr FILEID="IMG_MIN_54"/>
+                <mets:fptr FILEID="IMG_THUMB_54"/>
+                <mets:fptr FILEID="ALTO_54"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_55" ORDER="55" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_55"/>
+                <mets:fptr FILEID="IMG_MAX_55"/>
+                <mets:fptr FILEID="IMG_MIN_55"/>
+                <mets:fptr FILEID="IMG_THUMB_55"/>
+                <mets:fptr FILEID="ALTO_55"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_56" ORDER="56" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_56"/>
+                <mets:fptr FILEID="IMG_MAX_56"/>
+                <mets:fptr FILEID="IMG_MIN_56"/>
+                <mets:fptr FILEID="IMG_THUMB_56"/>
+                <mets:fptr FILEID="ALTO_56"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_57" ORDER="57" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_57"/>
+                <mets:fptr FILEID="IMG_MAX_57"/>
+                <mets:fptr FILEID="IMG_MIN_57"/>
+                <mets:fptr FILEID="IMG_THUMB_57"/>
+                <mets:fptr FILEID="ALTO_57"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_58" ORDER="58" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_58"/>
+                <mets:fptr FILEID="IMG_MAX_58"/>
+                <mets:fptr FILEID="IMG_MIN_58"/>
+                <mets:fptr FILEID="IMG_THUMB_58"/>
+                <mets:fptr FILEID="ALTO_58"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_59" ORDER="59" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_59"/>
+                <mets:fptr FILEID="IMG_MAX_59"/>
+                <mets:fptr FILEID="IMG_MIN_59"/>
+                <mets:fptr FILEID="IMG_THUMB_59"/>
+                <mets:fptr FILEID="ALTO_59"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_60" ORDER="60" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_60"/>
+                <mets:fptr FILEID="IMG_MAX_60"/>
+                <mets:fptr FILEID="IMG_MIN_60"/>
+                <mets:fptr FILEID="IMG_THUMB_60"/>
+                <mets:fptr FILEID="ALTO_60"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_61" ORDER="61" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_61"/>
+                <mets:fptr FILEID="IMG_MAX_61"/>
+                <mets:fptr FILEID="IMG_MIN_61"/>
+                <mets:fptr FILEID="IMG_THUMB_61"/>
+                <mets:fptr FILEID="ALTO_61"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_62" ORDER="62" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_62"/>
+                <mets:fptr FILEID="IMG_MAX_62"/>
+                <mets:fptr FILEID="IMG_MIN_62"/>
+                <mets:fptr FILEID="IMG_THUMB_62"/>
+                <mets:fptr FILEID="ALTO_62"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_63" ORDER="63" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_63"/>
+                <mets:fptr FILEID="IMG_MAX_63"/>
+                <mets:fptr FILEID="IMG_MIN_63"/>
+                <mets:fptr FILEID="IMG_THUMB_63"/>
+                <mets:fptr FILEID="ALTO_63"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_64" ORDER="64" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_64"/>
+                <mets:fptr FILEID="IMG_MAX_64"/>
+                <mets:fptr FILEID="IMG_MIN_64"/>
+                <mets:fptr FILEID="IMG_THUMB_64"/>
+                <mets:fptr FILEID="ALTO_64"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_65" ORDER="65" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_65"/>
+                <mets:fptr FILEID="IMG_MAX_65"/>
+                <mets:fptr FILEID="IMG_MIN_65"/>
+                <mets:fptr FILEID="IMG_THUMB_65"/>
+                <mets:fptr FILEID="ALTO_65"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_66" ORDER="66" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_66"/>
+                <mets:fptr FILEID="IMG_MAX_66"/>
+                <mets:fptr FILEID="IMG_MIN_66"/>
+                <mets:fptr FILEID="IMG_THUMB_66"/>
+                <mets:fptr FILEID="ALTO_66"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_67" ORDER="67" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_67"/>
+                <mets:fptr FILEID="IMG_MAX_67"/>
+                <mets:fptr FILEID="IMG_MIN_67"/>
+                <mets:fptr FILEID="IMG_THUMB_67"/>
+                <mets:fptr FILEID="ALTO_67"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_68" ORDER="68" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_68"/>
+                <mets:fptr FILEID="IMG_MAX_68"/>
+                <mets:fptr FILEID="IMG_MIN_68"/>
+                <mets:fptr FILEID="IMG_THUMB_68"/>
+                <mets:fptr FILEID="ALTO_68"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_69" ORDER="69" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_69"/>
+                <mets:fptr FILEID="IMG_MAX_69"/>
+                <mets:fptr FILEID="IMG_MIN_69"/>
+                <mets:fptr FILEID="IMG_THUMB_69"/>
+                <mets:fptr FILEID="ALTO_69"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_70" ORDER="70" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_70"/>
+                <mets:fptr FILEID="IMG_MAX_70"/>
+                <mets:fptr FILEID="IMG_MIN_70"/>
+                <mets:fptr FILEID="IMG_THUMB_70"/>
+                <mets:fptr FILEID="ALTO_70"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_71" ORDER="71" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_71"/>
+                <mets:fptr FILEID="IMG_MAX_71"/>
+                <mets:fptr FILEID="IMG_MIN_71"/>
+                <mets:fptr FILEID="IMG_THUMB_71"/>
+                <mets:fptr FILEID="ALTO_71"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_72" ORDER="72" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_72"/>
+                <mets:fptr FILEID="IMG_MAX_72"/>
+                <mets:fptr FILEID="IMG_MIN_72"/>
+                <mets:fptr FILEID="IMG_THUMB_72"/>
+                <mets:fptr FILEID="ALTO_72"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_73" ORDER="73" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_73"/>
+                <mets:fptr FILEID="IMG_MAX_73"/>
+                <mets:fptr FILEID="IMG_MIN_73"/>
+                <mets:fptr FILEID="IMG_THUMB_73"/>
+                <mets:fptr FILEID="ALTO_73"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_74" ORDER="74" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_74"/>
+                <mets:fptr FILEID="IMG_MAX_74"/>
+                <mets:fptr FILEID="IMG_MIN_74"/>
+                <mets:fptr FILEID="IMG_THUMB_74"/>
+                <mets:fptr FILEID="ALTO_74"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_75" ORDER="75" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_75"/>
+                <mets:fptr FILEID="IMG_MAX_75"/>
+                <mets:fptr FILEID="IMG_MIN_75"/>
+                <mets:fptr FILEID="IMG_THUMB_75"/>
+                <mets:fptr FILEID="ALTO_75"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_76" ORDER="76" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_76"/>
+                <mets:fptr FILEID="IMG_MAX_76"/>
+                <mets:fptr FILEID="IMG_MIN_76"/>
+                <mets:fptr FILEID="IMG_THUMB_76"/>
+                <mets:fptr FILEID="ALTO_76"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_77" ORDER="77" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_77"/>
+                <mets:fptr FILEID="IMG_MAX_77"/>
+                <mets:fptr FILEID="IMG_MIN_77"/>
+                <mets:fptr FILEID="IMG_THUMB_77"/>
+                <mets:fptr FILEID="ALTO_77"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_78" ORDER="78" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_78"/>
+                <mets:fptr FILEID="IMG_MAX_78"/>
+                <mets:fptr FILEID="IMG_MIN_78"/>
+                <mets:fptr FILEID="IMG_THUMB_78"/>
+                <mets:fptr FILEID="ALTO_78"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_79" ORDER="79" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_79"/>
+                <mets:fptr FILEID="IMG_MAX_79"/>
+                <mets:fptr FILEID="IMG_MIN_79"/>
+                <mets:fptr FILEID="IMG_THUMB_79"/>
+                <mets:fptr FILEID="ALTO_79"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_80" ORDER="80" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_80"/>
+                <mets:fptr FILEID="IMG_MAX_80"/>
+                <mets:fptr FILEID="IMG_MIN_80"/>
+                <mets:fptr FILEID="IMG_THUMB_80"/>
+                <mets:fptr FILEID="ALTO_80"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_81" ORDER="81" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_81"/>
+                <mets:fptr FILEID="IMG_MAX_81"/>
+                <mets:fptr FILEID="IMG_MIN_81"/>
+                <mets:fptr FILEID="IMG_THUMB_81"/>
+                <mets:fptr FILEID="ALTO_81"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_82" ORDER="82" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_82"/>
+                <mets:fptr FILEID="IMG_MAX_82"/>
+                <mets:fptr FILEID="IMG_MIN_82"/>
+                <mets:fptr FILEID="IMG_THUMB_82"/>
+                <mets:fptr FILEID="ALTO_82"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_83" ORDER="83" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_83"/>
+                <mets:fptr FILEID="IMG_MAX_83"/>
+                <mets:fptr FILEID="IMG_MIN_83"/>
+                <mets:fptr FILEID="IMG_THUMB_83"/>
+                <mets:fptr FILEID="ALTO_83"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_84" ORDER="84" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_84"/>
+                <mets:fptr FILEID="IMG_MAX_84"/>
+                <mets:fptr FILEID="IMG_MIN_84"/>
+                <mets:fptr FILEID="IMG_THUMB_84"/>
+                <mets:fptr FILEID="ALTO_84"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_85" ORDER="85" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_85"/>
+                <mets:fptr FILEID="IMG_MAX_85"/>
+                <mets:fptr FILEID="IMG_MIN_85"/>
+                <mets:fptr FILEID="IMG_THUMB_85"/>
+                <mets:fptr FILEID="ALTO_85"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_86" ORDER="86" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_86"/>
+                <mets:fptr FILEID="IMG_MAX_86"/>
+                <mets:fptr FILEID="IMG_MIN_86"/>
+                <mets:fptr FILEID="IMG_THUMB_86"/>
+                <mets:fptr FILEID="ALTO_86"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_87" ORDER="87" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_87"/>
+                <mets:fptr FILEID="IMG_MAX_87"/>
+                <mets:fptr FILEID="IMG_MIN_87"/>
+                <mets:fptr FILEID="IMG_THUMB_87"/>
+                <mets:fptr FILEID="ALTO_87"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_88" ORDER="88" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_88"/>
+                <mets:fptr FILEID="IMG_MAX_88"/>
+                <mets:fptr FILEID="IMG_MIN_88"/>
+                <mets:fptr FILEID="IMG_THUMB_88"/>
+                <mets:fptr FILEID="ALTO_88"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_89" ORDER="89" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_89"/>
+                <mets:fptr FILEID="IMG_MAX_89"/>
+                <mets:fptr FILEID="IMG_MIN_89"/>
+                <mets:fptr FILEID="IMG_THUMB_89"/>
+                <mets:fptr FILEID="ALTO_89"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_90" ORDER="90" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_90"/>
+                <mets:fptr FILEID="IMG_MAX_90"/>
+                <mets:fptr FILEID="IMG_MIN_90"/>
+                <mets:fptr FILEID="IMG_THUMB_90"/>
+                <mets:fptr FILEID="ALTO_90"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_91" ORDER="91" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_91"/>
+                <mets:fptr FILEID="IMG_MAX_91"/>
+                <mets:fptr FILEID="IMG_MIN_91"/>
+                <mets:fptr FILEID="IMG_THUMB_91"/>
+                <mets:fptr FILEID="ALTO_91"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_92" ORDER="92" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_92"/>
+                <mets:fptr FILEID="IMG_MAX_92"/>
+                <mets:fptr FILEID="IMG_MIN_92"/>
+                <mets:fptr FILEID="IMG_THUMB_92"/>
+                <mets:fptr FILEID="ALTO_92"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_93" ORDER="93" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_93"/>
+                <mets:fptr FILEID="IMG_MAX_93"/>
+                <mets:fptr FILEID="IMG_MIN_93"/>
+                <mets:fptr FILEID="IMG_THUMB_93"/>
+                <mets:fptr FILEID="ALTO_93"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_94" ORDER="94" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_94"/>
+                <mets:fptr FILEID="IMG_MAX_94"/>
+                <mets:fptr FILEID="IMG_MIN_94"/>
+                <mets:fptr FILEID="IMG_THUMB_94"/>
+                <mets:fptr FILEID="ALTO_94"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_95" ORDER="95" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_95"/>
+                <mets:fptr FILEID="IMG_MAX_95"/>
+                <mets:fptr FILEID="IMG_MIN_95"/>
+                <mets:fptr FILEID="IMG_THUMB_95"/>
+                <mets:fptr FILEID="ALTO_95"/>
+
+            </mets:div>
+            <mets:div ID="PAGE_96" ORDER="96" TYPE="page">
+
+                <mets:fptr FILEID="IMG_DEFAULT_96"/>
+                <mets:fptr FILEID="IMG_MAX_96"/>
+                <mets:fptr FILEID="IMG_MIN_96"/>
+                <mets:fptr FILEID="IMG_THUMB_96"/>
+                <mets:fptr FILEID="ALTO_96"/>
+
+            </mets:div>
+        </mets:div>
+   </mets:structMap>
+
+
+   <mets:structLink>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_1"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_2"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_3"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_4"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_5"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_6"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_7"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_8"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_9"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_10"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_11"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_12"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_13"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_14"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_15"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_16"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_17"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_18"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_19"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_20"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_21"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_22"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_23"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_24"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_25"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_26"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_27"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_28"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_29"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_30"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_31"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_32"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_33"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_34"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_35"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_36"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_37"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_38"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_39"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_40"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_41"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_42"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_43"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_44"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_45"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_46"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_47"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_48"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_49"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_50"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_51"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_52"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_53"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_54"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_55"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_56"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_57"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_58"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_59"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_60"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_61"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_62"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_63"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_64"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_65"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_66"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_67"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_68"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_69"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_70"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_71"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_72"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_73"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_74"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_75"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_76"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_77"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_79"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_80"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_81"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_82"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_83"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_84"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_85"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_86"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_87"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_88"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_89"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_90"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_91"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_92"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_93"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_94"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_95"/>
+      <mets:smLink xlink:from="loc_0001" xlink:to="PAGE_96"/>
+   </mets:structLink>
+</mets:mets>
