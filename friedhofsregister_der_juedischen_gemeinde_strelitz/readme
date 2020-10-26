@@ -1,1 +1,4 @@
-
+<p class="has-line-data" data-line-start="0" data-line-end="1">Da die Transkription des Friedhofregisters in <a href="https://transkribus.eu/Transkribus/">Transkribus</a> vorgenommen wurde, sind auch ALTO-XML files mittels Transkribus exportiert worden;</p>
+<p class="has-line-data" data-line-start="2" data-line-end="3">Die Digitalisate wurden vorher mit <a href="https://scantailor.org/">ScanTailor</a> bearbeitet;</p>
+<p class="has-line-data" data-line-start="4" data-line-end="5">Die METS-Datei wurde durch <a href="https://github.com/tboenig/tei2mets">tei2mets</a> generiert;</p>
+<p class="has-line-data" data-line-start="6" data-line-end="7">Das TEI (gemäß dem <a href="http://www.deutschestextarchiv.de/doku/basisformat/">DTABf</a>) befindet sich im entsprechenden Ordner</p>
