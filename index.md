@@ -1,8 +1,8 @@
-﻿**[Zum Friedhofsregister im Deutschen Textarchiv (aktuell DTAQ)](http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929)**
+**[Zum Friedhofsregister im Deutschen Textarchiv (aktuell DTAQ)](http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929)**
 
 oder
 
-**[Zum Friedhofsregister im DFG-Viewer]()**
+**[Zum Friedhofsregister im DFG-Viewer](dfg-viewer.de/show/?tx_dlf[id]=https%3A%2F%2Fkaskade.dwds.de%2F~goettel%2Fstrelitz%2Fmets.xml)**
 
 ---
 Dokumentation
@@ -185,9 +185,7 @@ Unter www lässt sich nun das Register samt Volltext im DFG-Viewer betrachten.
 
 <h2 id="ausblick">Ausblick</h2>
 
-Innerhalb des Friedhofregisters lassen sich einige verwandtschaftlichen Beziehungen aufdecken. Welches Tag dafür?
-
-Datumsangaben sind bisher lediglich mit `<date>` umschlossen, eine Erweiterung um das Attribut `@when` wäre zur maschinellen Verarbeitung der Daten denkbar. Dabei folgt die Angabe des Datums dem Schema `YY-MM-DD`, also bspw:  
+Die Datumsangaben sind bisher lediglich mit `<date>` umschlossen, eine Erweiterung um das Attribut `@when` wäre zur maschinellen Verarbeitung der Daten denkbar. Dabei folgt die Angabe des Datums dem Schema `YY-MM-DD`, also bspw:  
 ~~~xml
 <date when="1822-11-02">2t Novbr 1822</date>
 ~~~
@@ -212,7 +210,7 @@ Ein spannender Datensatz mit viel Potential.
 
 ---
 
-<b id="f1">1</b> siehe [www.deutschestextarchiv.de](www.deutschestextarchiv.de) [↩](#a1)
+<b id="f1">1</b> s. [www.deutschestextarchiv.de](www.deutschestextarchiv.de) [↩](#a1)
 
 <b id="f2">2</b> vgl. Donath, Leopold: Geschichte der Juden in Mecklenburg von den ältesten Zeiten (1266) bis auf die Gegenwart (1874), Leipzig: Verlag Oskar Leiner 1874, S. 138. [Online verfügbar GoogleBooks.](https://books.google.de/books?id=JnRhAAAAcAAJ&pg=PA138) [↩](#a2)
 
@@ -220,27 +218,27 @@ Ein spannender Datensatz mit viel Potential.
 
 <b id="f4">4</b> Landeshauptarchiv Schwerin: 4.11-16 Judenangelegenheiten (Acta judaeorum) Mecklenburg-Strelitz, Nr. 271. [↩](#a4)
 
-<b id="f5">5</b> vgl. Donath, Leopold: Geschichte der Juden in Mecklenburg von den ältesten Zeiten (1266) bis auf die Gegenwart (1874), Leipzig: Verlag Oskar Leiner 1874, S. 139. [Online verfügbar GoogleBooks.](https://books.google.de/books?id=JnRhAAAAcAAJ&pg=PA139) Für eine ausführliche Geschichte zur jüdische Gemeinde zu Strelitz siehe den Abschnitt [Neustrelitz](http://www.juden-in-mecklenburg.de/Orte/Neustrelitz) unter „Juden in Mecklenburg“ von Jürgen Gramenz und Sylvia Ulmer. [↩](#a5)
+<b id="f5">5</b> vgl. Donath, Leopold: Geschichte der Juden in Mecklenburg von den ältesten Zeiten (1266) bis auf die Gegenwart (1874), Leipzig: Verlag Oskar Leiner 1874, S. 139. [Online verfügbar GoogleBooks.](https://books.google.de/books?id=JnRhAAAAcAAJ&pg=PA139) Für eine ausführliche Geschichte zur jüdische Gemeinde zu Strelitz s. den Abschnitt [Neustrelitz](http://www.juden-in-mecklenburg.de/Orte/Neustrelitz) unter „Juden in Mecklenburg“ von Jürgen Gramenz und Sylvia Ulmer. [↩](#a5)
 
-<b id="f6">6</b> Zur ausführlichen Geschichte des Friedhofs vgl. [„Jüdischer Friedhof Alt-Strelitz”](http://www.juden-in-mecklenburg.de/Friedhoefe/Juedischer_Friedhof_Alt_Strelitz) unter „Juden in Mecklenburg“ von Jürgen Gramenz und Sylvia Ulmer. [↩](#a6)
+<b id="f6">6</b> Zur ausführlichen Geschichte des Friedhofs s. [„Jüdischer Friedhof Alt-Strelitz”](http://www.juden-in-mecklenburg.de/Friedhoefe/Juedischer_Friedhof_Alt_Strelitz) unter „Juden in Mecklenburg“ von Jürgen Gramenz und Sylvia Ulmer. [↩](#a6)
 
 <b id="f7">7</b> Die Seelenregister, analog etwa zu Kirchenbüchern, der jüdischen Gemeinde zu Strelitz sind bisher als Gesamtbestand nicht gefunden worden. Weder im Landeshauptarchiv in Schwerin, noch in den Beständen des historischen Archiv der Stiftung Neue Synagoge Berlin – Centrum Judaicum noch im Central Archives for the History of the Jewish People Jerusalem (CAHJP). Laut [familysearch.org](https://www.familysearch.org/de/), einer Seite für Familienforschung betrieben von der „Kirche Jesu Christi der Heiligen der Letzten Tage“, die in Deutschland und ganz Europa unzählige Kirchenbücher mikroverfilmt hat, gibt es auch für die jüdische Gemeinde mikroverfilmte Matrikel. Allerdings lässt die Bezeichnung des Mikrofilms mit der Nummer 1185018 *Tote & Index 1760-1923 Grabinschriften ca. 1820-1888* schon darauf schließen, dass es sich, jedenfalls was das Register und den Index betrifft, ebenfalls um Jacobsons Abschrift handelt. Die Grabinschriften sind vermutlich die in Hebräisch geschriebenen Anmerkung unter dem Namen und dem Sterbetag im Register. Die Mikrofilme sind jedoch nur in der Family History Library in Salt Lake City einsehbar und können nicht (mehr) ausgeliehen bzw. bestellt werden. Als letzter dienlicher Hinweis sei hier noch genannt, dass Leopold Donath in seinem bereits zitierten Werk zur Geschichte der Juden in Mecklenburg vermerkt, dass der damalige Landesrabbiner Jacob Hamburger ihm Auskunft aus dem „Gedenkbuch des dortigen Beerdigungsvereins“ gab – aber auch dieses Gedenkbuch konnte bisher nicht ausfindig gemacht werden.h [↩](#a7)
 
-<b id="f8">8</b>Altstrelitz, cemetery register, photocopy, German and Hebrew, 1740-1923, Box: 7, Folder: III2. Jacob Jacobson Collection, AR 7002 / MF 447 / MF 134. Leo Baeck Institute. [https://archives.cjh.org/repositories/5/archival_objects/330811](https://archives.cjh.org/repositories/5/archival_objects/330811). [↩](#a8)
+<b id="f8">8</b> Altstrelitz, cemetery register, photocopy, German and Hebrew, 1740-1923, Box: 7, Folder: III2. Jacob Jacobson Collection, AR 7002 / MF 447 / MF 134. Leo Baeck Institute. [https://archives.cjh.org/repositories/5/archival_objects/330811](https://archives.cjh.org/repositories/5/archival_objects/330811). [↩](#a8)
 
 <b id="f9">9</b> Als ausgezeichnete Metasuchmaschine für Archivalien deutsch-jüdischen Ursprungs eignet sich die Datenbank vom Center for Jewish History, [https://www.cjh.org/](https://www.cjh.org/), hierüber lassen sich Archivalien, welche auch im großen Umfang bereits digitalisiert wurden, auffinden. Bei der Recherche sind die Bestände der Nationalbibliothek von Israel, [https://web.nli.org.il](https://web.nli.org.il), von ebenso großer Bedeutung, ebenso wie das Central Archives for the History of the Jewish People (CAHJP), [http://cahjp.nli.org.il/](http://cahjp.nli.org.il/), welches zum größten Teil die (Teil-)Nachlässe jüdischer Gemeinde in Deutschland verwahrt.  [↩](#a9)
 
 <b id="f10">10</b> Zum Trainieren eigener Layouterkennungs-Modelle eignet sich das Tool [P2PaLA](https://github.com/lquirosd/P2PaLA); eine Einbettung in die Software Transkribus hat bereits stattgefunden und wird laufend ausgebaut. [↩](#a10)
 
-<b id="f11">11</b> siehe dazu die Dokumentation des DTABfs unter [http://www.deutschestextarchiv.de/doku/basisformat/](http://www.deutschestextarchiv.de/doku/basisformat/). [↩](#a11)
+<b id="f11">11</b> s. dazu die Dokumentation des DTABfs unter [http://www.deutschestextarchiv.de/doku/basisformat/](http://www.deutschestextarchiv.de/doku/basisformat/). [↩](#a11)
 
 <b id="f12">12</b> [https://github.com/dariok/page2tei](https://github.com/dariok/page2tei). [↩](#a12)
 
 <b id="f13">13</b> [https://www.saxonica.com](https://www.saxonica.com). [↩](#a13)
 
-<b id="f14">14</b> siehe dazu auch den Abschnitt *Texteinteilung auf Kapitelebene* unter [http://www.deutschestextarchiv.de/doku/basisformat/div.html](http://www.deutschestextarchiv.de/doku/basisformat/div.html). [↩](#a14)
+<b id="f14">14</b> s. dazu auch den Abschnitt *Texteinteilung auf Kapitelebene* unter [http://www.deutschestextarchiv.de/doku/basisformat/div.html](http://www.deutschestextarchiv.de/doku/basisformat/div.html). [↩](#a14)
 
-<b id="f15">15</b> siehe hierzu auch die Empfehlungen der TEI unter [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-item.html](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-item.html). [↩](#a15)
+<b id="f15">15</b> s. hierzu auch die Empfehlungen der TEI unter [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-item.html](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-item.html). [↩](#a15)
 
 <b id="f16">16</b> Um reguläre Ausdrücke zu testen bzw. zu erstellen, eignet sich die Webanwendung *regex101* ausgezeichnet, siehe [https://regex101.com](https://regex101.com). [↩](#a16)
 
@@ -248,12 +246,12 @@ Ein spannender Datensatz mit viel Potential.
 
 <b id="f18">18</b> Gemeinsame Normdatei, siehe [https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html](https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html). [↩](#a18)
 
-<b id="f19">19</b> siehe [https://www.geonames.org](https://www.geonames.org). [↩](#a19)
+<b id="f19">19</b> s. [https://www.geonames.org](https://www.geonames.org). [↩](#a19)
 
 <b id="f20">20</b> Der Wert für fremdsprachliches Material ist das Kürzel internationale Norm ISO 639-3, in diesem Fall handelt es sich um rabbinisches Hebräisch. [↩](#a20)
 
-<b id="f21">21</b> siehe dazu [https://github.com/tboenig/tei2mets](https://github.com/tboenig/tei2mets) von Matthias Boenig [↩](#a21)
+<b id="f21">21</b> s. dazu [https://github.com/tboenig/tei2mets](https://github.com/tboenig/tei2mets) von Matthias Boenig [↩](#a21)
 
 <b id="f22">22</b> vgl. Tychsen, Oluf Gerhard: Bützowische Nebenstunden. Dritter Theil, Bützow 1768, S.5. [Online verfügbar Rostocker Dokumentenserver.](http://rosdok.uni-rostock.de/resolve/id/rosdok_document_0000016029)  [↩](#a22)
 
-<b id="f23">23</b> eine Mail an dtakorrektur(at)bbaw.de mit dem kurzen Hinweis auf das Friedhofsregister reich dazu völlig. [↩](#a23)
+<b id="f23">23</b> Eine Mail an dtakorrektur(at)bbaw.de mit dem kurzen Hinweis auf das Friedhofsregister reich dazu völlig. [↩](#a23)
