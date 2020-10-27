@@ -1,3 +1,14 @@
+**[Zum Friedhofsregister im Deutschen Textarchiv (aktuell DTAQ)](http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929)**
+
+oder
+
+**[Zum Friedhofsregister im DFG-Viewer]()**
+
+
+---
+<h2>Dokumentation</h2>
+
+
 Der folgende Artikel zeigt die einzelnen Schritte auf die angewandt wurden, um das Friedhofsregister der jüdischen Gemeinde zu Strelitz so aufzubereiten, dass es volltextdurchsuchbar, maschinenlesbar, XML-annotiert und im Ausgangsformat als TEI/XML sowie ALTO verfügbar ist. Am Ende stehen zwei „Produkte“: Einerseits die Ansicht des TEIs im Deutschen Textarchiv<sup id="a1">[1](#f1)</sup>, zur Korrektur und vollen Nutzbarkeit des TEI; andererseits die Ansicht im DFG-Viewer mittels generierter METS, zur zeilengenauen Ansicht des transkribierten Textes.
 Es wurde der Versuch unternommen, die dafür notwendigen Schritte und verwendeten Tools bestmöglichst zu erläutern. Ein kurzer historischer Abriss zur jüdischen Gemeinde zu Strelitz wird die Motivation für dieses Vorhabens begründen und den Artikel einleiten.
 
