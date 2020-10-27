@@ -184,7 +184,10 @@ Datumsangaben sind bisher lediglich mit `<date>` umschlossen, eine Erweiterung u
 ~~~
   
 Auch eine Auszeichnung mit dem Tag `<death>` und dem Attribut `@when` ist möglich. In einigen Fällen ist auch das Geburtsdatum angegeben, diese könnten dann analog durch `<birth>` und `@when` ausgezeichnet werden.
-***
+
+Im Friedhofsregister lassen sich auch einige Personen finden, die für das jüdische Leben in Deutschland überregionale Bedeutung erlangt haben. So ist z.B. der damalige Landesrabbiner von Mecklenburg-Strelitz, [Jacob Hamburger](https://de.wikipedia.org/wiki/Jacob_Hamburger), dort verzeichnet.
+
+---
 
 <b id="f1">1</b> siehe [www.deutschestextarchiv.de](www.deutschestextarchiv.de) [↩](#a1)
 
