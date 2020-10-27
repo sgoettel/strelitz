@@ -1,5 +1,6 @@
 theme: jekyll-theme-minimal
 title: Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)
 description: In diesem Repositorium befinden sich alle relevanten Daten zum Friedhofsregister der jüdischen Gemeinde zu Strelitz sowie alle Informationen über den Digitalisierungsprozess
-navbar-links:
-Ansicht des Friedhofregisters im Deutschen Textarchiv: "http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929"
+aux_links:
+  "Ansicht des Friedhofregisters im Deutschen Textarchiv":
+    - "http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929"
