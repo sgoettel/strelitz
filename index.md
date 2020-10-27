@@ -11,4 +11,10 @@ Das TEI (gemäß dem [DTABf](http://www.deutschestextarchiv.de/doku/basisformat/
 
 `<img src="https://i.imgur.com/gxswSPg.jpg" width="400">
 
-Inneres der Synagoge in Strelitz, in: *Krüger, Georg: Kunst- und Geschichts-Denkmäler des Freistaates Mecklenburg-Strelitz. Bd. 1: Das Land Stargard. Neubrandenburg, 1921, S. 131.*
+<sup>[1](#myfootnote1)</sup>
+
+
+
+
+
+<a name="myfootnote1">1</a>: Inneres der Synagoge in Strelitz, in: *Krüger, Georg: Kunst- und Geschichts-Denkmäler des Freistaates Mecklenburg-Strelitz. Bd. 1: Das Land Stargard. Neubrandenburg, 1921, S. 131.*
