@@ -1,22 +1,19 @@
-Der folgende Artikel zeigt die einzelnen Schritte auf die angewandt wurden, um das Friedhofsregister der jüdischen Gemeinde zu Strelitz so aufzubereiten, dass es volltextdurchsuchbar, maschinenlesbar, XML-annotiert und im Ausgangsformat als TEI/XML sowie ALTO verfügbar ist. Am Ende stehen zwei „Produkte“: Einerseits die Ansicht des TEIs im Deutschen Textarchiv<sup id="a1">[1](#f1)</sup>, zur Korrektur und vollen Nutzbarkeit des TEI; andererseits die Ansicht im DFG-Viewer mittels generierter METS, zur zeilengenauen Ansicht des transkribierten Textes.  
+Der folgende Artikel zeigt die einzelnen Schritte auf die angewandt wurden, um das Friedhofsregister der jüdischen Gemeinde zu Strelitz so aufzubereiten, dass es volltextdurchsuchbar, maschinenlesbar, XML-annotiert und im Ausgangsformat als TEI/XML sowie ALTO verfügbar ist. Am Ende stehen zwei „Produkte“: Einerseits die Ansicht des TEIs im Deutschen Textarchiv<sup id="a1">[1](#f1)</sup>, zur Korrektur und vollen Nutzbarkeit des TEI; andererseits die Ansicht im DFG-Viewer mittels generierter METS, zur zeilengenauen Ansicht des transkribierten Textes.
 Es wurde der Versuch unternommen, die dafür notwendigen Schritte und verwendeten Tools bestmöglichst zu erläutern. Ein kurzer historischer Abriss zur jüdischen Gemeinde zu Strelitz wird die Motivation für dieses Vorhabens begründen und den Artikel einleiten.
 
-1.  Zur Geschichte des der jüdischen Gemeinde und des Friedhofs in Strelitz
-    
-2.  Allgemeines zum Friedhofsregister
-    
-3.  Preprocessing
-    
-4.  Layouterkennung, Transkription und Annotation in Transkribus
-    
-5.  Postprocessing – der Weg zum TEI
-    
-6.  Generierung der METS aus ALTO
-    
-7.  Ausblick
+ 1. [Zur Geschichte des der jüdischen Gemeinde und des Friedhofs in Strelitz](#geschichte)
+ 2. [Allgemeines zum Friedhofsregister](#allgemeines)
+ 3. [Preprocessing](#preprocessing)
+ 4. [Layouterkennung, Transkription und Annotation in Transkribus](#transkribus)
+ 5. [Postprocessing – der Weg zum TEI](#postprocessing)
+ 6. [Generierung der METS aus ALTO](#mets)
+ 7. [Ausblick](#ausblick)
+
     
 
-## Zur Geschichte des der jüdischen Gemeinde und des Friedhofs in Strelitz
+<h2 id="allgemeines">
+Zur Geschichte des der jüdischen Gemeinde und des Friedhofs in Strelitz
+</h2>
 
 Die jüdische Gemeinde zu Strelitz (heute Strelitz-Alt, Stadtteil von Neustrelitz) in Mecklenburg war im Laufe ihres Bestehens, insbesondere im 19. Jahrhundert, eine der größten jüdischen Gemeinden Mecklenburgs.
 
@@ -60,16 +57,16 @@ Zwar tauchten immer wieder einige kleine Verzeichnisse auf, wer die letzten Geme
 
 Das Leo Baeck Institute hat jedoch die Abschrift von Jacobson mikroverfilmt und als Digitalisat zur Verfügung gestellt<sup id="a8">[8](#f8)</sup>. Basierend auf diesen Digitalisaten wurde das Beerdigungsregister in verschiedenen Schritten aufbereitet, sodass nun eine XML/TEI und ALTO-Version des Registers zur Verfügung steht, die volltextdurchsuchbar, maschinenlesbar und strukturiert über 250 Jahre einen Teil des jüdischen Lebens in Strelitz wiedergibt.
 
-## Allgemeines zum Friedhofsregister
+<h2 id="geschichte">Allgemeines zum Friedhofsregister</h2>
 
 Das Friedhofsregister der Gemeinde zu Strelitz ist inhaltlich ebenso strukturiert wie viele andere Kirchenbücher christlicher Gemeinden in Deutschland. Chronologisch verzeichnet es die jeweiligen Sterbefälle und gibt zu jeder Person individuell weitere Informationen, wie Beruf, Geburtsdatum, Alter oder verwandtschaftliche Beziehungen. Die Einträge sind in ihrem Umfang nicht immer einheitlich, der Grad der eingetragenen Informationen hängt – genau so wie in christlichen Geburts-, Ehe- oder Sterberegistern – immer von der jeweiligen schriftführenden Person ab. Vorteilhaft am Register der Strelitzer Gemeinde ist das alphabetische Register am Ende, wenngleich es auch nicht immer konsistent angelegt ist, lassen sich doch durch die einzelnen Nummern der Einträge schnell einzelne Personen auffinden. Eine Besonderheit stellen die Vermerke in hebräischer Sprache dar. Auch hier ist der Informationsgehalt unterschiedlich und ändert sich im Laufe der Jahrzehnte. Teilweise geben sie nur das bereits in lateinischen Buchstaben geschrieben wieder, teilweise ergänzen sie verwandtschaftliche Beziehungen. Im Laufe der Jahrzehnte werden diese Vermerke immer seltener, sodass ab etwa 1869 neben den angegebenen Datum, meistens das Sterbedatum, teilweise aber auch das Geburtsdatum, nur noch der Tag des Todes gemäß des jüdischen Kalenders niedergeschrieben wurde.
 
 
-## Preprocessing
+<h2 id="preprocessing">Preprocessing</h2>
 
 Wie bereits erwähnt, befindet sich das Friedhofsregister der jüdischen Gemeinde zu Strelitz als Mikroverfilmung im Archiv des Leo Baeck Institutes in New York. Etliche Nachlässe und darin befindliche Archivalien wurden bereits digitalisiert<sup id="a9">[9](#f9)</sup> und werden über [archive.org](https://archive.org/) gehostet. Das Friedhofsregister wurde im Zuge des Preprocessings als JPEG konvertiert und mit *[ScanTailor](https://scantailor.org/)* aufbereitet. Darunter fallen die standardmäßigen Vorarbeiten, wie das Korrigieren der Bildausrichtung, der Helligkeit und das Zuschneiden der einzelnen Digitalisate.
 
-## Layouterkennung, Transkription und Annotation in Transkribus
+<h2 id="transkribus">Layouterkennung, Transkription und Annotation in Transkribus</h2>
 
 In *Transkribus* sind mittlerweile viele unterschiedliche Modelle zur Layouterkennung verfügbar. Für den Anwendungsfall der Friedhofregisters war eine doppelspaltige Erkennung notwendig, welche die einzelnen Sterbeeinträge nochmals in einzelne Texregionen einteilt. Keines der zur Zeit verfügbaren Modelle konnte diese Aufgaben erfüllen<sup id="a10">[10](#f10)</sup>. Jeder Eintrag muss sich in einer eigenen Textregion befinden, da im XML-basierenden Ausgabeformat damit automatisch ein eigenständiger Paragraph, also `<p>`, versehen ist. An dieser Stelle musste also händisch nachgearbeitet werden, jedoch erleichtern die Werkzeuge zum „Zerlegen” (horizontal/vertikal) einer Textregionen die Arbeit enorm, sodass eine Textregion, welche die komplette Seite erfasst, relativ schnell entsprechend zugeschnitten werden kann. Die Zeilenerkennung der verfügbaren Modelle läuft ziemlich zuverlässig und bedarf nur wenig Korrektur. Eine „line” und damit verbundene „baseline” ergeben im späteren Ausgabeformat automatisch ein `</lb>`, einen Zeilenumbruch.
 
@@ -91,7 +88,7 @@ Jeder Sterbe- bzw. Beerdigungseintrag hat eine Nummer. Im anhängenden alphabeti
 
 Das nun komplette und annotierte Dokument wurde schließlich in page-XML und ALTO exportiert.
 
-## Postprocessing – der Weg zum TEI
+<h2 id="postprocessing">Postprocessing – der Weg zum TEI</h2>
 
 Da am Ende zwei Ergebnisse stehen sollten, „trennen“ sich hier die Wege der Nachbearbeitung. Für die Ansicht im DFG-Viewer stehen die Formate ALTO und METS nebeneinander – sie spielen in diesem Schritt keine Rolle mehr. Für die volle Nutzbarkeit der Annotationen innerhalb des XML/TEI wird jedoch das DTA verwendet. Hierzu wird ein valides TEI gemäß des DTA-Basisformats benötigt<sup id="a11">[11](#f11)</sup>. Aus den exportierten page-XMLs aus Transkribus wurde nun ein zusammenhängendes TEI geschaffen. Mittels page2tei<sup id="a12">[12](#f12)</sup> lässt sich das relativ einfach realisieren. Neben dem verfügbaren Paket auf GitHub wird noch der XSLT- und XQuery-Prozessor *Saxon* zur Transformation benötigt<sup id="a13">[13](#f13)</sup>. Exportiert man aus Transkribus die page-XML- und METS-Dateien kann dann folgender Befehl ausgeführt werden:
 
@@ -149,7 +146,7 @@ Die hebräischen Anmerkungen wurden mittels `<foreign>` und dem Attributwert `@x
 
 Letztlich wurde noch der TEI-Header gemäß des DTABfs angepasst und einige Metadaten, wie etwa <repository> für das besitzende Instituts der Vorlage oder <author> für den Herausgeber des Registers, angepasst.
 
-## Generierung der METS aus ALTO
+<h2 id="mets">Generierung der METS aus ALTO</h2>
 
 Die Formate ALTO und METS stehen parallel nebeneinander. Die einzelnen ALTO-XMLs konnten wie bereits im vorherigen Abschnitt beschrieben, aus Transkribus exportiert werden. ALTO enthält im XML Schema alle verfügbaren Daten des Layouts der zugrundeliegenden Vorlage.
 
@@ -177,7 +174,7 @@ Nun sind durch die Formate ALTO und METS der transkribierte Text exakt mit den B
 
 Unter www lässt sich nun das Register samt Volltext im DFG-Viewer betrachten.
 
-## Ausblick
+<h2 id="ausblick">Ausblick</h2>
 
 Innerhalb des Friedhofregisters lassen sich einige verwandtschaftlichen Beziehungen aufdecken. Welches Tag dafür?
 
@@ -186,9 +183,8 @@ Datumsangaben sind bisher lediglich mit `<date>` umschlossen, eine Erweiterung u
 <date when="1822-11-02">2t Novbr 1822</date>
 ~~~
   
-Auch eine Auszeichnung mit dem Tag `<death>` und dem Attribut @when ist möglich. In einigen Fällen ist auch das Geburtsdatum angegeben, diese könnten dann analog durch `<birth>` und `@when` ausgezeichnet werden.
-
-
+Auch eine Auszeichnung mit dem Tag `<death>` und dem Attribut `@when` ist möglich. In einigen Fällen ist auch das Geburtsdatum angegeben, diese könnten dann analog durch `<birth>` und `@when` ausgezeichnet werden.
+***
 
 <b id="f1">1</b> siehe [www.deutschestextarchiv.de](www.deutschestextarchiv.de) [↩](#a1)
 
