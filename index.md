@@ -1,15 +1,13 @@
-**[Zum Friedhofsregister im Deutschen Textarchiv (aktuell DTAQ)](http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929)**
+﻿**[Zum Friedhofsregister im Deutschen Textarchiv (aktuell DTAQ)](http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929)**
 
 oder
 
 **[Zum Friedhofsregister im DFG-Viewer]()**
 
-
 ---
-<h2>Dokumentation</h2>
-
-
-Der folgende Artikel zeigt die einzelnen Schritte auf die angewandt wurden, um das Friedhofsregister der jüdischen Gemeinde zu Strelitz so aufzubereiten, dass es volltextdurchsuchbar, maschinenlesbar, XML-annotiert und im Ausgangsformat als TEI/XML sowie ALTO verfügbar ist. Am Ende stehen zwei „Produkte“: Einerseits die Ansicht des TEIs im Deutschen Textarchiv<sup id="a1">[1](#f1)</sup>, zur Korrektur und vollen Nutzbarkeit des TEI; andererseits die Ansicht im DFG-Viewer mittels generierter METS, zur zeilengenauen Ansicht des transkribierten Textes.
+Dokumentation
+---
+Der folgende Artikel zeigt die einzelnen Schritte auf die angewandt wurden, um das Friedhofsregister der jüdischen Gemeinde zu Strelitz so aufzubereiten, dass es volltextdurchsuchbar, maschinenlesbar, XML-annotiert und im Ausgangsformat als TEI/XML sowie ALTO verfügbar ist. Am Ende stehen zwei „Produkte“: Einerseits die Ansicht des TEIs im Deutschen Textarchiv<sup id="a1">[1](#f1)</sup>, zur Korrektur und vollen Nutzbarkeit des TEI; andererseits die Ansicht im DFG-Viewer mittels generierter METS, zur zeilengenauen Ansicht des transkribierten Textes.  
 Es wurde der Versuch unternommen, die dafür notwendigen Schritte und verwendeten Tools bestmöglichst zu erläutern. Ein kurzer historischer Abriss zur jüdischen Gemeinde zu Strelitz wird die Motivation für dieses Vorhabens begründen und den Artikel einleiten.
 
  1. [Zur Geschichte des der jüdischen Gemeinde und des Friedhofs in Strelitz](#geschichte)
@@ -153,7 +151,7 @@ Die Personenname und das damit verbundene Tag `<persName>` wurde, sofern sinnvol
 
 Einige Beerdigungseinträge führen auch den Beruf oder Funktion innerhalb der Gemeinde auf. Da `<occupation>` innerhalb von `<item>` nicht zulässig ist und in vielen Fällen wie „Gemeindediener“, „Rabbi“ oder „Ältester“ auch nicht passend erscheint, wurden diese Bezeichnungen mit `<roleName>` ausgezeichnet.
 
-Die hebräischen Anmerkungen wurden mittels `<foreign>` und dem Attributwert `@xml:lang="hbo">`<sup id="a20">[20](#f20)</sup> umschlossen.
+Die hebräischen Anmerkungen wurden mittels `<foreign>` und dem Attributwert `@xml:lang="hbo">`<sup id="a20">[20](#f20)</sup> umschlossen. 
 
 Letztlich wurde noch der TEI-Header gemäß des DTABfs angepasst und einige Metadaten, wie etwa <repository> für das besitzende Instituts der Vorlage oder <author> für den Herausgeber des Registers, angepasst.
 
@@ -196,7 +194,21 @@ Datumsangaben sind bisher lediglich mit `<date>` umschlossen, eine Erweiterung u
   
 Auch eine Auszeichnung mit dem Tag `<death>` und dem Attribut `@when` ist möglich. In einigen Fällen ist auch das Geburtsdatum angegeben, diese könnten dann analog durch `<birth>` und `@when` ausgezeichnet werden.
 
-Im Friedhofsregister lassen sich auch einige Personen finden, die für das jüdische Leben in Deutschland überregionale Bedeutung erlangt haben. So ist z.B. der damalige Landesrabbiner von Mecklenburg-Strelitz, [Jacob Hamburger](https://de.wikipedia.org/wiki/Jacob_Hamburger), dort verzeichnet.
+Im Friedhofsregister lassen sich auch einige Personen finden, die für das jüdische Leben in Deutschland überregionale Bedeutung erlangt haben. So ist z.B. der damalige Landesrabbiner von Mecklenburg-Strelitz, [Jacob Hamburger](https://de.wikipedia.org/wiki/Jacob_Hamburger), dort verzeichnet. Auch verzeichnet ist bspw. der vermeintlichen Gründer der Strelitzer jüdischen Gemeinde und „Hofjude“ des Herzogs Adolph III zu Mecklenburg. In Tychsens drittem Teil seiner *Nebenstunden* heißt es dazu:
+
+> Um das Jahr 1608 hatten auch der damalige Herzog zu Strelitz Adolph
+> II. einen Hofjuden Namens R. Iakof aus Frankfurt an der Oder, und
+> dessen Gemahlin geb. Prinzess. aus Sondershausen einen Agenten
+> Alexander aus Sondershausen, in ihren Diensten. Nach ihrem Tode wurde
+> der Knecht des obbemeldeten Iakof, Namens Wolf Hofjude bey Herzog
+> Adolph III. Durch diesen Wolf ist die jüdische Gemeine in Strelitz
+> eigentlich gestiftet.<sup id="a22">[22](#f22)</sup>
+
+Aller Wahrscheinlichkeit nach ist dieser „Hofjude“ Wolf, Wolff Jacob (Nr. 5 im Register). Er verstarb im Januar 1743 und wurde auf dem Strelitzer Friedhof beerdigt.
+
+Da die Daten im Repositorium sowie im Deutschen Textarchiv stehen unter der Lizenz CC BY-SA 4 und sind damit für jeden einsehbar und können beliebig nachgenutzt werden. Inbesondere die Transkription und Übersetzung der Anmerkung in hebräischer Sprache bedürfen noch freiwilligen Helferinnen und Helfern. Dazu benötigt man lediglich einen Account für die [Qualitätssicherung](http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929) des DTAs sowie eine kurze Mail an das Team<sup id="a23">[23](#f23)</sup> und man wird für die Bearbeitung freigeschaltet.
+
+Ein spannender Datensatz mit viel Potential.
 
 ---
 
@@ -241,3 +253,7 @@ Im Friedhofsregister lassen sich auch einige Personen finden, die für das jüdi
 <b id="f20">20</b> Der Wert für fremdsprachliches Material ist das Kürzel internationale Norm ISO 639-3, in diesem Fall handelt es sich um rabbinisches Hebräisch. [↩](#a20)
 
 <b id="f21">21</b> siehe dazu [https://github.com/tboenig/tei2mets](https://github.com/tboenig/tei2mets) von Matthias Boenig [↩](#a21)
+
+<b id="f22">22</b> vgl. Tychsen, Oluf Gerhard: Bützowische Nebenstunden. Dritter Theil, Bützow 1768, S.5. [Online verfügbar Rostocker Dokumentenserver.](http://rosdok.uni-rostock.de/resolve/id/rosdok_document_0000016029)  [↩](#a22)
+
+<b id="f23">23</b> eine Mail an dtakorrektur(at)bbaw.de mit dem kurzen Hinweis auf das Friedhofsregister reich dazu völlig. [↩](#a23)
