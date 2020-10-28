@@ -2,7 +2,7 @@
 
 oder
 
-**[Zum Friedhofsregister im DFG-Viewer](http://dfg-viewer.de/show/?tx_dlf[id]=https%3A%2F%2Fkaskade.dwds.de%2F~goettel%2Fstrelitz%2Fmets.xml)**
+**[Zum Friedhofsregister im DFG-Viewer](http://dfg-viewer.de/show/?tx_dlf%5Bid%5D=https%3A%2F%2Fsgoettel.github.io%2Fstrelitz%2Ffriedhofsregister_der_juedischen_gemeinde_strelitz%2Fmets.xml&no_cache=1)**
 
 ---
 <h2>Dokumentation</h2>
