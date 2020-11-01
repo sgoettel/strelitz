@@ -254,4 +254,4 @@ Ein spannender Datensatz mit viel Potential.
 
 <b id="f22">22</b> vgl. Tychsen, Oluf Gerhard: Bützowische Nebenstunden. Dritter Theil, Bützow 1768, S.5. [Online verfügbar Rostocker Dokumentenserver.](http://rosdok.uni-rostock.de/resolve/id/rosdok_document_0000016029)  [↩](#a22)
 
-<b id="f23">23</b> Eine Mail an dtakorrektur(at)bbaw.de mit dem kurzen Hinweis auf das Friedhofsregister reich dazu völlig. [↩](#a23)
+<b id="f23">23</b> Eine Mail an dtakorrektur(at)bbaw.de mit dem kurzen Hinweis auf das Friedhofsregister reicht dazu völlig. [↩](#a23)
