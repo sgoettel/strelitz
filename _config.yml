@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/entry.png"
   bio    : "Alle verfügbaren Daten stehen unter der Lizenz CC BY-SA 4.0"
   links:
     - label: "Website"
