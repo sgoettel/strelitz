@@ -1,3 +1,8 @@
+---
+permalink: /dokumentation_register/
+title: "Dokumentation"
+---
+
 **[Zum Friedhofsregister im Deutschen Textarchiv (aktuell DTAQ)](http://www.deutschestextarchiv.de/dtaq/book/view/jacobson_strelitzfriedhofsregister_1929)**
 
 oder
