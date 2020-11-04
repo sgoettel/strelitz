@@ -58,34 +58,22 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Sebastian Göttel"
+  name   : "Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Alle verfügbaren Daten stehen unter der Lizenz CC BY-SA 4.0"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/goettel-sebastian"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/dwds_sgoettel"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/sgoettel/strelitz"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+
+
 
 defaults:
   # _posts
