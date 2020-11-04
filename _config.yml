@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: test
+title: Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)
 email: sebastian.goettel at bbaw.de
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -53,27 +53,39 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-
+  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
 author:
-   name: "Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)"
-  bio    : "Alle Daten stehen unter der Lizenz CC BY-SA 4.0."
+  name   : "Sebastian Göttel"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://www.bbaw.de/die-akademie/mitarbeiterinnen-mitarbeiter/goettel-sebastian"
+      url: "https://"
     - label: "Twitter"
-      icon: "ab fa-fw fa-twitter"
-      url: "https://twitter.com/dwds_sgoettel"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sgoettel/strelitz"
-
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 footer:
-  
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
 
 defaults:
   # _posts
