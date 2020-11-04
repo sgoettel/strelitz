@@ -1,5 +1,5 @@
 ---
-permalink: /dokumentation_register/
+permalink: /dokumentation/
 title: "Dokumentation"
 ---
 
