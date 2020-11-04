@@ -53,13 +53,11 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
+
   - jemoji
   - jekyll-include-cache
 
 author:
-  name   : ""
-  avatar : ""
   bio    : "Alle Daten stehen unter der Lizenz CC BY-SA 4.0."
   links:
     - label: "Website"
