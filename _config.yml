@@ -58,6 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
+   name: "Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)"
   bio    : "Alle Daten stehen unter der Lizenz CC BY-SA 4.0."
   links:
     - label: "Website"
