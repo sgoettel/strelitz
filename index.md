@@ -2,8 +2,8 @@
 layout: default
 ---
 
-Link Digitalisate[./
-
 [Über das Friedhofsregister](docs/about.md)
 
-[Dokumentation Digitalisierung](docs/dokumentation.md)
+[Dokumentation der Digitalisierung](docs/dokumentation.md)
+
+[Digitalisate](docs/digitalisate.md)
