@@ -1,3 +1,8 @@
+---
+permalink: /digitalisate/
+title: "Ansicht der Digitalisate"
+---
+
 Es gibt aktuell zwei Möglichkeiten, dass Friedhofsregister zu betrachten:
 
 1. Ansicht als TEI/XML im Deutschen Textarchiv (aktuell in der Qualitätssicherung).

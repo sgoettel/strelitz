@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "Über das Register"
+title: "Über das Friedhofsregister"
 ---
 
 
@@ -63,7 +63,7 @@ Das Friedhofsregister der Gemeinde zu Strelitz ist inhaltlich ebenso strukturier
 
 ---
 
-<b id="f1">1</b>Georg, Kurt: Kunst- und Geschichts-Denkmäler des Freistaates Mecklenburg-Strelitz.
+<b id="f1">1</b> Georg, Kurt: Kunst- und Geschichts-Denkmäler des Freistaates Mecklenburg-Strelitz.
 I Band: Das Land Stargard. Neubrandenburg: Brünslowsche Verlagsbuchhandlung 1921, S. 131. [↩](#a1)
 
 <b id="f2">2</b> vgl. Donath, Leopold: Geschichte der Juden in Mecklenburg von den ältesten Zeiten (1266) bis auf die Gegenwart (1874), Leipzig: Verlag Oskar Leiner 1874, S. 138. [Online verfügbar GoogleBooks.](https://books.google.de/books?id=JnRhAAAAcAAJ&pg=PA138) [↩](#a2)
