@@ -7,7 +7,7 @@ title: "Über das Register"
  1. [Zur Geschichte des der jüdischen Gemeinde und des Friedhofs in Strelitz](#geschichte)
  2. [Allgemeines zum Friedhofsregister](#allgemeines)
 
-<h2 id="allgemeines">
+<h2 id="geschichte">
 Zur Geschichte des der jüdischen Gemeinde und des Friedhofs in Strelitz
 </h2>
 
@@ -57,7 +57,7 @@ Zwar tauchten immer wieder einige kleine Verzeichnisse auf, wer die letzten Geme
 
 Das Leo Baeck Institute hat jedoch die Abschrift von Jacobson mikroverfilmt und als Digitalisat zur Verfügung gestellt<sup id="a8">[8](#f8)</sup>. Basierend auf diesen Digitalisaten wurde das Beerdigungsregister in verschiedenen Schritten aufbereitet, sodass nun eine XML/TEI und ALTO-Version des Registers zur Verfügung steht, die volltextdurchsuchbar, maschinenlesbar und strukturiert über 250 Jahre einen Teil des jüdischen Lebens in Strelitz wiedergibt.
 
-<h2 id="geschichte">Allgemeines zum Friedhofsregister</h2>
+<h2 id="allgemeines">Allgemeines zum Friedhofsregister</h2>
 
 Das Friedhofsregister der Gemeinde zu Strelitz ist inhaltlich ebenso strukturiert wie viele andere Kirchenbücher christlicher Gemeinden in Deutschland. Chronologisch verzeichnet es die jeweiligen Sterbefälle und gibt zu jeder Person individuell weitere Informationen, wie Beruf, Geburtsdatum, Alter oder verwandtschaftliche Beziehungen. Die Einträge sind in ihrem Umfang nicht immer einheitlich, der Grad der eingetragenen Informationen hängt – genau so wie in christlichen Geburts-, Ehe- oder Sterberegistern – immer von der jeweiligen schriftführenden Person ab. Vorteilhaft am Register der Strelitzer Gemeinde ist das alphabetische Register am Ende, wenngleich es auch nicht immer konsistent angelegt ist, lassen sich doch durch die einzelnen Nummern der Einträge schnell einzelne Personen auffinden. Eine Besonderheit stellen die Vermerke in hebräischer Sprache dar. Auch hier ist der Informationsgehalt unterschiedlich und ändert sich im Laufe der Jahrzehnte. Teilweise geben sie nur das bereits in lateinischen Buchstaben geschrieben wieder, teilweise ergänzen sie verwandtschaftliche Beziehungen. Im Laufe der Jahrzehnte werden diese Vermerke immer seltener, sodass ab etwa 1869 neben den angegebenen Datum, meistens das Sterbedatum, teilweise aber auch das Geburtsdatum, nur noch der Tag des Todes gemäß des jüdischen Kalenders niedergeschrieben wurde.
 
