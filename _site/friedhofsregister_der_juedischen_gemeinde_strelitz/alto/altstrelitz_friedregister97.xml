@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:18.707+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2532" WIDTH="1532">
+         <TopMargin HEIGHT="9" WIDTH="1532" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="602" WIDTH="567" VPOS="9" HPOS="0"/>
+         <RightMargin HEIGHT="602" WIDTH="16" VPOS="9" HPOS="1516"/>
+         <BottomMargin HEIGHT="1921" WIDTH="1532" VPOS="611" HPOS="0"/>
+         <PrintSpace HEIGHT="602" WIDTH="949" VPOS="9" HPOS="567">
+            <TextBlock ID="r1" HEIGHT="158" WIDTH="98" VPOS="36" HPOS="617">
+               <Shape>
+                  <Polygon POINTS="617,36 617,192 715,194 715,38"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="147"
+                         HEIGHT="58"
+                         WIDTH="76"
+                         VPOS="89"
+                         HPOS="619">
+                  <String ID="string_r1l1"
+                          HEIGHT="58"
+                          WIDTH="76"
+                          VPOS="89"
+                          HPOS="619"
+                          CONTENT="95"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="474" WIDTH="739" VPOS="63" HPOS="769">
+               <Shape>
+                  <Polygon POINTS="769,66 1365,63 1508,87 1508,486 1369,537 769,537"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="146"
+                         HEIGHT="72"
+                         WIDTH="703"
+                         VPOS="74"
+                         HPOS="789">
+                  <String ID="string_r2l1"
+                          HEIGHT="72"
+                          WIDTH="703"
+                          VPOS="74"
+                          HPOS="789"
+                          CONTENT="Zipper David 202"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="212"
+                         HEIGHT="71"
+                         WIDTH="698"
+                         VPOS="141"
+                         HPOS="788">
+                  <String ID="string_r2l2"
+                          HEIGHT="71"
+                          WIDTH="698"
+                          VPOS="141"
+                          HPOS="788"
+                          CONTENT="Zipper Itzig 292"/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="305"
+                         HEIGHT="98"
+                         WIDTH="716"
+                         VPOS="207"
+                         HPOS="766">
+                  <String ID="string_r2l3"
+                          HEIGHT="98"
+                          WIDTH="716"
+                          VPOS="207"
+                          HPOS="766"
+                          CONTENT="Zender Hendel 343."/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="368"
+                         HEIGHT="94"
+                         WIDTH="711"
+                         VPOS="274"
+                         HPOS="784">
+                  <String ID="string_r2l4"
+                          HEIGHT="94"
+                          WIDTH="711"
+                          VPOS="274"
+                          HPOS="784"
+                          CONTENT="Zierel-Abraham 396"/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="443"
+                         HEIGHT="105"
+                         WIDTH="691"
+                         VPOS="338"
+                         HPOS="798">
+                  <String ID="string_r2l5"
+                          HEIGHT="105"
+                          WIDTH="691"
+                          VPOS="338"
+                          HPOS="798"
+                          CONTENT="Zauret Meyer 414"/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="522"
+                         HEIGHT="102"
+                         WIDTH="711"
+                         VPOS="420"
+                         HPOS="780">
+                  <String ID="string_r2l6"
+                          HEIGHT="102"
+                          WIDTH="711"
+                          VPOS="420"
+                          HPOS="780"
+                          CONTENT="Zadek Ephraimson 429."/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

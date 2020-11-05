@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:05.596+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2562" WIDTH="1562">
+         <TopMargin HEIGHT="41" WIDTH="1562" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2509" WIDTH="70" VPOS="41" HPOS="0"/>
+         <RightMargin HEIGHT="2509" WIDTH="379" VPOS="41" HPOS="1183"/>
+         <BottomMargin HEIGHT="12" WIDTH="1562" VPOS="2550" HPOS="0"/>
+         <PrintSpace HEIGHT="2509" WIDTH="1113" VPOS="41" HPOS="70">
+            <TextBlock ID="r1" HEIGHT="153" WIDTH="95" VPOS="67" HPOS="938">
+               <Shape>
+                  <Polygon POINTS="938,67 938,220 1033,220 1033,67"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="175"
+                         HEIGHT="84"
+                         WIDTH="96"
+                         VPOS="91"
+                         HPOS="937">
+                  <String ID="string_r1l1"
+                          HEIGHT="84"
+                          WIDTH="96"
+                          VPOS="91"
+                          HPOS="937"
+                          CONTENT="68"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="2503" WIDTH="667" VPOS="43" HPOS="108">
+               <Shape>
+                  <Polygon POINTS="108,43 108,2546 775,2546 775,43"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="91"
+                         HEIGHT="54"
+                         WIDTH="611"
+                         VPOS="37"
+                         HPOS="110">
+                  <String ID="string_r2l1"
+                          HEIGHT="54"
+                          WIDTH="611"
+                          VPOS="37"
+                          HPOS="110"
+                          CONTENT="Bock, Hesy Frau 469"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="145"
+                         HEIGHT="90"
+                         WIDTH="632"
+                         VPOS="55"
+                         HPOS="145">
+                  <String ID="string_r2l2"
+                          HEIGHT="90"
+                          WIDTH="632"
+                          VPOS="55"
+                          HPOS="145"
+                          CONTENT="Barsdorf Chan̄e 550"/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="220"
+                         HEIGHT="65"
+                         WIDTH="575"
+                         VPOS="155"
+                         HPOS="145">
+                  <String ID="string_r2l3"
+                          HEIGHT="65"
+                          WIDTH="575"
+                          VPOS="155"
+                          HPOS="145"
+                          CONTENT="Bock Han̄chen K. 536."/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="284"
+                         HEIGHT="61"
+                         WIDTH="590"
+                         VPOS="223"
+                         HPOS="135">
+                  <String ID="string_r2l4"
+                          HEIGHT="61"
+                          WIDTH="590"
+                          VPOS="223"
+                          HPOS="135"
+                          CONTENT="Behr Isaac Hamburg 559"/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="340"
+                         HEIGHT="58"
+                         WIDTH="548"
+                         VPOS="282"
+                         HPOS="137">
+                  <String ID="string_r2l5"
+                          HEIGHT="58"
+                          WIDTH="548"
+                          VPOS="282"
+                          HPOS="137"
+                          CONTENT="Barsdorf Itzig 578"/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="408"
+                         HEIGHT="72"
+                         WIDTH="534"
+                         VPOS="336"
+                         HPOS="140">
+                  <String ID="string_r2l6"
+                          HEIGHT="72"
+                          WIDTH="534"
+                          VPOS="336"
+                          HPOS="140"
+                          CONTENT="Barsdorf, Jenny 580."/>
+               </TextLine>
+               <TextLine ID="r2l7"
+                         BASELINE="467"
+                         HEIGHT="52"
+                         WIDTH="536"
+                         VPOS="415"
+                         HPOS="136">
+                  <String ID="string_r2l7"
+                          HEIGHT="52"
+                          WIDTH="536"
+                          VPOS="415"
+                          HPOS="136"
+                          CONTENT="Bock. Herman̄ Meyer 583."/>
+               </TextLine>
+               <TextLine ID="r2l8"
+                         BASELINE="523"
+                         HEIGHT="52"
+                         WIDTH="505"
+                         VPOS="471"
+                         HPOS="151">
+                  <String ID="string_r2l8"
+                          HEIGHT="52"
+                          WIDTH="505"
+                          VPOS="471"
+                          HPOS="151"
+                          CONTENT="Behr Lea Wittern 584."/>
+               </TextLine>
+               <TextLine ID="r2l9"
+                         BASELINE="579"
+                         HEIGHT="53"
+                         WIDTH="470"
+                         VPOS="526"
+                         HPOS="158">
+                  <String ID="string_r2l9"
+                          HEIGHT="53"
+                          WIDTH="470"
+                          VPOS="526"
+                          HPOS="158"
+                          CONTENT="Bock Adele Allert 586."/>
+               </TextLine>
+               <TextLine ID="r2l10"
+                         BASELINE="633"
+                         HEIGHT="41"
+                         WIDTH="480"
+                         VPOS="592"
+                         HPOS="154">
+                  <String ID="string_r2l10"
+                          HEIGHT="41"
+                          WIDTH="480"
+                          VPOS="592"
+                          HPOS="154"
+                          CONTENT="Bock Moritz 615"/>
+               </TextLine>
+               <TextLine ID="r2l11"
+                         BASELINE="697"
+                         HEIGHT="68"
+                         WIDTH="515"
+                         VPOS="629"
+                         HPOS="144">
+                  <String ID="string_r2l11"
+                          HEIGHT="68"
+                          WIDTH="515"
+                          VPOS="629"
+                          HPOS="144"
+                          CONTENT="Bock Aay: Meyer 622."/>
+               </TextLine>
+               <TextLine ID="r2l12"
+                         BASELINE="750"
+                         HEIGHT="77"
+                         WIDTH="550"
+                         VPOS="673"
+                         HPOS="128">
+                  <String ID="string_r2l12"
+                          HEIGHT="77"
+                          WIDTH="550"
+                          VPOS="673"
+                          HPOS="128"
+                          CONTENT="Bock Joseph ? 623"/>
+               </TextLine>
+               <TextLine ID="r2l13"
+                         BASELINE="824"
+                         HEIGHT="76"
+                         WIDTH="592"
+                         VPOS="748"
+                         HPOS="131">
+                  <String ID="string_r2l13"
+                          HEIGHT="76"
+                          WIDTH="592"
+                          VPOS="748"
+                          HPOS="131"
+                          CONTENT="Bock L Wittwe 627."/>
+               </TextLine>
+               <TextLine ID="r2l14"
+                         BASELINE="892"
+                         HEIGHT="83"
+                         WIDTH="602"
+                         VPOS="809"
+                         HPOS="131">
+                  <String ID="string_r2l14"
+                          HEIGHT="83"
+                          WIDTH="602"
+                          VPOS="809"
+                          HPOS="131"
+                          CONTENT="Barsdorf Witten Leyser 633"/>
+               </TextLine>
+               <TextLine ID="r2l15"
+                         BASELINE="952"
+                         HEIGHT="89"
+                         WIDTH="577"
+                         VPOS="863"
+                         HPOS="142">
+                  <String ID="string_r2l15"
+                          HEIGHT="89"
+                          WIDTH="577"
+                          VPOS="863"
+                          HPOS="142"
+                          CONTENT="Bock Lose Elise 638"/>
+               </TextLine>
+               <TextLine ID="r2l16"
+                         BASELINE="1021"
+                         HEIGHT="84"
+                         WIDTH="573"
+                         VPOS="937"
+                         HPOS="141">
+                  <String ID="string_r2l16"
+                          HEIGHT="84"
+                          WIDTH="573"
+                          VPOS="937"
+                          HPOS="141"
+                          CONTENT="Bock Gustav 639"/>
+               </TextLine>
+               <TextLine ID="r2l17"
+                         BASELINE="1076"
+                         HEIGHT="51"
+                         WIDTH="594"
+                         VPOS="1025"
+                         HPOS="147">
+                  <String ID="string_r2l17"
+                          HEIGHT="51"
+                          WIDTH="594"
+                          VPOS="1025"
+                          HPOS="147"
+                          CONTENT="Barsdorf Heinrich 645"/>
+               </TextLine>
+               <TextLine ID="r2l18"
+                         BASELINE="1137"
+                         HEIGHT="52"
+                         WIDTH="611"
+                         VPOS="1085"
+                         HPOS="125">
+                  <String ID="string_r2l18"
+                          HEIGHT="52"
+                          WIDTH="611"
+                          VPOS="1085"
+                          HPOS="125"
+                          CONTENT="Barsdorf, Charlotte 680"/>
+               </TextLine>
+               <TextLine ID="r2l19"
+                         BASELINE="1214"
+                         HEIGHT="67"
+                         WIDTH="590"
+                         VPOS="1147"
+                         HPOS="144">
+                  <String ID="string_r2l19"
+                          HEIGHT="67"
+                          WIDTH="590"
+                          VPOS="1147"
+                          HPOS="144"
+                          CONTENT="Bock, Martha 684"/>
+               </TextLine>
+               <TextLine ID="r2l20"
+                         BASELINE="1243"
+                         HEIGHT="44"
+                         WIDTH="120"
+                         VPOS="1199"
+                         HPOS="620">
+                  <String ID="string_r2l20"
+                          HEIGHT="44"
+                          WIDTH="120"
+                          VPOS="1199"
+                          HPOS="620"
+                          CONTENT="556"/>
+               </TextLine>
+               <TextLine ID="r2l21"
+                         BASELINE="1287"
+                         HEIGHT="66"
+                         WIDTH="590"
+                         VPOS="1221"
+                         HPOS="148">
+                  <String ID="string_r2l21"
+                          HEIGHT="66"
+                          WIDTH="590"
+                          VPOS="1221"
+                          HPOS="148"
+                          CONTENT="Bock, K. H. d Frau 557."/>
+               </TextLine>
+               <TextLine ID="r2l22"
+                         BASELINE="1368"
+                         HEIGHT="68"
+                         WIDTH="594"
+                         VPOS="1300"
+                         HPOS="133">
+                  <String ID="string_r2l22"
+                          HEIGHT="68"
+                          WIDTH="594"
+                          VPOS="1300"
+                          HPOS="133"
+                          CONTENT="Berendt M. H. 687"/>
+               </TextLine>
+               <TextLine ID="r2l23"
+                         BASELINE="1439"
+                         HEIGHT="67"
+                         WIDTH="603"
+                         VPOS="1372"
+                         HPOS="136">
+                  <String ID="string_r2l23"
+                          HEIGHT="67"
+                          WIDTH="603"
+                          VPOS="1372"
+                          HPOS="136"
+                          CONTENT="Bragenheim, Kanton Aron 693"/>
+               </TextLine>
+               <TextLine ID="r2l24"
+                         BASELINE="1503"
+                         HEIGHT="64"
+                         WIDTH="586"
+                         VPOS="1439"
+                         HPOS="140">
+                  <String ID="string_r2l24"
+                          HEIGHT="64"
+                          WIDTH="586"
+                          VPOS="1439"
+                          HPOS="140"
+                          CONTENT="Bock, Emilie 695"/>
+               </TextLine>
+               <TextLine ID="r2l25"
+                         BASELINE="1561"
+                         HEIGHT="62"
+                         WIDTH="603"
+                         VPOS="1499"
+                         HPOS="134">
+                  <String ID="string_r2l25"
+                          HEIGHT="62"
+                          WIDTH="603"
+                          VPOS="1499"
+                          HPOS="134"
+                          CONTENT="Bock, Carl 702"/>
+               </TextLine>
+               <TextLine ID="r2l26"
+                         BASELINE="1628"
+                         HEIGHT="59"
+                         WIDTH="590"
+                         VPOS="1569"
+                         HPOS="132">
+                  <String ID="string_r2l26"
+                          HEIGHT="59"
+                          WIDTH="590"
+                          VPOS="1569"
+                          HPOS="132"
+                          CONTENT="Bock, Meyer 713"/>
+               </TextLine>
+               <TextLine ID="r2l27"
+                         BASELINE="1690"
+                         HEIGHT="54"
+                         WIDTH="583"
+                         VPOS="1636"
+                         HPOS="144">
+                  <String ID="string_r2l27"
+                          HEIGHT="54"
+                          WIDTH="583"
+                          VPOS="1636"
+                          HPOS="144"
+                          CONTENT="Barsdorf, Joseph 681."/>
+               </TextLine>
+               <TextLine ID="r2l28"
+                         BASELINE="1763"
+                         HEIGHT="63"
+                         WIDTH="590"
+                         VPOS="1700"
+                         HPOS="134">
+                  <String ID="string_r2l28"
+                          HEIGHT="63"
+                          WIDTH="590"
+                          VPOS="1700"
+                          HPOS="134"
+                          CONTENT="Bock, Ernst 722"/>
+               </TextLine>
+               <TextLine ID="r2l29"
+                         BASELINE="1818"
+                         HEIGHT="61"
+                         WIDTH="594"
+                         VPOS="1757"
+                         HPOS="135">
+                  <String ID="string_r2l29"
+                          HEIGHT="61"
+                          WIDTH="594"
+                          VPOS="1757"
+                          HPOS="135"
+                          CONTENT="Bock, Rosa Mejer 723."/>
+               </TextLine>
+               <TextLine ID="r2l30"
+                         BASELINE="1861"
+                         HEIGHT="54"
+                         WIDTH="505"
+                         VPOS="1807"
+                         HPOS="127">
+                  <String ID="string_r2l30"
+                          HEIGHT="54"
+                          WIDTH="505"
+                          VPOS="1807"
+                          HPOS="127"
+                          CONTENT="Barsdoft, Famchen"/>
+               </TextLine>
+               <TextLine ID="r2l31"
+                         BASELINE="1916"
+                         HEIGHT="61"
+                         WIDTH="537"
+                         VPOS="1855"
+                         HPOS="213">
+                  <String ID="string_r2l31"
+                          HEIGHT="61"
+                          WIDTH="537"
+                          VPOS="1855"
+                          HPOS="213"
+                          CONTENT="geb Heimann 579"/>
+               </TextLine>
+               <TextLine ID="r2l32"
+                         BASELINE="1977"
+                         HEIGHT="58"
+                         WIDTH="609"
+                         VPOS="1919"
+                         HPOS="121">
+                  <String ID="string_r2l32"
+                          HEIGHT="58"
+                          WIDTH="609"
+                          VPOS="1919"
+                          HPOS="121"
+                          CONTENT="Bock, Johanna (Siegm) 749"/>
+               </TextLine>
+               <TextLine ID="r2l33"
+                         BASELINE="2044"
+                         HEIGHT="66"
+                         WIDTH="602"
+                         VPOS="1978"
+                         HPOS="116">
+                  <String ID="string_r2l33"
+                          HEIGHT="66"
+                          WIDTH="602"
+                          VPOS="1978"
+                          HPOS="116"
+                          CONTENT="Behrendt Jenny 751."/>
+               </TextLine>
+               <TextLine ID="r2l34"
+                         BASELINE="2104"
+                         HEIGHT="67"
+                         WIDTH="606"
+                         VPOS="2037"
+                         HPOS="115">
+                  <String ID="string_r2l34"
+                          HEIGHT="67"
+                          WIDTH="606"
+                          VPOS="2037"
+                          HPOS="115"
+                          CONTENT="Berendt Heinrich 757."/>
+               </TextLine>
+               <TextLine ID="r2l35"
+                         BASELINE="2167"
+                         HEIGHT="56"
+                         WIDTH="608"
+                         VPOS="2111"
+                         HPOS="117">
+                  <String ID="string_r2l35"
+                          HEIGHT="56"
+                          WIDTH="608"
+                          VPOS="2111"
+                          HPOS="117"
+                          CONTENT="Barsdorf, Helene 646."/>
+               </TextLine>
+               <TextLine ID="r2l36"
+                         BASELINE="2230"
+                         HEIGHT="56"
+                         WIDTH="612"
+                         VPOS="2174"
+                         HPOS="122">
+                  <String ID="string_r2l36"
+                          HEIGHT="56"
+                          WIDTH="612"
+                          VPOS="2174"
+                          HPOS="122"
+                          CONTENT="Bock, Rudolf 762."/>
+               </TextLine>
+               <TextLine ID="r2l37"
+                         BASELINE="2287"
+                         HEIGHT="61"
+                         WIDTH="602"
+                         VPOS="2226"
+                         HPOS="118">
+                  <String ID="string_r2l37"
+                          HEIGHT="61"
+                          WIDTH="602"
+                          VPOS="2226"
+                          HPOS="118"
+                          CONTENT="Bock, Albert 775"/>
+               </TextLine>
+               <TextLine ID="r2l38"
+                         BASELINE="2341"
+                         HEIGHT="57"
+                         WIDTH="600"
+                         VPOS="2284"
+                         HPOS="119">
+                  <String ID="string_r2l38"
+                          HEIGHT="57"
+                          WIDTH="600"
+                          VPOS="2284"
+                          HPOS="119"
+                          CONTENT="Bock Max 806."/>
+               </TextLine>
+               <TextLine ID="r2l39"
+                         BASELINE="2389"
+                         HEIGHT="63"
+                         WIDTH="333"
+                         VPOS="2326"
+                         HPOS="381">
+                  <String ID="string_r2l39"
+                          HEIGHT="63"
+                          WIDTH="333"
+                          VPOS="2326"
+                          HPOS="381"
+                          CONTENT="res. 807."/>
+               </TextLine>
+               <TextLine ID="r2l40"
+                         BASELINE="2454"
+                         HEIGHT="57"
+                         WIDTH="311"
+                         VPOS="2397"
+                         HPOS="418">
+                  <String ID="string_r2l40"
+                          HEIGHT="57"
+                          WIDTH="311"
+                          VPOS="2397"
+                          HPOS="418"
+                          CONTENT="„ 808."/>
+               </TextLine>
+               <TextLine ID="r2l41"
+                         BASELINE="2507"
+                         HEIGHT="59"
+                         WIDTH="312"
+                         VPOS="2448"
+                         HPOS="414">
+                  <String ID="string_r2l41"
+                          HEIGHT="59"
+                          WIDTH="312"
+                          VPOS="2448"
+                          HPOS="414"
+                          CONTENT="„ 809."/>
+               </TextLine>
+               <TextLine ID="r2l42"
+                         BASELINE="2546"
+                         HEIGHT="62"
+                         WIDTH="558"
+                         VPOS="2484"
+                         HPOS="149">
+                  <String ID="string_r2l42"
+                          HEIGHT="62"
+                          WIDTH="558"
+                          VPOS="2484"
+                          HPOS="149"
+                          CONTENT="Bock, Henriette 814."/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

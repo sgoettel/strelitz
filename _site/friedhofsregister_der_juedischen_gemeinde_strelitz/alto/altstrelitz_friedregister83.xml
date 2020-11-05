@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:11.651+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2502" WIDTH="1554">
+         <TopMargin HEIGHT="0" WIDTH="1554" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2502" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2502" WIDTH="0" VPOS="0" HPOS="1554"/>
+         <BottomMargin HEIGHT="0" WIDTH="1554" VPOS="2502" HPOS="0"/>
+         <PrintSpace HEIGHT="2502" WIDTH="1554" VPOS="0" HPOS="0">
+            <TextBlock ID="r1" HEIGHT="124" WIDTH="125" VPOS="7" HPOS="969">
+               <Shape>
+                  <Polygon POINTS="969,7 1094,7 1094,131 969,131"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="110"
+                         HEIGHT="92"
+                         WIDTH="108"
+                         VPOS="18"
+                         HPOS="977">
+                  <String ID="string_r1l1"
+                          HEIGHT="92"
+                          WIDTH="108"
+                          VPOS="18"
+                          HPOS="977"
+                          CONTENT="81"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="1571" WIDTH="715" VPOS="34" HPOS="55">
+               <Shape>
+                  <Polygon POINTS="61,34 55,1599 764,1605 770,40"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="107"
+                         HEIGHT="55"
+                         WIDTH="437"
+                         VPOS="52"
+                         HPOS="128">
+                  <String ID="string_r2l1"
+                          HEIGHT="55"
+                          WIDTH="437"
+                          VPOS="52"
+                          HPOS="128"
+                          CONTENT="Loewenhaupt Sophie Meyer"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="159"
+                         HEIGHT="62"
+                         WIDTH="610"
+                         VPOS="97"
+                         HPOS="125">
+                  <String ID="string_r2l2"
+                          HEIGHT="62"
+                          WIDTH="610"
+                          VPOS="97"
+                          HPOS="125"
+                          CONTENT="aus Neubrandenburg 594."/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="244"
+                         HEIGHT="79"
+                         WIDTH="618"
+                         VPOS="165"
+                         HPOS="120">
+                  <String ID="string_r2l3"
+                          HEIGHT="79"
+                          WIDTH="618"
+                          VPOS="165"
+                          HPOS="120"
+                          CONTENT="Lowenhaupt Meyer Nbdg 599"/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="276"
+                         HEIGHT="58"
+                         WIDTH="637"
+                         VPOS="218"
+                         HPOS="99">
+                  <String ID="string_r2l4"
+                          HEIGHT="58"
+                          WIDTH="637"
+                          VPOS="218"
+                          HPOS="99"
+                          CONTENT="Loewenhaupt Hugo NBrandbg. 605."/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="340"
+                         HEIGHT="61"
+                         WIDTH="604"
+                         VPOS="279"
+                         HPOS="94">
+                  <String ID="string_r2l5"
+                          HEIGHT="61"
+                          WIDTH="604"
+                          VPOS="279"
+                          HPOS="94"
+                          CONTENT="Liepman̄ Jette 619"/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="404"
+                         HEIGHT="75"
+                         WIDTH="594"
+                         VPOS="329"
+                         HPOS="107">
+                  <String ID="string_r2l6"
+                          HEIGHT="75"
+                          WIDTH="594"
+                          VPOS="329"
+                          HPOS="107"
+                          CONTENT="Latzarus Marcus Witt 642."/>
+               </TextLine>
+               <TextLine ID="r2l7"
+                         BASELINE="454"
+                         HEIGHT="58"
+                         WIDTH="676"
+                         VPOS="396"
+                         HPOS="94">
+                  <String ID="string_r2l7"
+                          HEIGHT="58"
+                          WIDTH="676"
+                          VPOS="396"
+                          HPOS="94"
+                          CONTENT="Liepmann Johanna 644"/>
+               </TextLine>
+               <TextLine ID="r2l8"
+                         BASELINE="513"
+                         HEIGHT="56"
+                         WIDTH="528"
+                         VPOS="457"
+                         HPOS="90">
+                  <String ID="string_r2l8"
+                          HEIGHT="56"
+                          WIDTH="528"
+                          VPOS="457"
+                          HPOS="90"
+                          CONTENT="Liepmann Paul Sohn"/>
+               </TextLine>
+               <TextLine ID="r2l9"
+                         BASELINE="570"
+                         HEIGHT="71"
+                         WIDTH="650"
+                         VPOS="499"
+                         HPOS="107">
+                  <String ID="string_r2l9"
+                          HEIGHT="71"
+                          WIDTH="650"
+                          VPOS="499"
+                          HPOS="107"
+                          CONTENT="des Ed Liepman̄ 669."/>
+               </TextLine>
+               <TextLine ID="r2l10"
+                         BASELINE="637"
+                         HEIGHT="59"
+                         WIDTH="654"
+                         VPOS="578"
+                         HPOS="90">
+                  <String ID="string_r2l10"
+                          HEIGHT="59"
+                          WIDTH="654"
+                          VPOS="578"
+                          HPOS="90"
+                          CONTENT="Liepmann, Eduard 676"/>
+               </TextLine>
+               <TextLine ID="r2l11"
+                         BASELINE="708"
+                         HEIGHT="60"
+                         WIDTH="681"
+                         VPOS="648"
+                         HPOS="82">
+                  <String ID="string_r2l11"
+                          HEIGHT="60"
+                          WIDTH="681"
+                          VPOS="648"
+                          HPOS="82"
+                          CONTENT="Löwenthal Itzig Ww. 434"/>
+               </TextLine>
+               <TextLine ID="r2l12"
+                         BASELINE="779"
+                         HEIGHT="56"
+                         WIDTH="665"
+                         VPOS="723"
+                         HPOS="81">
+                  <String ID="string_r2l12"
+                          HEIGHT="56"
+                          WIDTH="665"
+                          VPOS="723"
+                          HPOS="81"
+                          CONTENT="Liepmann, Frau Marcus 689"/>
+               </TextLine>
+               <TextLine ID="r2l13"
+                         BASELINE="848"
+                         HEIGHT="60"
+                         WIDTH="660"
+                         VPOS="788"
+                         HPOS="91">
+                  <String ID="string_r2l13"
+                          HEIGHT="60"
+                          WIDTH="660"
+                          VPOS="788"
+                          HPOS="91"
+                          CONTENT="Liepmann, Marcus 690"/>
+               </TextLine>
+               <TextLine ID="r2l14"
+                         BASELINE="915"
+                         HEIGHT="60"
+                         WIDTH="655"
+                         VPOS="855"
+                         HPOS="97">
+                  <String ID="string_r2l14"
+                          HEIGHT="60"
+                          WIDTH="655"
+                          VPOS="855"
+                          HPOS="97"
+                          CONTENT="Levin, Philipp 712"/>
+               </TextLine>
+               <TextLine ID="r2l15"
+                         BASELINE="973"
+                         HEIGHT="56"
+                         WIDTH="451"
+                         VPOS="917"
+                         HPOS="97">
+                  <String ID="string_r2l15"
+                          HEIGHT="56"
+                          WIDTH="451"
+                          VPOS="917"
+                          HPOS="97"
+                          CONTENT="Liebenthal (Jul.) Sohn"/>
+               </TextLine>
+               <TextLine ID="r2l16"
+                         BASELINE="1028"
+                         HEIGHT="68"
+                         WIDTH="490"
+                         VPOS="960"
+                         HPOS="258">
+                  <String ID="string_r2l16"
+                          HEIGHT="68"
+                          WIDTH="490"
+                          VPOS="960"
+                          HPOS="258"
+                          CONTENT="Alfons 739"/>
+               </TextLine>
+               <TextLine ID="r2l17"
+                         BASELINE="1080"
+                         HEIGHT="54"
+                         WIDTH="438"
+                         VPOS="1026"
+                         HPOS="130">
+                  <String ID="string_r2l17"
+                          HEIGHT="54"
+                          WIDTH="438"
+                          VPOS="1026"
+                          HPOS="130"
+                          CONTENT="Löwenthal Eva"/>
+               </TextLine>
+               <TextLine ID="r2l18"
+                         BASELINE="1130"
+                         HEIGHT="65"
+                         WIDTH="606"
+                         VPOS="1065"
+                         HPOS="160">
+                  <String ID="string_r2l18"
+                          HEIGHT="65"
+                          WIDTH="606"
+                          VPOS="1065"
+                          HPOS="160"
+                          CONTENT="geb. Leo 359"/>
+               </TextLine>
+               <TextLine ID="r2l19"
+                         BASELINE="1174"
+                         HEIGHT="55"
+                         WIDTH="446"
+                         VPOS="1119"
+                         HPOS="190">
+                  <String ID="string_r2l19"
+                          HEIGHT="55"
+                          WIDTH="446"
+                          VPOS="1119"
+                          HPOS="190"
+                          CONTENT="verzeichnet unter 753"/>
+               </TextLine>
+               <TextLine ID="r2l20"
+                         BASELINE="1247"
+                         HEIGHT="62"
+                         WIDTH="622"
+                         VPOS="1185"
+                         HPOS="125">
+                  <String ID="string_r2l20"
+                          HEIGHT="62"
+                          WIDTH="622"
+                          VPOS="1185"
+                          HPOS="125"
+                          CONTENT="Liebenthal Magnus 76"/>
+               </TextLine>
+               <TextLine ID="r2l21"
+                         BASELINE="1309"
+                         HEIGHT="64"
+                         WIDTH="622"
+                         VPOS="1245"
+                         HPOS="126">
+                  <String ID="string_r2l21"
+                          HEIGHT="64"
+                          WIDTH="622"
+                          VPOS="1245"
+                          HPOS="126"
+                          CONTENT="Liebenthal Amalie 764"/>
+               </TextLine>
+               <TextLine ID="r2l22"
+                         BASELINE="1371"
+                         HEIGHT="65"
+                         WIDTH="604"
+                         VPOS="1306"
+                         HPOS="135">
+                  <String ID="string_r2l22"
+                          HEIGHT="65"
+                          WIDTH="604"
+                          VPOS="1306"
+                          HPOS="135"
+                          CONTENT="Loewe Dav. Neustr 777"/>
+               </TextLine>
+               <TextLine ID="r2l23"
+                         BASELINE="1467"
+                         HEIGHT="78"
+                         WIDTH="607"
+                         VPOS="1389"
+                         HPOS="154">
+                  <String ID="string_r2l23"
+                          HEIGHT="78"
+                          WIDTH="607"
+                          VPOS="1389"
+                          HPOS="154"
+                          CONTENT="Agnes Loewe Neustr. 795"/>
+               </TextLine>
+               <TextLine ID="r2l24"
+                         BASELINE="1546"
+                         HEIGHT="86"
+                         WIDTH="613"
+                         VPOS="1460"
+                         HPOS="146">
+                  <String ID="string_r2l24"
+                          HEIGHT="86"
+                          WIDTH="613"
+                          VPOS="1460"
+                          HPOS="146"
+                          CONTENT="Henriette Loewe Neustr. 798"/>
+               </TextLine>
+               <TextLine ID="r2l25"
+                         BASELINE="1598"
+                         HEIGHT="82"
+                         WIDTH="619"
+                         VPOS="1516"
+                         HPOS="132">
+                  <String ID="string_r2l25"
+                          HEIGHT="82"
+                          WIDTH="619"
+                          VPOS="1516"
+                          HPOS="132"
+                          CONTENT="Ottilie Liebenthal 820"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

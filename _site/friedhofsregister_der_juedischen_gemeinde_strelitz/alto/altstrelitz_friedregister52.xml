@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:11:56.245+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2562" WIDTH="1584">
+         <TopMargin HEIGHT="35" WIDTH="1584" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2515" WIDTH="23" VPOS="35" HPOS="0"/>
+         <RightMargin HEIGHT="2515" WIDTH="1" VPOS="35" HPOS="1583"/>
+         <BottomMargin HEIGHT="12" WIDTH="1584" VPOS="2550" HPOS="0"/>
+         <PrintSpace HEIGHT="2515" WIDTH="1560" VPOS="35" HPOS="23">
+            <TextBlock ID="r1" HEIGHT="443" WIDTH="713" VPOS="81" HPOS="90">
+               <Shape>
+                  <Polygon POINTS="90,81 803,81 803,524 90,524"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="132"
+                         HEIGHT="51"
+                         WIDTH="148"
+                         VPOS="81"
+                         HPOS="397">
+                  <String ID="string_r1l1"
+                          HEIGHT="51"
+                          WIDTH="148"
+                          VPOS="81"
+                          HPOS="397"
+                          CONTENT="674"/>
+               </TextLine>
+               <TextLine ID="r1l2"
+                         BASELINE="207"
+                         HEIGHT="54"
+                         WIDTH="497"
+                         VPOS="153"
+                         HPOS="155">
+                  <String ID="string_r1l2"
+                          HEIGHT="54"
+                          WIDTH="497"
+                          VPOS="153"
+                          HPOS="155"
+                          CONTENT="Abraham Cohn"/>
+               </TextLine>
+               <TextLine ID="r1l3"
+                         BASELINE="289"
+                         HEIGHT="63"
+                         WIDTH="626"
+                         VPOS="226"
+                         HPOS="159">
+                  <String ID="string_r1l3"
+                          HEIGHT="63"
+                          WIDTH="626"
+                          VPOS="226"
+                          HPOS="159"
+                          CONTENT="gestorben d 11 Juni 1873."/>
+               </TextLine>
+               <TextLine ID="r1l4"
+                         BASELINE="356"
+                         HEIGHT="52"
+                         WIDTH="620"
+                         VPOS="304"
+                         HPOS="105">
+                  <String ID="string_r1l4"
+                          HEIGHT="52"
+                          WIDTH="620"
+                          VPOS="304"
+                          HPOS="105"
+                          CONTENT="Mittwoch Abend 10 Uhr"/>
+               </TextLine>
+               <TextLine ID="r1l5"
+                         BASELINE="431"
+                         HEIGHT="52"
+                         WIDTH="617"
+                         VPOS="379"
+                         HPOS="103">
+                  <String ID="string_r1l5"
+                          HEIGHT="52"
+                          WIDTH="617"
+                          VPOS="379"
+                          HPOS="103"
+                          CONTENT="17 Tage des Monats Sivan"/>
+               </TextLine>
+               <TextLine ID="r1l6"
+                         BASELINE="503"
+                         HEIGHT="55"
+                         WIDTH="618"
+                         VPOS="448"
+                         HPOS="120">
+                  <String ID="string_r1l6"
+                          HEIGHT="55"
+                          WIDTH="618"
+                          VPOS="448"
+                          HPOS="120"
+                          CONTENT="5633. hebr"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="418" WIDTH="713" VPOS="524" HPOS="90">
+               <Shape>
+                  <Polygon POINTS="90,524 803,524 803,942 90,942"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="617"
+                         HEIGHT="59"
+                         WIDTH="295"
+                         VPOS="558"
+                         HPOS="261">
+                  <String ID="string_r2l1"
+                          HEIGHT="59"
+                          WIDTH="295"
+                          VPOS="558"
+                          HPOS="261"
+                          CONTENT="No 675"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="664"
+                         HEIGHT="45"
+                         WIDTH="684"
+                         VPOS="619"
+                         HPOS="94">
+                  <String ID="string_r2l2"
+                          HEIGHT="45"
+                          WIDTH="684"
+                          VPOS="619"
+                          HPOS="94"
+                          CONTENT="Frau Scheinchen Cohn"/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="705"
+                         HEIGHT="43"
+                         WIDTH="364"
+                         VPOS="662"
+                         HPOS="228">
+                  <String ID="string_r2l3"
+                          HEIGHT="43"
+                          WIDTH="364"
+                          VPOS="662"
+                          HPOS="228"
+                          CONTENT="geb. Barsdorf"/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="755"
+                         HEIGHT="40"
+                         WIDTH="652"
+                         VPOS="715"
+                         HPOS="90">
+                  <String ID="string_r2l4"
+                          HEIGHT="40"
+                          WIDTH="652"
+                          VPOS="715"
+                          HPOS="90"
+                          CONTENT="gestorben d. 22t October 1883"/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="793"
+                         HEIGHT="37"
+                         WIDTH="654"
+                         VPOS="756"
+                         HPOS="149">
+                  <String ID="string_r2l5"
+                          HEIGHT="37"
+                          WIDTH="654"
+                          VPOS="756"
+                          HPOS="149"
+                          CONTENT="Vormittags 10 Uhr – 81 Jahr alt."/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="836"
+                         HEIGHT="33"
+                         WIDTH="366"
+                         VPOS="803"
+                         HPOS="203">
+                  <String ID="string_r2l6"
+                          HEIGHT="33"
+                          WIDTH="366"
+                          VPOS="803"
+                          HPOS="203"
+                          CONTENT="Tage des Monats"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r3" HEIGHT="453" WIDTH="713" VPOS="942" HPOS="90">
+               <Shape>
+                  <Polygon POINTS="90,942 803,942 803,1395 90,1395"/>
+               </Shape>
+               <TextLine ID="r3l1"
+                         BASELINE="1029"
+                         HEIGHT="52"
+                         WIDTH="127"
+                         VPOS="977"
+                         HPOS="382">
+                  <String ID="string_r3l1"
+                          HEIGHT="52"
+                          WIDTH="127"
+                          VPOS="977"
+                          HPOS="382"
+                          CONTENT="676"/>
+               </TextLine>
+               <TextLine ID="r3l2"
+                         BASELINE="1094"
+                         HEIGHT="46"
+                         WIDTH="505"
+                         VPOS="1048"
+                         HPOS="184">
+                  <String ID="string_r3l2"
+                          HEIGHT="46"
+                          WIDTH="505"
+                          VPOS="1048"
+                          HPOS="184"
+                          CONTENT="Eduard Liepmann"/>
+               </TextLine>
+               <TextLine ID="r3l3"
+                         BASELINE="1161"
+                         HEIGHT="51"
+                         WIDTH="644"
+                         VPOS="1110"
+                         HPOS="119">
+                  <String ID="string_r3l3"
+                          HEIGHT="51"
+                          WIDTH="644"
+                          VPOS="1110"
+                          HPOS="119"
+                          CONTENT="gestorben den 9 October 1874"/>
+               </TextLine>
+               <TextLine ID="r3l4"
+                         BASELINE="1239"
+                         HEIGHT="51"
+                         WIDTH="586"
+                         VPOS="1188"
+                         HPOS="108">
+                  <String ID="string_r3l4"
+                          HEIGHT="51"
+                          WIDTH="586"
+                          VPOS="1188"
+                          HPOS="108"
+                          CONTENT="Sontag Abend 5 ½ Uhr"/>
+               </TextLine>
+               <TextLine ID="r3l5"
+                         BASELINE="1309"
+                         HEIGHT="50"
+                         WIDTH="671"
+                         VPOS="1259"
+                         HPOS="104">
+                  <String ID="string_r3l5"
+                          HEIGHT="50"
+                          WIDTH="671"
+                          VPOS="1259"
+                          HPOS="104"
+                          CONTENT="29 Tage des Monats Tischri"/>
+               </TextLine>
+               <TextLine ID="r3l6"
+                         BASELINE="1391"
+                         HEIGHT="67"
+                         WIDTH="679"
+                         VPOS="1324"
+                         HPOS="98">
+                  <String ID="string_r3l6"
+                          HEIGHT="67"
+                          WIDTH="679"
+                          VPOS="1324"
+                          HPOS="98"
+                          CONTENT="5635 hebr"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r4" HEIGHT="401" WIDTH="713" VPOS="1395" HPOS="90">
+               <Shape>
+                  <Polygon POINTS="90,1395 803,1395 803,1796 90,1796"/>
+               </Shape>
+               <TextLine ID="r4l1"
+                         BASELINE="1465"
+                         HEIGHT="58"
+                         WIDTH="134"
+                         VPOS="1407"
+                         HPOS="385">
+                  <String ID="string_r4l1"
+                          HEIGHT="58"
+                          WIDTH="134"
+                          VPOS="1407"
+                          HPOS="385"
+                          CONTENT="677"/>
+               </TextLine>
+               <TextLine ID="r4l2"
+                         BASELINE="1540"
+                         HEIGHT="69"
+                         WIDTH="665"
+                         VPOS="1471"
+                         HPOS="105">
+                  <String ID="string_r4l2"
+                          HEIGHT="69"
+                          WIDTH="665"
+                          VPOS="1471"
+                          HPOS="105"
+                          CONTENT="Müller geb. Barsdorff"/>
+               </TextLine>
+               <TextLine ID="r4l3"
+                         BASELINE="1604"
+                         HEIGHT="65"
+                         WIDTH="664"
+                         VPOS="1539"
+                         HPOS="99">
+                  <String ID="string_r4l3"
+                          HEIGHT="65"
+                          WIDTH="664"
+                          VPOS="1539"
+                          HPOS="99"
+                          CONTENT="gestorben Decbr 1868 zu Neustr."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r5" HEIGHT="406" WIDTH="713" VPOS="1796" HPOS="90">
+               <Shape>
+                  <Polygon POINTS="90,1796 803,1796 803,2202 90,2202"/>
+               </Shape>
+               <TextLine ID="r5l1"
+                         BASELINE="1871"
+                         HEIGHT="53"
+                         WIDTH="118"
+                         VPOS="1818"
+                         HPOS="378">
+                  <String ID="string_r5l1"
+                          HEIGHT="53"
+                          WIDTH="118"
+                          VPOS="1818"
+                          HPOS="378"
+                          CONTENT="678."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r6" HEIGHT="355" WIDTH="713" VPOS="2202" HPOS="90">
+               <Shape>
+                  <Polygon POINTS="90,2202 803,2202 803,2557 90,2557"/>
+               </Shape>
+               <TextLine ID="r6l1"
+                         BASELINE="2264"
+                         HEIGHT="42"
+                         WIDTH="95"
+                         VPOS="2222"
+                         HPOS="374">
+                  <String ID="string_r6l1"
+                          HEIGHT="42"
+                          WIDTH="95"
+                          VPOS="2222"
+                          HPOS="374"
+                          CONTENT="679."/>
+               </TextLine>
+               <TextLine ID="r6l2"
+                         BASELINE="2308"
+                         HEIGHT="36"
+                         WIDTH="468"
+                         VPOS="2272"
+                         HPOS="194">
+                  <String ID="string_r6l2"
+                          HEIGHT="36"
+                          WIDTH="468"
+                          VPOS="2272"
+                          HPOS="194"
+                          CONTENT="Moritz Müller"/>
+               </TextLine>
+               <TextLine ID="r6l3"
+                         BASELINE="2379"
+                         HEIGHT="62"
+                         WIDTH="672"
+                         VPOS="2317"
+                         HPOS="113">
+                  <String ID="string_r6l3"
+                          HEIGHT="62"
+                          WIDTH="672"
+                          VPOS="2317"
+                          HPOS="113"
+                          CONTENT="gestorben den 28. März 1876"/>
+               </TextLine>
+               <TextLine ID="r6l4"
+                         BASELINE="2434"
+                         HEIGHT="51"
+                         WIDTH="668"
+                         VPOS="2383"
+                         HPOS="109">
+                  <String ID="string_r6l4"
+                          HEIGHT="51"
+                          WIDTH="668"
+                          VPOS="2383"
+                          HPOS="109"
+                          CONTENT="Dienstag Morgen 5 ¼ Uhr"/>
+               </TextLine>
+               <TextLine ID="r6l5"
+                         BASELINE="2490"
+                         HEIGHT="49"
+                         WIDTH="651"
+                         VPOS="2441"
+                         HPOS="91">
+                  <String ID="string_r6l5"
+                          HEIGHT="49"
+                          WIDTH="651"
+                          VPOS="2441"
+                          HPOS="91"
+                          CONTENT="9 Tage des Monats Nisan"/>
+               </TextLine>
+               <TextLine ID="r6l6"
+                         BASELINE="2550"
+                         HEIGHT="67"
+                         WIDTH="476"
+                         VPOS="2483"
+                         HPOS="208">
+                  <String ID="string_r6l6"
+                          HEIGHT="67"
+                          WIDTH="476"
+                          VPOS="2483"
+                          HPOS="208"
+                          CONTENT="5636. hebr"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r7" HEIGHT="398" WIDTH="746" VPOS="37" HPOS="832">
+               <Shape>
+                  <Polygon POINTS="832,37 1574,37 1578,435 836,435"/>
+               </Shape>
+               <TextLine ID="r7l1"
+                         BASELINE="87"
+                         HEIGHT="51"
+                         WIDTH="92"
+                         VPOS="36"
+                         HPOS="1328">
+                  <String ID="string_r7l1"
+                          HEIGHT="51"
+                          WIDTH="92"
+                          VPOS="36"
+                          HPOS="1328"
+                          CONTENT="50"/>
+               </TextLine>
+               <TextLine ID="r7l2"
+                         BASELINE="94"
+                         HEIGHT="53"
+                         WIDTH="116"
+                         VPOS="41"
+                         HPOS="1147">
+                  <String ID="string_r7l2"
+                          HEIGHT="53"
+                          WIDTH="116"
+                          VPOS="41"
+                          HPOS="1147"
+                          CONTENT="680"/>
+               </TextLine>
+               <TextLine ID="r7l3"
+                         BASELINE="153"
+                         HEIGHT="45"
+                         WIDTH="563"
+                         VPOS="108"
+                         HPOS="874">
+                  <String ID="string_r7l3"
+                          HEIGHT="45"
+                          WIDTH="563"
+                          VPOS="108"
+                          HPOS="874"
+                          CONTENT="Charlotte Barsdorf"/>
+               </TextLine>
+               <TextLine ID="r7l4"
+                         BASELINE="208"
+                         HEIGHT="42"
+                         WIDTH="656"
+                         VPOS="166"
+                         HPOS="878">
+                  <String ID="string_r7l4"
+                          HEIGHT="42"
+                          WIDTH="656"
+                          VPOS="166"
+                          HPOS="878"
+                          CONTENT="gestorben d 4 December 1874"/>
+               </TextLine>
+               <TextLine ID="r7l5"
+                         BASELINE="290"
+                         HEIGHT="57"
+                         WIDTH="578"
+                         VPOS="233"
+                         HPOS="861">
+                  <String ID="string_r7l5"
+                          HEIGHT="57"
+                          WIDTH="578"
+                          VPOS="233"
+                          HPOS="861"
+                          CONTENT="Freitag Abend 8 Uhr"/>
+               </TextLine>
+               <TextLine ID="r7l6"
+                         BASELINE="364"
+                         HEIGHT="64"
+                         WIDTH="704"
+                         VPOS="300"
+                         HPOS="840">
+                  <String ID="string_r7l6"
+                          HEIGHT="64"
+                          WIDTH="704"
+                          VPOS="300"
+                          HPOS="840"
+                          CONTENT="26 Tage des Monats Kislev"/>
+               </TextLine>
+               <TextLine ID="r7l7"
+                         BASELINE="424"
+                         HEIGHT="51"
+                         WIDTH="146"
+                         VPOS="373"
+                         HPOS="873">
+                  <String ID="string_r7l7"
+                          HEIGHT="51"
+                          WIDTH="146"
+                          VPOS="373"
+                          HPOS="873"
+                          CONTENT="5636."/>
+               </TextLine>
+               <TextLine ID="r7l8"
+                         BASELINE="422"
+                         HEIGHT="74"
+                         WIDTH="423"
+                         VPOS="348"
+                         HPOS="1077">
+                  <String ID="string_r7l8"
+                          HEIGHT="74"
+                          WIDTH="423"
+                          VPOS="348"
+                          HPOS="1077"
+                          CONTENT="hebr."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r8" HEIGHT="354" WIDTH="745" VPOS="435" HPOS="833">
+               <Shape>
+                  <Polygon POINTS="836,435 1578,435 1575,789 833,789"/>
+               </Shape>
+               <TextLine ID="r8l1"
+                         BASELINE="511"
+                         HEIGHT="36"
+                         WIDTH="118"
+                         VPOS="475"
+                         HPOS="1135">
+                  <String ID="string_r8l1"
+                          HEIGHT="36"
+                          WIDTH="118"
+                          VPOS="475"
+                          HPOS="1135"
+                          CONTENT="681."/>
+               </TextLine>
+               <TextLine ID="r8l2"
+                         BASELINE="548"
+                         HEIGHT="35"
+                         WIDTH="347"
+                         VPOS="513"
+                         HPOS="967">
+                  <String ID="string_r8l2"
+                          HEIGHT="35"
+                          WIDTH="347"
+                          VPOS="513"
+                          HPOS="967"
+                          CONTENT="I. S. Barsdorf"/>
+               </TextLine>
+               <TextLine ID="r8l3"
+                         BASELINE="585"
+                         HEIGHT="39"
+                         WIDTH="694"
+                         VPOS="546"
+                         HPOS="885">
+                  <String ID="string_r8l3"
+                          HEIGHT="39"
+                          WIDTH="694"
+                          VPOS="546"
+                          HPOS="885"
+                          CONTENT="gest: d. 3. September 1881. 10 Tage"/>
+               </TextLine>
+               <TextLine ID="r8l4"
+                         BASELINE="642"
+                         HEIGHT="41"
+                         WIDTH="605"
+                         VPOS="601"
+                         HPOS="866">
+                  <String ID="string_r8l4"
+                          HEIGHT="41"
+                          WIDTH="605"
+                          VPOS="601"
+                          HPOS="866"
+                          CONTENT="des Monats Ellul 5641."/>
+               </TextLine>
+               <TextLine ID="r8l5"
+                         BASELINE="691"
+                         HEIGHT="39"
+                         WIDTH="540"
+                         VPOS="652"
+                         HPOS="904">
+                  <String ID="string_r8l5"
+                          HEIGHT="39"
+                          WIDTH="540"
+                          VPOS="652"
+                          HPOS="904"
+                          CONTENT="Nachmittag 5 ¾ Uhr"/>
+               </TextLine>
+               <TextLine ID="r8l6"
+                         BASELINE="764"
+                         HEIGHT="45"
+                         WIDTH="123"
+                         VPOS="719"
+                         HPOS="960">
+                  <String ID="string_r8l6"
+                          HEIGHT="45"
+                          WIDTH="123"
+                          VPOS="719"
+                          HPOS="960"
+                          CONTENT="5641."/>
+               </TextLine>
+               <TextLine ID="r8l7"
+                         BASELINE="758"
+                         HEIGHT="53"
+                         WIDTH="295"
+                         VPOS="705"
+                         HPOS="1083">
+                  <String ID="string_r8l7"
+                          HEIGHT="53"
+                          WIDTH="295"
+                          VPOS="705"
+                          HPOS="1083"
+                          CONTENT="hebr"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r9" HEIGHT="383" WIDTH="745" VPOS="789" HPOS="830">
+               <Shape>
+                  <Polygon POINTS="833,789 1575,789 1572,1172 830,1172"/>
+               </Shape>
+               <TextLine ID="r9l1"
+                         BASELINE="852"
+                         HEIGHT="54"
+                         WIDTH="128"
+                         VPOS="798"
+                         HPOS="1163">
+                  <String ID="string_r9l1"
+                          HEIGHT="54"
+                          WIDTH="128"
+                          VPOS="798"
+                          HPOS="1163"
+                          CONTENT="682"/>
+               </TextLine>
+               <TextLine ID="r9l2"
+                         BASELINE="901"
+                         HEIGHT="37"
+                         WIDTH="448"
+                         VPOS="864"
+                         HPOS="862">
+                  <String ID="string_r9l2"
+                          HEIGHT="37"
+                          WIDTH="448"
+                          VPOS="864"
+                          HPOS="862"
+                          CONTENT="Frau H. Jacoby"/>
+               </TextLine>
+               <TextLine ID="r9l3"
+                         BASELINE="968"
+                         HEIGHT="51"
+                         WIDTH="668"
+                         VPOS="917"
+                         HPOS="904">
+                  <String ID="string_r9l3"
+                          HEIGHT="51"
+                          WIDTH="668"
+                          VPOS="917"
+                          HPOS="904"
+                          CONTENT="gestorben den 1ten Januar 1875"/>
+               </TextLine>
+               <TextLine ID="r9l4"
+                         BASELINE="1044"
+                         HEIGHT="55"
+                         WIDTH="643"
+                         VPOS="989"
+                         HPOS="899">
+                  <String ID="string_r9l4"
+                          HEIGHT="55"
+                          WIDTH="643"
+                          VPOS="989"
+                          HPOS="899"
+                          CONTENT="Mittag 12 Uhr 24 Tage"/>
+               </TextLine>
+               <TextLine ID="r9l5"
+                         BASELINE="1100"
+                         HEIGHT="55"
+                         WIDTH="644"
+                         VPOS="1045"
+                         HPOS="890">
+                  <String ID="string_r9l5"
+                          HEIGHT="55"
+                          WIDTH="644"
+                          VPOS="1045"
+                          HPOS="890"
+                          CONTENT="des Monats Tebeth 5635"/>
+               </TextLine>
+               <TextLine ID="r9l6"
+                         BASELINE="1151"
+                         HEIGHT="63"
+                         WIDTH="498"
+                         VPOS="1088"
+                         HPOS="1018">
+                  <String ID="string_r9l6"
+                          HEIGHT="63"
+                          WIDTH="498"
+                          VPOS="1088"
+                          HPOS="1018"
+                          CONTENT="hebr"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r10" HEIGHT="323" WIDTH="744" VPOS="1172" HPOS="828">
+               <Shape>
+                  <Polygon POINTS="830,1172 1572,1172 1570,1495 828,1495"/>
+               </Shape>
+               <TextLine ID="r10l1"
+                         BASELINE="1248"
+                         HEIGHT="36"
+                         WIDTH="123"
+                         VPOS="1212"
+                         HPOS="1142">
+                  <String ID="string_r10l1"
+                          HEIGHT="36"
+                          WIDTH="123"
+                          VPOS="1212"
+                          HPOS="1142"
+                          CONTENT="683"/>
+               </TextLine>
+               <TextLine ID="r10l2"
+                         BASELINE="1293"
+                         HEIGHT="39"
+                         WIDTH="482"
+                         VPOS="1254"
+                         HPOS="890">
+                  <String ID="string_r10l2"
+                          HEIGHT="39"
+                          WIDTH="482"
+                          VPOS="1254"
+                          HPOS="890"
+                          CONTENT="Hermann Jacoby"/>
+               </TextLine>
+               <TextLine ID="r10l3"
+                         BASELINE="1357"
+                         HEIGHT="41"
+                         WIDTH="682"
+                         VPOS="1316"
+                         HPOS="897">
+                  <String ID="string_r10l3"
+                          HEIGHT="41"
+                          WIDTH="682"
+                          VPOS="1316"
+                          HPOS="897"
+                          CONTENT="gest. d. 2 Januar 1884. Nachts"/>
+               </TextLine>
+               <TextLine ID="r10l4"
+                         BASELINE="1408"
+                         HEIGHT="40"
+                         WIDTH="366"
+                         VPOS="1368"
+                         HPOS="973">
+                  <String ID="string_r10l4"
+                          HEIGHT="40"
+                          WIDTH="366"
+                          VPOS="1368"
+                          HPOS="973"
+                          CONTENT="Tage des Monats"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r11" HEIGHT="461" WIDTH="752" VPOS="1495" HPOS="825">
+               <Shape>
+                  <Polygon POINTS="828,1495 1577,1496 1574,1956 825,1955"/>
+               </Shape>
+               <TextLine ID="r11l1"
+                         BASELINE="1579"
+                         HEIGHT="44"
+                         WIDTH="145"
+                         VPOS="1535"
+                         HPOS="1146">
+                  <String ID="string_r11l1"
+                          HEIGHT="44"
+                          WIDTH="145"
+                          VPOS="1535"
+                          HPOS="1146"
+                          CONTENT="684"/>
+               </TextLine>
+               <TextLine ID="r11l2"
+                         BASELINE="1645"
+                         HEIGHT="46"
+                         WIDTH="456"
+                         VPOS="1599"
+                         HPOS="907">
+                  <String ID="string_r11l2"
+                          HEIGHT="46"
+                          WIDTH="456"
+                          VPOS="1599"
+                          HPOS="907"
+                          CONTENT="Martha Bock"/>
+               </TextLine>
+               <TextLine ID="r11l3"
+                         BASELINE="1711"
+                         HEIGHT="42"
+                         WIDTH="680"
+                         VPOS="1669"
+                         HPOS="902">
+                  <String ID="string_r11l3"
+                          HEIGHT="42"
+                          WIDTH="680"
+                          VPOS="1669"
+                          HPOS="902"
+                          CONTENT="gestorben den 20. Februar 1875"/>
+               </TextLine>
+               <TextLine ID="r11l4"
+                         BASELINE="1791"
+                         HEIGHT="44"
+                         WIDTH="650"
+                         VPOS="1747"
+                         HPOS="897">
+                  <String ID="string_r11l4"
+                          HEIGHT="44"
+                          WIDTH="650"
+                          VPOS="1747"
+                          HPOS="897"
+                          CONTENT="Nachmittag 2 ¼ Uhr. 15 Tage"/>
+               </TextLine>
+               <TextLine ID="r11l5"
+                         BASELINE="1855"
+                         HEIGHT="40"
+                         WIDTH="579"
+                         VPOS="1815"
+                         HPOS="902">
+                  <String ID="string_r11l5"
+                          HEIGHT="40"
+                          WIDTH="579"
+                          VPOS="1815"
+                          HPOS="902"
+                          CONTENT="des Monals Adar 5635."/>
+               </TextLine>
+               <TextLine ID="r11l6"
+                         BASELINE="1923"
+                         HEIGHT="57"
+                         WIDTH="657"
+                         VPOS="1866"
+                         HPOS="886">
+                  <String ID="string_r11l6"
+                          HEIGHT="57"
+                          WIDTH="657"
+                          VPOS="1866"
+                          HPOS="886"
+                          CONTENT="hebr"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r12" HEIGHT="486" WIDTH="745" VPOS="1955" HPOS="822">
+               <Shape>
+                  <Polygon POINTS="825,1955 1567,1955 1564,2441 822,2441"/>
+               </Shape>
+               <TextLine ID="r12l1"
+                         BASELINE="2032"
+                         HEIGHT="43"
+                         WIDTH="149"
+                         VPOS="1989"
+                         HPOS="1133">
+                  <String ID="string_r12l1"
+                          HEIGHT="43"
+                          WIDTH="149"
+                          VPOS="1989"
+                          HPOS="1133"
+                          CONTENT="685"/>
+               </TextLine>
+               <TextLine ID="r12l2"
+                         BASELINE="2098"
+                         HEIGHT="39"
+                         WIDTH="614"
+                         VPOS="2059"
+                         HPOS="868">
+                  <String ID="string_r12l2"
+                          HEIGHT="39"
+                          WIDTH="614"
+                          VPOS="2059"
+                          HPOS="868"
+                          CONTENT="Benjamin Hochmann"/>
+               </TextLine>
+               <TextLine ID="r12l3"
+                         BASELINE="2153"
+                         HEIGHT="48"
+                         WIDTH="443"
+                         VPOS="2105"
+                         HPOS="904">
+                  <String ID="string_r12l3"
+                          HEIGHT="48"
+                          WIDTH="443"
+                          VPOS="2105"
+                          HPOS="904"
+                          CONTENT="aus Havelberg."/>
+               </TextLine>
+               <TextLine ID="r12l4"
+                         BASELINE="2214"
+                         HEIGHT="52"
+                         WIDTH="665"
+                         VPOS="2162"
+                         HPOS="887">
+                  <String ID="string_r12l4"
+                          HEIGHT="52"
+                          WIDTH="665"
+                          VPOS="2162"
+                          HPOS="887"
+                          CONTENT="gestorben den 18. Juli 1875"/>
+               </TextLine>
+               <TextLine ID="r12l5"
+                         BASELINE="2279"
+                         HEIGHT="52"
+                         WIDTH="631"
+                         VPOS="2227"
+                         HPOS="902">
+                  <String ID="string_r12l5"
+                          HEIGHT="52"
+                          WIDTH="631"
+                          VPOS="2227"
+                          HPOS="902"
+                          CONTENT="Abends, 15 Tage des Monats"/>
+               </TextLine>
+               <TextLine ID="r12l6"
+                         BASELINE="2369"
+                         HEIGHT="63"
+                         WIDTH="459"
+                         VPOS="2306"
+                         HPOS="913">
+                  <String ID="string_r12l6"
+                          HEIGHT="63"
+                          WIDTH="459"
+                          VPOS="2306"
+                          HPOS="913"
+                          CONTENT="Thamus 5635."/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

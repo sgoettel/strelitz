@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:04.281+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2570" WIDTH="1503">
+         <TopMargin HEIGHT="23" WIDTH="1503" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2535" WIDTH="714" VPOS="23" HPOS="0"/>
+         <RightMargin HEIGHT="2535" WIDTH="115" VPOS="23" HPOS="1388"/>
+         <BottomMargin HEIGHT="12" WIDTH="1503" VPOS="2558" HPOS="0"/>
+         <PrintSpace HEIGHT="2535" WIDTH="674" VPOS="23" HPOS="714">
+            <TextBlock ID="r1" HEIGHT="2502" WIDTH="693" VPOS="40" HPOS="698">
+               <Shape>
+                  <Polygon POINTS="738,40 698,2531 1351,2542 1391,51"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="118"
+                         HEIGHT="84"
+                         WIDTH="116"
+                         VPOS="34"
+                         HPOS="1283">
+                  <String ID="string_r1l1"
+                          HEIGHT="84"
+                          WIDTH="116"
+                          VPOS="34"
+                          HPOS="1283"
+                          CONTENT="65"/>
+               </TextLine>
+               <TextLine ID="r1l2"
+                         BASELINE="132"
+                         HEIGHT="66"
+                         WIDTH="557"
+                         VPOS="66"
+                         HPOS="739">
+                  <String ID="string_r1l2"
+                          HEIGHT="66"
+                          WIDTH="557"
+                          VPOS="66"
+                          HPOS="739"
+                          CONTENT="Ahron Loser No 19"/>
+               </TextLine>
+               <TextLine ID="r1l3"
+                         BASELINE="214"
+                         HEIGHT="88"
+                         WIDTH="594"
+                         VPOS="126"
+                         HPOS="735">
+                  <String ID="string_r1l3"
+                          HEIGHT="88"
+                          WIDTH="594"
+                          VPOS="126"
+                          HPOS="735"
+                          CONTENT="Abraham Peretz 25"/>
+               </TextLine>
+               <TextLine ID="r1l4"
+                         BASELINE="279"
+                         HEIGHT="95"
+                         WIDTH="591"
+                         VPOS="184"
+                         HPOS="742">
+                  <String ID="string_r1l4"
+                          HEIGHT="95"
+                          WIDTH="591"
+                          VPOS="184"
+                          HPOS="742"
+                          CONTENT="Abraham 31."/>
+               </TextLine>
+               <TextLine ID="r1l5"
+                         BASELINE="342"
+                         HEIGHT="104"
+                         WIDTH="602"
+                         VPOS="238"
+                         HPOS="736">
+                  <String ID="string_r1l5"
+                          HEIGHT="104"
+                          WIDTH="602"
+                          VPOS="238"
+                          HPOS="736"
+                          CONTENT="Ahron 34"/>
+               </TextLine>
+               <TextLine ID="r1l6"
+                         BASELINE="408"
+                         HEIGHT="123"
+                         WIDTH="622"
+                         VPOS="285"
+                         HPOS="719">
+                  <String ID="string_r1l6"
+                          HEIGHT="123"
+                          WIDTH="622"
+                          VPOS="285"
+                          HPOS="719"
+                          CONTENT="Abr Moses Masy 34."/>
+               </TextLine>
+               <TextLine ID="r1l7"
+                         BASELINE="474"
+                         HEIGHT="99"
+                         WIDTH="607"
+                         VPOS="375"
+                         HPOS="732">
+                  <String ID="string_r1l7"
+                          HEIGHT="99"
+                          WIDTH="607"
+                          VPOS="375"
+                          HPOS="732"
+                          CONTENT="Abr, Mos. Meseritz 54"/>
+               </TextLine>
+               <TextLine ID="r1l8"
+                         BASELINE="542"
+                         HEIGHT="99"
+                         WIDTH="613"
+                         VPOS="443"
+                         HPOS="722">
+                  <String ID="string_r1l8"
+                          HEIGHT="99"
+                          WIDTH="613"
+                          VPOS="443"
+                          HPOS="722"
+                          CONTENT="Abraham 59"/>
+               </TextLine>
+               <TextLine ID="r1l9"
+                         BASELINE="616"
+                         HEIGHT="102"
+                         WIDTH="617"
+                         VPOS="514"
+                         HPOS="723">
+                  <String ID="string_r1l9"
+                          HEIGHT="102"
+                          WIDTH="617"
+                          VPOS="514"
+                          HPOS="723"
+                          CONTENT="Abr, Cohn 91"/>
+               </TextLine>
+               <TextLine ID="r1l10"
+                         BASELINE="680"
+                         HEIGHT="105"
+                         WIDTH="598"
+                         VPOS="575"
+                         HPOS="739">
+                  <String ID="string_r1l10"
+                          HEIGHT="105"
+                          WIDTH="598"
+                          VPOS="575"
+                          HPOS="739"
+                          CONTENT="Abr, Liepman 131"/>
+               </TextLine>
+               <TextLine ID="r1l11"
+                         BASELINE="753"
+                         HEIGHT="107"
+                         WIDTH="609"
+                         VPOS="646"
+                         HPOS="735">
+                  <String ID="string_r1l11"
+                          HEIGHT="107"
+                          WIDTH="609"
+                          VPOS="646"
+                          HPOS="735"
+                          CONTENT="Ahron Friedländer 144"/>
+               </TextLine>
+               <TextLine ID="r1l12"
+                         BASELINE="836"
+                         HEIGHT="121"
+                         WIDTH="618"
+                         VPOS="715"
+                         HPOS="731">
+                  <String ID="string_r1l12"
+                          HEIGHT="121"
+                          WIDTH="618"
+                          VPOS="715"
+                          HPOS="731"
+                          CONTENT="Abrah, Balberschig 162"/>
+               </TextLine>
+               <TextLine ID="r1l13"
+                         BASELINE="904"
+                         HEIGHT="97"
+                         WIDTH="615"
+                         VPOS="807"
+                         HPOS="728">
+                  <String ID="string_r1l13"
+                          HEIGHT="97"
+                          WIDTH="615"
+                          VPOS="807"
+                          HPOS="728"
+                          CONTENT="Abr, Israel 175"/>
+               </TextLine>
+               <TextLine ID="r1l14"
+                         BASELINE="979"
+                         HEIGHT="122"
+                         WIDTH="631"
+                         VPOS="857"
+                         HPOS="718">
+                  <String ID="string_r1l14"
+                          HEIGHT="122"
+                          WIDTH="631"
+                          VPOS="857"
+                          HPOS="718"
+                          CONTENT="Ahr. Kaufmann 187"/>
+               </TextLine>
+               <TextLine ID="r1l15"
+                         BASELINE="1044"
+                         HEIGHT="112"
+                         WIDTH="639"
+                         VPOS="932"
+                         HPOS="711">
+                  <String ID="string_r1l15"
+                          HEIGHT="112"
+                          WIDTH="639"
+                          VPOS="932"
+                          HPOS="711"
+                          CONTENT="Ahr, Hirsch Prenzlau 212"/>
+               </TextLine>
+               <TextLine ID="r1l16"
+                         BASELINE="1124"
+                         HEIGHT="114"
+                         WIDTH="637"
+                         VPOS="1010"
+                         HPOS="708">
+                  <String ID="string_r1l16"
+                          HEIGHT="114"
+                          WIDTH="637"
+                          VPOS="1010"
+                          HPOS="708"
+                          CONTENT="Abrah Salomon 253"/>
+               </TextLine>
+               <TextLine ID="r1l17"
+                         BASELINE="1196"
+                         HEIGHT="100"
+                         WIDTH="637"
+                         VPOS="1096"
+                         HPOS="710">
+                  <String ID="string_r1l17"
+                          HEIGHT="100"
+                          WIDTH="637"
+                          VPOS="1096"
+                          HPOS="710"
+                          CONTENT="Ahr, Jacob hebr 272"/>
+               </TextLine>
+               <TextLine ID="r1l18"
+                         BASELINE="1272"
+                         HEIGHT="114"
+                         WIDTH="634"
+                         VPOS="1158"
+                         HPOS="714">
+                  <String ID="string_r1l18"
+                          HEIGHT="114"
+                          WIDTH="634"
+                          VPOS="1158"
+                          HPOS="714"
+                          CONTENT="Abraham Klesyner 287"/>
+               </TextLine>
+               <TextLine ID="r1l19"
+                         BASELINE="1366"
+                         HEIGHT="118"
+                         WIDTH="638"
+                         VPOS="1248"
+                         HPOS="698">
+                  <String ID="string_r1l19"
+                          HEIGHT="118"
+                          WIDTH="638"
+                          VPOS="1248"
+                          HPOS="698"
+                          CONTENT="Ahron Granse 320"/>
+               </TextLine>
+               <TextLine ID="r1l20"
+                         BASELINE="1447"
+                         HEIGHT="114"
+                         WIDTH="629"
+                         VPOS="1333"
+                         HPOS="703">
+                  <String ID="string_r1l20"
+                          HEIGHT="114"
+                          WIDTH="629"
+                          VPOS="1333"
+                          HPOS="703"
+                          CONTENT="Abr, Israel 324"/>
+               </TextLine>
+               <TextLine ID="r1l21"
+                         BASELINE="1517"
+                         HEIGHT="129"
+                         WIDTH="634"
+                         VPOS="1388"
+                         HPOS="696">
+                  <String ID="string_r1l21"
+                          HEIGHT="129"
+                          WIDTH="634"
+                          VPOS="1388"
+                          HPOS="696"
+                          CONTENT="Ahron Dan̄ewald: 340"/>
+               </TextLine>
+               <TextLine ID="r1l22"
+                         BASELINE="1595"
+                         HEIGHT="109"
+                         WIDTH="623"
+                         VPOS="1486"
+                         HPOS="710">
+                  <String ID="string_r1l22"
+                          HEIGHT="109"
+                          WIDTH="623"
+                          VPOS="1486"
+                          HPOS="710"
+                          CONTENT="Abrah: Masy 355"/>
+               </TextLine>
+               <TextLine ID="r1l23"
+                         BASELINE="1691"
+                         HEIGHT="124"
+                         WIDTH="612"
+                         VPOS="1567"
+                         HPOS="706">
+                  <String ID="string_r1l23"
+                          HEIGHT="124"
+                          WIDTH="612"
+                          VPOS="1567"
+                          HPOS="706"
+                          CONTENT="Ascher Schäfer 485"/>
+               </TextLine>
+               <TextLine ID="r1l24"
+                         BASELINE="1761"
+                         HEIGHT="98"
+                         WIDTH="473"
+                         VPOS="1663"
+                         HPOS="696">
+                  <String ID="string_r1l24"
+                          HEIGHT="98"
+                          WIDTH="473"
+                          VPOS="1663"
+                          HPOS="696"
+                          CONTENT="Abraham Loser"/>
+               </TextLine>
+               <TextLine ID="r1l25"
+                         BASELINE="1824"
+                         HEIGHT="114"
+                         WIDTH="578"
+                         VPOS="1710"
+                         HPOS="732">
+                  <String ID="string_r1l25"
+                          HEIGHT="114"
+                          WIDTH="578"
+                          VPOS="1710"
+                          HPOS="732"
+                          CONTENT="Ahrensdorff 534"/>
+               </TextLine>
+               <TextLine ID="r1l26"
+                         BASELINE="1883"
+                         HEIGHT="101"
+                         WIDTH="602"
+                         VPOS="1782"
+                         HPOS="710">
+                  <String ID="string_r1l26"
+                          HEIGHT="101"
+                          WIDTH="602"
+                          VPOS="1782"
+                          HPOS="710"
+                          CONTENT="Ahron Salomonson 541"/>
+               </TextLine>
+               <TextLine ID="r1l27"
+                         BASELINE="1962"
+                         HEIGHT="126"
+                         WIDTH="618"
+                         VPOS="1836"
+                         HPOS="700">
+                  <String ID="string_r1l27"
+                          HEIGHT="126"
+                          WIDTH="618"
+                          VPOS="1836"
+                          HPOS="700"
+                          CONTENT="Abrah: D. Defflis 537"/>
+               </TextLine>
+               <TextLine ID="r1l28"
+                         BASELINE="2034"
+                         HEIGHT="92"
+                         WIDTH="563"
+                         VPOS="1942"
+                         HPOS="732">
+                  <String ID="string_r1l28"
+                          HEIGHT="92"
+                          WIDTH="563"
+                          VPOS="1942"
+                          HPOS="732"
+                          CONTENT="Ahrensdorf Ahron 581"/>
+               </TextLine>
+               <TextLine ID="r1l29"
+                         BASELINE="2091"
+                         HEIGHT="81"
+                         WIDTH="575"
+                         VPOS="2010"
+                         HPOS="728">
+                  <String ID="string_r1l29"
+                          HEIGHT="81"
+                          WIDTH="575"
+                          VPOS="2010"
+                          HPOS="728"
+                          CONTENT="Ahrensdorf Röse ? 595."/>
+               </TextLine>
+               <TextLine ID="r1l30"
+                         BASELINE="2170"
+                         HEIGHT="105"
+                         WIDTH="601"
+                         VPOS="2065"
+                         HPOS="716">
+                  <String ID="string_r1l30"
+                          HEIGHT="105"
+                          WIDTH="601"
+                          VPOS="2065"
+                          HPOS="716"
+                          CONTENT="Wittwe Loser Ahrensdorf 621"/>
+               </TextLine>
+               <TextLine ID="r1l31"
+                         BASELINE="2192"
+                         HEIGHT="70"
+                         WIDTH="356"
+                         VPOS="2122"
+                         HPOS="717">
+                  <String ID="string_r1l31"
+                          HEIGHT="70"
+                          WIDTH="356"
+                          VPOS="2122"
+                          HPOS="717"
+                          CONTENT="Wittwe Aron"/>
+               </TextLine>
+               <TextLine ID="r1l32"
+                         BASELINE="2257"
+                         HEIGHT="97"
+                         WIDTH="584"
+                         VPOS="2160"
+                         HPOS="752">
+                  <String ID="string_r1l32"
+                          HEIGHT="97"
+                          WIDTH="584"
+                          VPOS="2160"
+                          HPOS="752"
+                          CONTENT="Neu-Brandenburg 628"/>
+               </TextLine>
+               <TextLine ID="r1l33"
+                         BASELINE="2305"
+                         HEIGHT="85"
+                         WIDTH="594"
+                         VPOS="2220"
+                         HPOS="729">
+                  <String ID="string_r1l33"
+                          HEIGHT="85"
+                          WIDTH="594"
+                          VPOS="2220"
+                          HPOS="729"
+                          CONTENT="Allexander Adolph 631"/>
+               </TextLine>
+               <TextLine ID="r1l34"
+                         BASELINE="2367"
+                         HEIGHT="88"
+                         WIDTH="607"
+                         VPOS="2279"
+                         HPOS="712">
+                  <String ID="string_r1l34"
+                          HEIGHT="88"
+                          WIDTH="607"
+                          VPOS="2279"
+                          HPOS="712"
+                          CONTENT="Ahrensdorf, Röse 595"/>
+               </TextLine>
+               <TextLine ID="r1l35"
+                         BASELINE="2425"
+                         HEIGHT="91"
+                         WIDTH="608"
+                         VPOS="2334"
+                         HPOS="700">
+                  <String ID="string_r1l35"
+                          HEIGHT="91"
+                          WIDTH="608"
+                          VPOS="2334"
+                          HPOS="700"
+                          CONTENT="Ahrensdorf Friedchen 649"/>
+               </TextLine>
+               <TextLine ID="r1l36"
+                         BASELINE="2486"
+                         HEIGHT="97"
+                         WIDTH="613"
+                         VPOS="2389"
+                         HPOS="701">
+                  <String ID="string_r1l36"
+                          HEIGHT="97"
+                          WIDTH="613"
+                          VPOS="2389"
+                          HPOS="701"
+                          CONTENT="Abraham, Henriette gena"/>
+               </TextLine>
+               <TextLine ID="r1l37"
+                         BASELINE="2539"
+                         HEIGHT="92"
+                         WIDTH="593"
+                         VPOS="2447"
+                         HPOS="719">
+                  <String ID="string_r1l37"
+                          HEIGHT="92"
+                          WIDTH="593"
+                          VPOS="2447"
+                          HPOS="719"
+                          CONTENT="nan̄t Jette, Mindel 725"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

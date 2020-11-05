@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:06.44+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2533" WIDTH="1562">
+         <TopMargin HEIGHT="5" WIDTH="1562" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2254" WIDTH="780" VPOS="5" HPOS="0"/>
+         <RightMargin HEIGHT="2254" WIDTH="2" VPOS="5" HPOS="1560"/>
+         <BottomMargin HEIGHT="274" WIDTH="1562" VPOS="2259" HPOS="0"/>
+         <PrintSpace HEIGHT="2254" WIDTH="780" VPOS="5" HPOS="780">
+            <TextBlock ID="r1" HEIGHT="2250" WIDTH="698" VPOS="17" HPOS="772">
+               <Shape>
+                  <Polygon POINTS="772,17 778,2263 1470,2267 1464,21"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="92"
+                         HEIGHT="64"
+                         WIDTH="97"
+                         VPOS="28"
+                         HPOS="1253">
+                  <String ID="string_r1l1"
+                          HEIGHT="64"
+                          WIDTH="97"
+                          VPOS="28"
+                          HPOS="1253"
+                          CONTENT="76"/>
+               </TextLine>
+               <TextLine ID="r1l2"
+                         BASELINE="153"
+                         HEIGHT="87"
+                         WIDTH="638"
+                         VPOS="66"
+                         HPOS="801">
+                  <String ID="string_r1l2"
+                          HEIGHT="87"
+                          WIDTH="638"
+                          VPOS="66"
+                          HPOS="801"
+                          CONTENT="Debora Wolff 84"/>
+               </TextLine>
+               <TextLine ID="r1l3"
+                         BASELINE="236"
+                         HEIGHT="70"
+                         WIDTH="636"
+                         VPOS="166"
+                         HPOS="794">
+                  <String ID="string_r1l3"
+                          HEIGHT="70"
+                          WIDTH="636"
+                          VPOS="166"
+                          HPOS="794"
+                          CONTENT="Dresel Emanuel 115"/>
+               </TextLine>
+               <TextLine ID="r1l4"
+                         BASELINE="350"
+                         HEIGHT="81"
+                         WIDTH="512"
+                         VPOS="269"
+                         HPOS="787">
+                  <String ID="string_r1l4"
+                          HEIGHT="81"
+                          WIDTH="512"
+                          VPOS="269"
+                          HPOS="787"
+                          CONTENT="Daniel Joseph"/>
+               </TextLine>
+               <TextLine ID="r1l5"
+                         BASELINE="385"
+                         HEIGHT="61"
+                         WIDTH="597"
+                         VPOS="324"
+                         HPOS="824">
+                  <String ID="string_r1l5"
+                          HEIGHT="61"
+                          WIDTH="597"
+                          VPOS="324"
+                          HPOS="824"
+                          CONTENT="Jonas 141"/>
+               </TextLine>
+               <TextLine ID="r1l6"
+                         BASELINE="472"
+                         HEIGHT="72"
+                         WIDTH="641"
+                         VPOS="400"
+                         HPOS="788">
+                  <String ID="string_r1l6"
+                          HEIGHT="72"
+                          WIDTH="641"
+                          VPOS="400"
+                          HPOS="788"
+                          CONTENT="Debora Michaeli 152"/>
+               </TextLine>
+               <TextLine ID="r1l7"
+                         BASELINE="547"
+                         HEIGHT="79"
+                         WIDTH="634"
+                         VPOS="468"
+                         HPOS="783">
+                  <String ID="string_r1l7"
+                          HEIGHT="79"
+                          WIDTH="634"
+                          VPOS="468"
+                          HPOS="783"
+                          CONTENT="Dan Herz Halberst. 160"/>
+               </TextLine>
+               <TextLine ID="r1l8"
+                         BASELINE="633"
+                         HEIGHT="88"
+                         WIDTH="636"
+                         VPOS="545"
+                         HPOS="788">
+                  <String ID="string_r1l8"
+                          HEIGHT="88"
+                          WIDTH="636"
+                          VPOS="545"
+                          HPOS="788"
+                          CONTENT="Daniel Joseph 168"/>
+               </TextLine>
+               <TextLine ID="r1l9"
+                         BASELINE="703"
+                         HEIGHT="76"
+                         WIDTH="633"
+                         VPOS="627"
+                         HPOS="795">
+                  <String ID="string_r1l9"
+                          HEIGHT="76"
+                          WIDTH="633"
+                          VPOS="627"
+                          HPOS="795"
+                          CONTENT="Dani. Alexander 180"/>
+               </TextLine>
+               <TextLine ID="r1l10"
+                         BASELINE="781"
+                         HEIGHT="82"
+                         WIDTH="625"
+                         VPOS="699"
+                         HPOS="791">
+                  <String ID="string_r1l10"
+                          HEIGHT="82"
+                          WIDTH="625"
+                          VPOS="699"
+                          HPOS="791"
+                          CONTENT="Droschne Süsse 213"/>
+               </TextLine>
+               <TextLine ID="r1l11"
+                         BASELINE="877"
+                         HEIGHT="88"
+                         WIDTH="621"
+                         VPOS="789"
+                         HPOS="789">
+                  <String ID="string_r1l11"
+                          HEIGHT="88"
+                          WIDTH="621"
+                          VPOS="789"
+                          HPOS="789"
+                          CONTENT="Debore Joel 226"/>
+               </TextLine>
+               <TextLine ID="r1l12"
+                         BASELINE="948"
+                         HEIGHT="83"
+                         WIDTH="621"
+                         VPOS="865"
+                         HPOS="794">
+                  <String ID="string_r1l12"
+                          HEIGHT="83"
+                          WIDTH="621"
+                          VPOS="865"
+                          HPOS="794"
+                          CONTENT="Dine Danenuw 245"/>
+               </TextLine>
+               <TextLine ID="r1l13"
+                         BASELINE="1018"
+                         HEIGHT="86"
+                         WIDTH="642"
+                         VPOS="932"
+                         HPOS="790">
+                  <String ID="string_r1l13"
+                          HEIGHT="86"
+                          WIDTH="642"
+                          VPOS="932"
+                          HPOS="790"
+                          CONTENT="Debora Dargun 276"/>
+               </TextLine>
+               <TextLine ID="r1l14"
+                         BASELINE="1086"
+                         HEIGHT="75"
+                         WIDTH="631"
+                         VPOS="1011"
+                         HPOS="784">
+                  <String ID="string_r1l14"
+                          HEIGHT="75"
+                          WIDTH="631"
+                          VPOS="1011"
+                          HPOS="784"
+                          CONTENT="Dine Masy 283"/>
+               </TextLine>
+               <TextLine ID="r1l15"
+                         BASELINE="1165"
+                         HEIGHT="78"
+                         WIDTH="639"
+                         VPOS="1087"
+                         HPOS="789">
+                  <String ID="string_r1l15"
+                          HEIGHT="78"
+                          WIDTH="639"
+                          VPOS="1087"
+                          HPOS="789"
+                          CONTENT="Deiche Herich 297"/>
+               </TextLine>
+               <TextLine ID="r1l16"
+                         BASELINE="1241"
+                         HEIGHT="70"
+                         WIDTH="620"
+                         VPOS="1171"
+                         HPOS="789">
+                  <String ID="string_r1l16"
+                          HEIGHT="70"
+                          WIDTH="620"
+                          VPOS="1171"
+                          HPOS="789"
+                          CONTENT="Debore Abrah. 314"/>
+               </TextLine>
+               <TextLine ID="r1l17"
+                         BASELINE="1329"
+                         HEIGHT="75"
+                         WIDTH="625"
+                         VPOS="1254"
+                         HPOS="786">
+                  <String ID="string_r1l17"
+                          HEIGHT="75"
+                          WIDTH="625"
+                          VPOS="1254"
+                          HPOS="786"
+                          CONTENT="Debore Masy 323"/>
+               </TextLine>
+               <TextLine ID="r1l18"
+                         BASELINE="1412"
+                         HEIGHT="77"
+                         WIDTH="623"
+                         VPOS="1335"
+                         HPOS="799">
+                  <String ID="string_r1l18"
+                          HEIGHT="77"
+                          WIDTH="623"
+                          VPOS="1335"
+                          HPOS="799"
+                          CONTENT="David Moses 334"/>
+               </TextLine>
+               <TextLine ID="r1l19"
+                         BASELINE="1496"
+                         HEIGHT="84"
+                         WIDTH="632"
+                         VPOS="1412"
+                         HPOS="797">
+                  <String ID="string_r1l19"
+                          HEIGHT="84"
+                          WIDTH="632"
+                          VPOS="1412"
+                          HPOS="797"
+                          CONTENT="David Defflis 447"/>
+               </TextLine>
+               <TextLine ID="r1l20"
+                         BASELINE="1577"
+                         HEIGHT="73"
+                         WIDTH="644"
+                         VPOS="1504"
+                         HPOS="794">
+                  <String ID="string_r1l20"
+                          HEIGHT="73"
+                          WIDTH="644"
+                          VPOS="1504"
+                          HPOS="794"
+                          CONTENT="Deworel Fursthg. 473"/>
+               </TextLine>
+               <TextLine ID="r1l21"
+                         BASELINE="1672"
+                         HEIGHT="84"
+                         WIDTH="624"
+                         VPOS="1588"
+                         HPOS="790">
+                  <String ID="string_r1l21"
+                          HEIGHT="84"
+                          WIDTH="624"
+                          VPOS="1588"
+                          HPOS="790"
+                          CONTENT="Dine Herichberg 492"/>
+               </TextLine>
+               <TextLine ID="r1l22"
+                         BASELINE="1731"
+                         HEIGHT="68"
+                         WIDTH="621"
+                         VPOS="1663"
+                         HPOS="799">
+                  <String ID="string_r1l22"
+                          HEIGHT="68"
+                          WIDTH="621"
+                          VPOS="1663"
+                          HPOS="799"
+                          CONTENT="Defflis Stheindel 535b."/>
+               </TextLine>
+               <TextLine ID="r1l23"
+                         BASELINE="1833"
+                         HEIGHT="70"
+                         WIDTH="590"
+                         VPOS="1763"
+                         HPOS="840">
+                  <String ID="string_r1l23"
+                          HEIGHT="70"
+                          WIDTH="590"
+                          VPOS="1763"
+                          HPOS="840"
+                          CONTENT="Defflis Wittwe 562a"/>
+               </TextLine>
+               <TextLine ID="r1l24"
+                         BASELINE="1909"
+                         HEIGHT="65"
+                         WIDTH="597"
+                         VPOS="1844"
+                         HPOS="809">
+                  <String ID="string_r1l24"
+                          HEIGHT="65"
+                          WIDTH="597"
+                          VPOS="1844"
+                          HPOS="809"
+                          CONTENT="Defflis Devid 654"/>
+               </TextLine>
+               <TextLine ID="r1l25"
+                         BASELINE="2003"
+                         HEIGHT="65"
+                         WIDTH="625"
+                         VPOS="1938"
+                         HPOS="802">
+                  <String ID="string_r1l25"
+                          HEIGHT="65"
+                          WIDTH="625"
+                          VPOS="1938"
+                          HPOS="802"
+                          CONTENT="Defflis Benjamin 655"/>
+               </TextLine>
+               <TextLine ID="r1l26"
+                         BASELINE="2081"
+                         HEIGHT="73"
+                         WIDTH="603"
+                         VPOS="2008"
+                         HPOS="816">
+                  <String ID="string_r1l26"
+                          HEIGHT="73"
+                          WIDTH="603"
+                          VPOS="2008"
+                          HPOS="816"
+                          CONTENT="Defflis, Fanny 672"/>
+               </TextLine>
+               <TextLine ID="r1l27"
+                         BASELINE="2132"
+                         HEIGHT="66"
+                         WIDTH="501"
+                         VPOS="2066"
+                         HPOS="801">
+                  <String ID="string_r1l27"
+                          HEIGHT="66"
+                          WIDTH="501"
+                          VPOS="2066"
+                          HPOS="801"
+                          CONTENT="Defflis unvereh. Helene"/>
+               </TextLine>
+               <TextLine ID="r1l28"
+                         BASELINE="2185"
+                         HEIGHT="67"
+                         WIDTH="473"
+                         VPOS="2118"
+                         HPOS="939">
+                  <String ID="string_r1l28"
+                          HEIGHT="67"
+                          WIDTH="473"
+                          VPOS="2118"
+                          HPOS="939"
+                          CONTENT="genannt Lethe 742"/>
+               </TextLine>
+               <TextLine ID="r1l29"
+                         BASELINE="2251"
+                         HEIGHT="78"
+                         WIDTH="627"
+                         VPOS="2173"
+                         HPOS="777">
+                  <String ID="string_r1l29"
+                          HEIGHT="78"
+                          WIDTH="627"
+                          VPOS="2173"
+                          HPOS="777"
+                          CONTENT="Defflis, Rosalie 761."/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:04.638+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2577" WIDTH="1525">
+         <TopMargin HEIGHT="65" WIDTH="1525" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="651" WIDTH="41" VPOS="65" HPOS="0"/>
+         <RightMargin HEIGHT="651" WIDTH="400" VPOS="65" HPOS="1125"/>
+         <BottomMargin HEIGHT="1861" WIDTH="1525" VPOS="716" HPOS="0"/>
+         <PrintSpace HEIGHT="651" WIDTH="1084" VPOS="65" HPOS="41">
+            <TextBlock ID="r1" HEIGHT="148" WIDTH="188" VPOS="61" HPOS="910">
+               <Shape>
+                  <Polygon POINTS="910,61 1098,61 1098,209 910,209"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="164"
+                         HEIGHT="59"
+                         WIDTH="118"
+                         VPOS="105"
+                         HPOS="949">
+                  <String ID="string_r1l1"
+                          HEIGHT="59"
+                          WIDTH="118"
+                          VPOS="105"
+                          HPOS="949"
+                          CONTENT="66"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="570" WIDTH="644" VPOS="94" HPOS="75">
+               <Shape>
+                  <Polygon POINTS="77,94 75,664 717,664 719,94"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="189"
+                         HEIGHT="72"
+                         WIDTH="597"
+                         VPOS="117"
+                         HPOS="85">
+                  <String ID="string_r2l1"
+                          HEIGHT="72"
+                          WIDTH="597"
+                          VPOS="117"
+                          HPOS="85"
+                          CONTENT="Alexander M. 724"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="262"
+                         HEIGHT="83"
+                         WIDTH="627"
+                         VPOS="179"
+                         HPOS="74">
+                  <String ID="string_r2l2"
+                          HEIGHT="83"
+                          WIDTH="627"
+                          VPOS="179"
+                          HPOS="74"
+                          CONTENT="Abraham, Amalie 728."/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="311"
+                         HEIGHT="57"
+                         WIDTH="620"
+                         VPOS="254"
+                         HPOS="85">
+                  <String ID="string_r2l3"
+                          HEIGHT="57"
+                          WIDTH="620"
+                          VPOS="254"
+                          HPOS="85"
+                          CONTENT="Alexander Johanna 753."/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="378"
+                         HEIGHT="57"
+                         WIDTH="479"
+                         VPOS="321"
+                         HPOS="77">
+                  <String ID="string_r2l4"
+                          HEIGHT="57"
+                          WIDTH="479"
+                          VPOS="321"
+                          HPOS="77"
+                          CONTENT="Akexander Fanny"/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="436"
+                         HEIGHT="59"
+                         WIDTH="574"
+                         VPOS="377"
+                         HPOS="147">
+                  <String ID="string_r2l5"
+                          HEIGHT="59"
+                          WIDTH="574"
+                          VPOS="377"
+                          HPOS="147"
+                          CONTENT="geb. Schlesinger 725"/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="517"
+                         HEIGHT="59"
+                         WIDTH="593"
+                         VPOS="458"
+                         HPOS="83">
+                  <String ID="string_r2l6"
+                          HEIGHT="59"
+                          WIDTH="593"
+                          VPOS="458"
+                          HPOS="83"
+                          CONTENT="Ahrensdort Frau Dr"/>
+               </TextLine>
+               <TextLine ID="r2l7"
+                         BASELINE="607"
+                         HEIGHT="93"
+                         WIDTH="620"
+                         VPOS="514"
+                         HPOS="112">
+                  <String ID="string_r2l7"
+                          HEIGHT="93"
+                          WIDTH="620"
+                          VPOS="514"
+                          HPOS="112"
+                          CONTENT="Caroline geb. Stavenhagen 789."/>
+               </TextLine>
+               <TextLine ID="r2l8"
+                         BASELINE="642"
+                         HEIGHT="58"
+                         WIDTH="513"
+                         VPOS="584"
+                         HPOS="83">
+                  <String ID="string_r2l8"
+                          HEIGHT="58"
+                          WIDTH="513"
+                          VPOS="584"
+                          HPOS="83"
+                          CONTENT="Ahrensdorf, Dr. 788."/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

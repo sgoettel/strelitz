@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-10-26T17:12:17.844+01:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2532" WIDTH="1531">
+         <TopMargin HEIGHT="0" WIDTH="1531" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2532" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2532" WIDTH="0" VPOS="0" HPOS="1531"/>
+         <BottomMargin HEIGHT="0" WIDTH="1531" VPOS="2532" HPOS="0"/>
+         <PrintSpace HEIGHT="2532" WIDTH="1531" VPOS="0" HPOS="0">
+            <TextBlock ID="r1" HEIGHT="129" WIDTH="124" VPOS="29" HPOS="542">
+               <Shape>
+                  <Polygon POINTS="542,29 666,29 666,158 542,158"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="129"
+                         HEIGHT="86"
+                         WIDTH="112"
+                         VPOS="43"
+                         HPOS="551">
+                  <String ID="string_r1l1"
+                          HEIGHT="86"
+                          WIDTH="112"
+                          VPOS="43"
+                          HPOS="551"
+                          CONTENT="93"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r2" HEIGHT="1133" WIDTH="766" VPOS="42" HPOS="742">
+               <Shape>
+                  <Polygon POINTS="748,42 742,1171 1502,1175 1508,46"/>
+               </Shape>
+               <TextLine ID="r2l1"
+                         BASELINE="150"
+                         HEIGHT="93"
+                         WIDTH="693"
+                         VPOS="57"
+                         HPOS="748">
+                  <String ID="string_r2l1"
+                          HEIGHT="93"
+                          WIDTH="693"
+                          VPOS="57"
+                          HPOS="748"
+                          CONTENT="Vogel Gugenheim 70"/>
+               </TextLine>
+               <TextLine ID="r2l2"
+                         BASELINE="234"
+                         HEIGHT="107"
+                         WIDTH="721"
+                         VPOS="127"
+                         HPOS="751">
+                  <String ID="string_r2l2"
+                          HEIGHT="107"
+                          WIDTH="721"
+                          VPOS="127"
+                          HPOS="751"
+                          CONTENT="Vogel Levin Emanuel 77"/>
+               </TextLine>
+               <TextLine ID="r2l3"
+                         BASELINE="317"
+                         HEIGHT="119"
+                         WIDTH="729"
+                         VPOS="198"
+                         HPOS="749">
+                  <String ID="string_r2l3"
+                          HEIGHT="119"
+                          WIDTH="729"
+                          VPOS="198"
+                          HPOS="749"
+                          CONTENT="Vogel Jos. Masy 159"/>
+               </TextLine>
+               <TextLine ID="r2l4"
+                         BASELINE="396"
+                         HEIGHT="122"
+                         WIDTH="724"
+                         VPOS="274"
+                         HPOS="747">
+                  <String ID="string_r2l4"
+                          HEIGHT="122"
+                          WIDTH="724"
+                          VPOS="274"
+                          HPOS="747"
+                          CONTENT="Vögelch Hirschberg 177"/>
+               </TextLine>
+               <TextLine ID="r2l5"
+                         BASELINE="480"
+                         HEIGHT="100"
+                         WIDTH="718"
+                         VPOS="380"
+                         HPOS="755">
+                  <String ID="string_r2l5"
+                          HEIGHT="100"
+                          WIDTH="718"
+                          VPOS="380"
+                          HPOS="755"
+                          CONTENT="Vogel Ab. Prenzlauer 193"/>
+               </TextLine>
+               <TextLine ID="r2l6"
+                         BASELINE="555"
+                         HEIGHT="99"
+                         WIDTH="731"
+                         VPOS="456"
+                         HPOS="751">
+                  <String ID="string_r2l6"
+                          HEIGHT="99"
+                          WIDTH="731"
+                          VPOS="456"
+                          HPOS="751"
+                          CONTENT="Vögelche 234"/>
+               </TextLine>
+               <TextLine ID="r2l7"
+                         BASELINE="636"
+                         HEIGHT="104"
+                         WIDTH="711"
+                         VPOS="532"
+                         HPOS="747">
+                  <String ID="string_r2l7"
+                          HEIGHT="104"
+                          WIDTH="711"
+                          VPOS="532"
+                          HPOS="747"
+                          CONTENT="Vogel Israel 250"/>
+               </TextLine>
+               <TextLine ID="r2l8"
+                         BASELINE="708"
+                         HEIGHT="106"
+                         WIDTH="730"
+                         VPOS="602"
+                         HPOS="750">
+                  <String ID="string_r2l8"
+                          HEIGHT="106"
+                          WIDTH="730"
+                          VPOS="602"
+                          HPOS="750"
+                          CONTENT="Vogel Wittstock 478"/>
+               </TextLine>
+               <TextLine ID="r2l9"
+                         BASELINE="776"
+                         HEIGHT="107"
+                         WIDTH="713"
+                         VPOS="669"
+                         HPOS="761">
+                  <String ID="string_r2l9"
+                          HEIGHT="107"
+                          WIDTH="713"
+                          VPOS="669"
+                          HPOS="761"
+                          CONTENT="Vogel Eisac 489"/>
+               </TextLine>
+               <TextLine ID="r2l10"
+                         BASELINE="848"
+                         HEIGHT="100"
+                         WIDTH="693"
+                         VPOS="748"
+                         HPOS="773">
+                  <String ID="string_r2l10"
+                          HEIGHT="100"
+                          WIDTH="693"
+                          VPOS="748"
+                          HPOS="773"
+                          CONTENT="Veit Beile Hirsch 530."/>
+               </TextLine>
+               <TextLine ID="r2l11"
+                         BASELINE="913"
+                         HEIGHT="92"
+                         WIDTH="685"
+                         VPOS="821"
+                         HPOS="755">
+                  <String ID="string_r2l11"
+                          HEIGHT="92"
+                          WIDTH="685"
+                          VPOS="821"
+                          HPOS="755"
+                          CONTENT="Veit Levi Meyer 670"/>
+               </TextLine>
+               <TextLine ID="r2l12"
+                         BASELINE="973"
+                         HEIGHT="64"
+                         WIDTH="684"
+                         VPOS="909"
+                         HPOS="758">
+                  <String ID="string_r2l12"
+                          HEIGHT="64"
+                          WIDTH="684"
+                          VPOS="909"
+                          HPOS="758"
+                          CONTENT="Veit Michaelis Meyer 735"/>
+               </TextLine>
+               <TextLine ID="r2l13"
+                         BASELINE="1039"
+                         HEIGHT="61"
+                         WIDTH="610"
+                         VPOS="978"
+                         HPOS="749">
+                  <String ID="string_r2l13"
+                          HEIGHT="61"
+                          WIDTH="610"
+                          VPOS="978"
+                          HPOS="749"
+                          CONTENT="Veit, Frau des verst."/>
+               </TextLine>
+               <TextLine ID="r2l14"
+                         BASELINE="1092"
+                         HEIGHT="55"
+                         WIDTH="586"
+                         VPOS="1037"
+                         HPOS="886">
+                  <String ID="string_r2l14"
+                          HEIGHT="55"
+                          WIDTH="586"
+                          VPOS="1037"
+                          HPOS="886"
+                          CONTENT="Leib Meyer Veit 737"/>
+               </TextLine>
+               <TextLine ID="r2l15"
+                         BASELINE="1165"
+                         HEIGHT="66"
+                         WIDTH="735"
+                         VPOS="1099"
+                         HPOS="742">
+                  <String ID="string_r2l15"
+                          HEIGHT="66"
+                          WIDTH="735"
+                          VPOS="1099"
+                          HPOS="742"
+                          CONTENT="Veit, Bertha Meyer senr. 736"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>
