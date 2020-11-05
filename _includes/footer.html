@@ -1,6 +1,12 @@
-<footer class="footer">
-  {% for item in site.data.settings.social %}
-    <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
-  {% endfor %}
-  <div class="post-date"><a href="{{ site.github.url }}/">{{ site.title }} | {{ site.description }} by {{ site.author }}</a></div>
+<footer class="site-footer">
+    <p class="text">
+        {{ site.footer_text | default: "Powered by <a href='https://jekyllrb.com/'>Jekyll</a> with <a href='https://github.com/sylhare/Type-on-Strap'>Type on Strap</a>" }}</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled -->
+                {% include icons.html %}
+                </ul>
+            </div>
 </footer>
+
+
