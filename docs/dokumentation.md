@@ -4,7 +4,7 @@ title: "Dokumentation"
 ---
 
 Der folgende Artikel zeigt die einzelnen Schritte auf die angewandt wurden, um das Friedhofsregister der jüdischen Gemeinde zu Strelitz so aufzubereiten, dass es volltextdurchsuchbar, maschinenlesbar, XML-annotiert und im Ausgangsformat als TEI/XML sowie ALTO verfügbar ist. Am Ende stehen zwei „Produkte“: Einerseits die Ansicht des TEIs im Deutschen Textarchiv, zur Korrektur und vollen Nutzbarkeit des TEI; andererseits die Ansicht im DFG-Viewer mittels generierter METS, zur zeilengenauen Ansicht des transkribierten Textes.  
-Es wurde der Versuch unternommen, die dafür notwendigen Schritte und verwendeten Tools bestmöglichst zu erläutern. Ein kurzer historischer Abriss zur jüdischen Gemeinde zu Strelitz, der auch die Motivation dieses Vorhabens begründet, findet sich unter dem Menüpunkt „Über das Register“.
+Es wurde der Versuch unternommen, die dafür notwendigen Schritte und verwendeten Tools bestmöglichst zu erläutern. Ein kurzer historischer Abriss zur jüdischen Gemeinde zu Strelitz, der auch die Motivation dieses Vorhabens begründet, findet sich unter dem Menüpunkt [„Über das Friedhofsregister“](docs/about.md).
 
  1. [Preprocessing](#preprocessing)
  2. [Layouterkennung, Transkription und Annotation in Transkribus](#transkribus)
