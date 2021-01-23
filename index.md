@@ -2,8 +2,6 @@
 layout: default
 ---
 
-[Über das Friedhofsregister](docs/about.md)
-
-[Dokumentation der Digitalisierung](docs/dokumentation.md)
+[Detaillierte Dokumentation über das Friedhofsregister](https://sprache.hypotheses.org/2281)
 
 [Digitalisate](docs/digitalisate.md)
