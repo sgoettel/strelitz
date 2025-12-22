@@ -1,0 +1,15 @@
+{
+  "name": "strelitz-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "eleventy --serve --watch --input=site --output=dist",
+    "build": "eleventy --input=site --output=dist"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "openseadragon": "^4.1.1"
+  }
+}

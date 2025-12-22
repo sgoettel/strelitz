@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Start | Friedhofsregister Strelitz</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><a href="/">Friedhofsregister Strelitz</a></div>
+      <nav class="site-nav">
+        <a href="/">Start</a>
+        <a href="/search/">Suchen</a>
+        <a href="/digitalisate/">Digitalisate</a>
+        <a href="/downloads/">Downloads</a>
+        <a href="/about/">Über</a>
+        <a href="/impressum/">Impressum</a>
+      </nav>
+    </div>
+  </header>
+  <main class="site-main container">
+    <section class="hero">
+      <h1>Friedhofsregister der jüdischen Gemeinde Strelitz</h1>
+      <p>Suche nach Einträgen, blättere im Register und öffne die hochauflösenden Scans direkt im OpenSeadragon Viewer. Die Metadaten und Digitalisate bleiben unverändert im bestehenden Datenpfad.</p>
+      <div class="button-row">
+        <a class="button" href="/search/">Volltextsuche</a>
+        <a class="button secondary" href="/digitalisate/">Digitalisate anzeigen</a>
+        <a class="button secondary" href="/downloads/">Downloads</a>
+      </div>
+      <div class="cta-grid">
+        <div class="card">
+          <h3>Suchen</h3>
+          <p>Statische Volltextsuche mit Pagefind (bereit für Phase 2) – bis dahin findest du hier die Platzhalter-Seite.</p>
+        </div>
+        <div class="card">
+          <h3>Einträge</h3>
+          <p>Blättere nach Register-Eintragsnummer oder springe direkt auf eine Seite per URL <code>/scan/&lt;pb&gt;/</code>.</p>
+        </div>
+        <div class="card">
+          <h3>Digitalisate</h3>
+          <p>Scans werden primär im OpenSeadragon Viewer dargestellt. Der DFG-Viewer bleibt als Legacy-Link erreichbar.</p>
+        </div>
+        <div class="card">
+          <h3>Downloads</h3>
+          <p>Direktzugriff auf METS, TEI/XML, ALTO und Bilddateien im stabilen Ordner <code>friedhofsregister_der_juedischen_gemeinde_strelitz/</code>.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <h2>Direktstart: Scan öffnen</h2>
+      <p class="meta">Die Seitenzählung im TEI beginnt bei 1, die Scans bei 2. URL-Regel: <code>imageNumber = pb + 1</code>. Beispiel: <code>/scan/1/</code> lädt <code>altstrelitz_friedregister2.jpg</code>.</p>
+      <div class="button-row">
+        <a class="button" href="/scan/1/">Scan 1</a>
+        <a class="button" href="/scan/10/">Scan 10</a>
+        <a class="button" href="/scan/25/">Scan 25</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Offene Daten: Friedhofsregister der jüdischen Gemeinde Strelitz. Primärer Facsimile-Viewer: OpenSeadragon.</p>
+    </div>
+  </footer>
+</body>
+</html>
