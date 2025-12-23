@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scan Viewer | Friedhofsregister Strelitz</title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><a href="/">Friedhofsregister Strelitz</a></div>
+      <nav class="site-nav">
+        <a href="/">Start</a>
+        <a href="/search/">Suchen</a>
+        <a href="/digitalisate/">Digitalisate</a>
+        <a href="/downloads/">Downloads</a>
+        <a href="/about/">Über</a>
+        <a href="/impressum/">Impressum</a>
+      </nav>
+    </div>
+  </header>
+  <main class="site-main container">
+    <section class="section scan-viewer">
+      <h1>OpenSeadragon Scan</h1>
+      <p class="meta">Seitenzählung: <code>imageNumber = pb + 1</code>. Beispiel: <code>/scan/1/</code> lädt Bild 2.</p>
+      <div class="osd-controls">
+        <button id="zoom-in">Zoom +</button>
+        <button id="zoom-out">Zoom -</button>
+        <button id="reset">Reset</button>
+        <a class="button secondary" id="open-original" target="_blank" rel="noopener">Bild in neuem Tab</a>
+      </div>
+      <div id="osd-container" aria-label="Scan Viewer"></div>
+      <div class="section">
+        <h2>Thumbnail (optional)</h2>
+        <img id="thumb" class="thumb" alt="Thumbnail" loading="lazy" aria-hidden="true">
+        <p class="meta">Falls ein Thumbnail fehlt oder abweicht, blendet die Seite es automatisch aus.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Offene Daten: Friedhofsregister der jüdischen Gemeinde Strelitz. Primärer Facsimile-Viewer: OpenSeadragon.</p>
+    </div>
+  </footer>
+  <script src="/assets/scan-paths.js"></script>
+  <script src="/assets/vendor/openseadragon.min.js"></script>
+  <script>
+    (function(){
+      const pathMatch = window.location.pathname.match(/\/scan\/(\d+)\/?/);
+      const urlParams = new URLSearchParams(window.location.search);
+      const pageNumber = pathMatch ? parseInt(pathMatch[1], 10) : parseInt(urlParams.get('page') || urlParams.get('img') || '1', 10);
+      const effectivePage = Number.isFinite(pageNumber) ? pageNumber : 1;
+      const assets = window.ScanPaths.resolveScanAssets(effectivePage);
+
+      const imageNumber = assets.imageNumber;
+      const imageUrl = assets.imageUrl;
+      const thumbUrl = assets.thumbUrl;
+
+      document.title = `Scan ${assets.pageNumber ?? effectivePage} | Friedhofsregister Strelitz`;
+      const viewer = OpenSeadragon({ id: 'osd-container', tileSources: imageUrl, imageAlt: `Scan ${imageNumber}` });
+
+      document.getElementById('zoom-in').addEventListener('click', () => viewer.zoomIn());
+      document.getElementById('zoom-out').addEventListener('click', () => viewer.zoomOut());
+      document.getElementById('reset').addEventListener('click', () => viewer.reset());
+
+      const originalLink = document.getElementById('open-original');
+      originalLink.href = imageUrl;
+      originalLink.textContent = `Bild ${imageNumber} in neuem Tab`;
+
+      const thumb = document.getElementById('thumb');
+      thumb.src = thumbUrl;
+      thumb.addEventListener('error', () => { thumb.style.display = 'none'; });
+    })();
+  </script>
+</body>
+</html>
