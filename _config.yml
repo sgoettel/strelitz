@@ -1,0 +1,9 @@
+exclude:
+  - site
+  - node_modules
+  - dist
+  - script
+  - scripts
+  - package.json
+  - package-lock.json
+  - .eleventy.js
