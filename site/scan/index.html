@@ -43,18 +43,33 @@
       <p>Offene Daten: Friedhofsregister der jüdischen Gemeinde Strelitz. Primärer Facsimile-Viewer: OpenSeadragon.</p>
     </div>
   </footer>
+<<<<<<< HEAD
+=======
+  <script src="/assets/scan-paths.js"></script>
+>>>>>>> origin/gh-pages
   <script src="/assets/vendor/openseadragon.min.js"></script>
   <script>
     (function(){
       const pathMatch = window.location.pathname.match(/\/scan\/(\d+)\/?/);
       const urlParams = new URLSearchParams(window.location.search);
       const pageNumber = pathMatch ? parseInt(pathMatch[1], 10) : parseInt(urlParams.get('page') || urlParams.get('img') || '1', 10);
+<<<<<<< HEAD
       const imageNumber = pageNumber + 1;
       const base = '/friedhofsregister_der_juedischen_gemeinde_strelitz';
       const imageUrl = `${base}/jpg/altstrelitz_friedregister${imageNumber}.jpg`;
       const thumbUrl = `${base}/jpg/thumbs/altstrelitz_friedregister_thumbs_${imageNumber}.jpg`;
 
       document.title = `Scan ${pageNumber} | Friedhofsregister Strelitz`;
+=======
+      const effectivePage = Number.isFinite(pageNumber) ? pageNumber : 1;
+      const assets = window.ScanPaths.resolveScanAssets(effectivePage);
+
+      const imageNumber = assets.imageNumber;
+      const imageUrl = assets.imageUrl;
+      const thumbUrl = assets.thumbUrl;
+
+      document.title = `Scan ${assets.pageNumber ?? effectivePage} | Friedhofsregister Strelitz`;
+>>>>>>> origin/gh-pages
       const viewer = OpenSeadragon({ id: 'osd-container', tileSources: imageUrl, imageAlt: `Scan ${imageNumber}` });
 
       document.getElementById('zoom-in').addEventListener('click', () => viewer.zoomIn());

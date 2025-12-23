@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+const scanPaths = require('./site/assets/scan-paths');
+
+>>>>>>> origin/gh-pages
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "site/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "site/public": "." });
@@ -6,6 +11,23 @@ module.exports = function(eleventyConfig) {
     "node_modules/openseadragon/build/openseadragon/images": "assets/vendor/openseadragon-images"
   });
 
+<<<<<<< HEAD
+=======
+  eleventyConfig.addFilter('sortEntries', (entries) => {
+    if (!Array.isArray(entries)) return entries;
+    return [...entries].sort((a, b) => {
+      const ai = Number(a.id);
+      const bi = Number(b.id);
+      if (Number.isFinite(ai) && Number.isFinite(bi)) {
+        return ai - bi;
+      }
+      return String(a.id).localeCompare(String(b.id));
+    });
+  });
+
+  eleventyConfig.addFilter('scanAssets', (pageNo) => scanPaths.resolveScanAssets(pageNo));
+
+>>>>>>> origin/gh-pages
   return {
     dir: {
       input: "site",
