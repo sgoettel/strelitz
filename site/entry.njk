@@ -1,0 +1,77 @@
+---
+layout: layout.html
+pagination:
+  data: entries
+  size: 1
+  alias: entry
+permalink: "/entry/{{ entry.id }}/"
+title: "Eintrag {{ entry.id }}"
+---
+<section class="section">
+  <header class="entry-header">
+    <p class="meta">Eintrag</p>
+    <h1>Nr. {{ entry.id }}</h1>
+    {% if entry.page_no %}
+      {% set scan = entry.page_no | scanAssets %}
+      <p class="meta">Seite {{ entry.page_no }} &middot; Bild {{ scan.imageNumber }}</p>
+    {% endif %}
+    <div class="entry-actions">
+      {% if entry.page_no %}
+        <a class="button" href="/scan/{{ entry.page_no }}/">Scan öffnen (Zoom)</a>
+      {% endif %}
+      <a class="button secondary" href="https://dfg-viewer.de/show/?tx_dlf[id]=https%3A%2F%2Fsgoettel.github.io%2Fstrelitz%2Ffriedhofsregister_der_juedischen_gemeinde_strelitz%2Fmets.xml" target="_blank" rel="noopener">DFG-Viewer (Legacy)</a>
+    </div>
+  </header>
+
+  {% if entry.page_no %}
+    {% set assets = entry.page_no | scanAssets %}
+    {% if assets.thumbUrl %}
+      <div class="entry-thumb">
+        <img src="{{ assets.thumbUrl }}" alt="Thumbnail der Seite {{ entry.page_no }}" loading="lazy" onerror="this.style.display='none'" />
+      </div>
+    {% endif %}
+  {% endif %}
+
+  <div class="entry-content">
+    <h2>Transkription</h2>
+    <div class="entry-text">{{ entry.text_html | safe }}</div>
+  </div>
+
+  <div class="entry-fields">
+    {% if entry.names and entry.names.length %}
+      <h3>Namen</h3>
+      <ul>
+        {% for name in entry.names %}
+          <li>{{ name }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if entry.dates and entry.dates.length %}
+      <h3>Daten</h3>
+      <ul>
+        {% for date in entry.dates %}
+          <li>{{ date }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if entry.places and entry.places.length %}
+      <h3>Orte</h3>
+      <ul>
+        {% for place in entry.places %}
+          <li>{{ place }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+
+  {% if entry.warnings and entry.warnings.length %}
+    <div class="meta warnings">
+      <h3>Hinweise</h3>
+      <ul>
+        {% for warning in entry.warnings %}
+          <li>{{ warning }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</section>
