@@ -11,43 +11,15 @@
     <div class="container header-inner">
       <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister Strelitz</a></div>
       <nav class="site-nav">
-        <a href="{{ '/' | url }}">Start</a>
-codex/implement-build-and-deploy-for-github-pages
         <a href="{{ '/entries/' | url }}">Einträge</a>
         <a href="{{ '/search/' | url }}">Suche</a>
         <a href="{{ '/scan/' | url }}">Scans</a>
-        <a href="{{ '/downloads/' | url }}">Downloads</a>
-
-        <a href="{{ '/search/' | url }}">Suchen</a>
-        <a href="{{ '/digitalisate/' | url }}">Digitalisate</a>
-        <a href="{{ '/downloads/' | url }}">Downloads</a>
-        <a href="{{ '/about/' | url }}">Über</a>
-        <a href="{{ '/impressum/' | url }}">Impressum</a>
-revamp
+        <a href="{{ '/downloads/' | url }}">Daten</a>
       </nav>
     </div>
   </header>
   <main class="site-main container">
-    <section class="section">
-      <h1>Digitalisate</h1>
-      <p>Scans ansehen:</p>
-      <p><a class="button" href="{{ '/scan/1/' | url }}">Viewer öffnen (Scan 1)</a></p>
-      <p class="meta">Du kannst jede Seite direkt öffnen: <code>/scan/&lt;pb&gt;/</code>.</p>
-      <div class="section">
-codex/implement-build-and-deploy-for-github-pages
-        <h2>Legacy</h2>
-        <p><a class="button secondary" href="https://dfg-viewer.de/show/?tx_dlf[id]=https%3A%2F%2Fsgoettel.github.io%2Fstrelitz%2Ffriedhofsregister_der_juedischen_gemeinde_strelitz%2Fmets.xml" target="_blank" rel="noopener">DFG-Viewer (Legacy)</a></p>
-      </div>
-      <div class="section">
-        <h2>Downloads</h2>
-        <p>Direktzugriff auf METS/TEI/ALTO findest du unter <a href="{{ '/downloads/' | url }}">Downloads</a>.</p>
-
-        <h2>OpenSeadragon-Viewer</h2>
-        <p>Für das tägliche Arbeiten mit den Scans nutze den OpenSeadragon-Viewer unter <code>/scan/&lt;pb&gt;/</code>. Beispiel: <a href="{{ '/scan/1/' | url }}">/scan/1/</a>.</p>
-        <p class="meta">Die TEI-Seitenzählung startet bei 1, die JPG-Sequenz bei 2. Die Anwendung berechnet automatisch <code>imageNumber = pb + 1</code>.</p>
- revamp
-      </div>
-    </section>
+    <p><a href="{{ '/scan/1/' | url }}">Scans ansehen</a></p>
   </main>
   <footer class="site-footer">
     <div class="container">
