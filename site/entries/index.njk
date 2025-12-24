@@ -4,7 +4,7 @@ title: Register-Einträge
 ---
 <section class="section">
   <h1>Register-Einträge</h1>
-  <p>Alle Einträge des Friedhofsregisters, sortiert nach Nummer. Jeder Eintrag bietet einen direkten Link zum modernen Scan-Viewer.</p>
+  <p>Alle Einträge des Friedhofsregisters, sortiert nach Nummer (mit Fallback für fehlende Nummern). Für gezielte Suche nutze die <a href="{{ '/search/' | url }}">Suche</a>.</p>
   <ul class="entry-list">
     {% for entry in entries | sortEntries %}
       <li class="entry-list-item">
@@ -15,9 +15,9 @@ title: Register-Einträge
           {% endif %}
         </div>
         <div class="entry-actions">
-          <a class="button" href="/entry/{{ entry.id }}/">Details</a>
+          <a class="button" href="{{ ('/entry/' + entry.slug + '/') | url }}">Details</a>
           {% if entry.page_no %}
-            <a class="button secondary" href="/scan/{{ entry.page_no }}/">Scan öffnen (Zoom)</a>
+            <a class="button secondary" href="{{ ('/scan/' + entry.page_no + '/') | url }}">Scan öffnen (Zoom)</a>
           {% endif %}
         </div>
         <p class="snippet">{{ entry.text_plain }}</p>

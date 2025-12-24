@@ -1,6 +1,21 @@
 const scanPaths = require('./site/assets/scan-paths');
 
+function resolvePathPrefix() {
+  if (process.env.ELEVENTY_PATH_PREFIX) {
+    return process.env.ELEVENTY_PATH_PREFIX;
+  }
+  if (process.env.GITHUB_REPOSITORY) {
+    const repo = process.env.GITHUB_REPOSITORY.split('/')[1];
+    if (repo) {
+      return `/${repo}`;
+    }
+  }
+  return '';
+}
+
 module.exports = function(eleventyConfig) {
+  const pathPrefix = resolvePathPrefix();
+
   eleventyConfig.addPassthroughCopy({ "site/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "site/public": "." });
   eleventyConfig.addPassthroughCopy({
@@ -28,9 +43,10 @@ module.exports = function(eleventyConfig) {
   // Nunjucks: allow rendering trusted HTML strings in entry.njk via | safeHtml
   eleventyConfig.addNunjucksFilter("safeHtml", (value) => value);
 
-
+  eleventyConfig.addGlobalData("pathPrefix", pathPrefix);
 
   return {
+    pathPrefix,
     dir: {
       input: "site",
       includes: "_includes",

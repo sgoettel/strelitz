@@ -4,19 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Impressum | Friedhofsregister Strelitz</title>
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <div class="brand"><a href="/">Friedhofsregister Strelitz</a></div>
+      <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister Strelitz</a></div>
       <nav class="site-nav">
-        <a href="/">Start</a>
-        <a href="/search/">Suchen</a>
-        <a href="/digitalisate/">Digitalisate</a>
-        <a href="/downloads/">Downloads</a>
-        <a href="/about/">Über</a>
-        <a href="/impressum/">Impressum</a>
+        <a href="{{ '/' | url }}">Start</a>
+        <a href="{{ '/entries/' | url }}">Einträge</a>
+        <a href="{{ '/search/' | url }}">Suche</a>
+        <a href="{{ '/scan/' | url }}">Scans</a>
+        <a href="{{ '/downloads/' | url }}">Downloads</a>
       </nav>
     </div>
   </header>

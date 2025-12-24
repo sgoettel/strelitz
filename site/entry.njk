@@ -4,7 +4,7 @@ pagination:
   data: entries
   size: 1
   alias: entry
-permalink: "/entry/{{ entry.id }}/"
+permalink: "/entry/{{ entry.slug }}/"
 title: "Eintrag {{ entry.id }}"
 ---
 <section class="section">
@@ -17,7 +17,7 @@ title: "Eintrag {{ entry.id }}"
     {% endif %}
     <div class="entry-actions">
       {% if entry.page_no %}
-        <a class="button" href="/scan/{{ entry.page_no }}/">Scan öffnen (Zoom)</a>
+        <a class="button" href="{{ ('/scan/' + entry.page_no + '/') | url }}">Scan öffnen (Zoom)</a>
       {% endif %}
       <a class="button secondary" href="https://dfg-viewer.de/show/?tx_dlf[id]=https%3A%2F%2Fsgoettel.github.io%2Fstrelitz%2Ffriedhofsregister_der_juedischen_gemeinde_strelitz%2Fmets.xml" target="_blank" rel="noopener">DFG-Viewer (Legacy)</a>
     </div>
