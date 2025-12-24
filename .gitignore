@@ -5,4 +5,3 @@ dist/
 .jekyll-cache/
 .DS_Store
 site/_data/entries.json
-site/_data/pages.json
