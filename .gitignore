@@ -1,15 +1,17 @@
+# Node modules
 node_modules/
+
+# Build‑Artefakte (altes .dist sowie neues dist‑Verzeichnis)
 .dist/
 dist/
+
+# lokale Caches
 .npm-cache/
 .jekyll-cache/
+
+# macOS system file
 .DS_Store
 
-# generated
+# generierte Datendateien (nicht committen!)
 site/_data/entries.json
-
-# generated
-site/_data/entries.json
-
-# generated
-site/_data/entries.json
+site/_data/pages.json
