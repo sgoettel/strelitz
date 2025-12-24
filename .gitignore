@@ -4,3 +4,6 @@ dist/
 .npm-cache/
 .jekyll-cache/
 .DS_Store
+
+# generated
+site/_data/entries.json
