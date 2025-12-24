@@ -43,15 +43,7 @@ module.exports = function(eleventyConfig) {
   // Nunjucks: allow rendering trusted HTML strings in entry.njk via | safeHtml
   eleventyConfig.addNunjucksFilter("safeHtml", (value) => value);
 
-codex/implement-build-and-deploy-for-github-pages
   eleventyConfig.addGlobalData("pathPrefix", pathPrefix);
-
-revamp
-  eleventyConfig.addGlobalData("pathPrefix", pathPrefix);
-
-
-gh-pages
-revamp
 
   return {
     pathPrefix,
