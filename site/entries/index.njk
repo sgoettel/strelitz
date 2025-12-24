@@ -4,7 +4,7 @@ title: Register-Einträge
 ---
 <section class="section">
   <h1>Register-Einträge</h1>
-  <p>Alle Einträge des Friedhofsregisters, sortiert nach Nummer. Jeder Eintrag bietet einen direkten Link zum modernen Scan-Viewer.</p>
+  <p>Alle Einträge des Friedhofsregisters, sortiert nach Nummer (mit Fallback für fehlende Nummern). Für gezielte Suche nutze die <a href="{{ '/search/' | url }}">Suche</a>.</p>
   <ul class="entry-list">
     {% for entry in entries | sortEntries %}
       <li class="entry-list-item">

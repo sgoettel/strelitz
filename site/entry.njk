@@ -5,12 +5,12 @@ pagination:
   size: 1
   alias: entry
 permalink: "/entry/{{ entry.slug }}/"
-title: "Eintrag {{ entry.id }}"
+title: "Eintrag {{ entry.no or entry.id }}"
 ---
 <section class="section">
   <header class="entry-header">
     <p class="meta">Eintrag</p>
-    <h1>Nr. {{ entry.id }}</h1>
+    <h1>Nr. {{ entry.no or entry.id }}</h1>
     {% if entry.page_no %}
       {% set scan = entry.page_no | scanAssets %}
       <p class="meta">Seite {{ entry.page_no }} &middot; Bild {{ scan.imageNumber }}</p>
@@ -34,7 +34,7 @@ title: "Eintrag {{ entry.id }}"
 
   <div class="entry-content">
     <h2>Transkription</h2>
-    <div class="entry-text">{{ entry.text_html | safe }}</div>
+    <div class="entry-text">{{ entry.text_html | safeHtml }}</div>
   </div>
 
   <div class="entry-fields">
