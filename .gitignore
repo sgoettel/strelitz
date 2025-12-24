@@ -9,8 +9,17 @@ dist/
 .npm-cache/
 .jekyll-cache/
 
+codex/implement-build-and-deploy-for-github-pages
+# generated
+site/_data/entries.json
+site/_data/pages.json
+
+# generated
+site/_data/entries.json
+
 # macOS system file
 .DS_Store
+revamp
 
 # generierte Datendateien (nicht committen!)
 site/_data/entries.json
