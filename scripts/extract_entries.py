@@ -2,8 +2,9 @@
 import copy
 import json
 import re
+from collections import Counter, defaultdict
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Set, Tuple
 
 try:
     from lxml import etree  # type: ignore
@@ -17,6 +18,7 @@ XML_ID = "{http://www.w3.org/XML/1998/namespace}id"
 ROOT = Path(__file__).resolve().parent.parent
 TEI_DIR = ROOT / "friedhofsregister_der_juedischen_gemeinde_strelitz" / "TEI"
 OUTPUT_FILE = ROOT / "site" / "_data" / "entries.json"
+PAGES_FILE = ROOT / "site" / "_data" / "pages.json"
 
 
 def normalize_text(value: str) -> str:
@@ -107,27 +109,46 @@ def parse_item(item, last_page: str, index: int) -> Dict:
     }
 
 
-def extract_entries_from_file(path: Path) -> List[Dict]:
+def extract_entries_from_file(path: Path) -> Tuple[List[Dict], Set[int]]:
     parser = etree.XMLParser() if HAS_LXML else None
     tree = etree.parse(str(path), parser=parser) if parser else etree.parse(str(path))
     entries: List[Dict] = []
+    pages: Set[int] = set()
     last_page = None
     for node in tree.getroot().iter():
         if node.tag == f"{{{NS}}}pb":
             last_page = node.get("n")
+            if last_page and re.fullmatch(r"\d+", last_page):
+                pages.add(int(last_page))
         elif node.tag == f"{{{NS}}}item":
             entries.append(parse_item(node, last_page, len(entries) + 1))
-    return entries
+    return entries, pages
 
 
 def main():
     all_entries: List[Dict] = []
+    all_pages: Set[int] = set()
     for xml_file in sorted(TEI_DIR.glob("*.xml")):
-        all_entries.extend(extract_entries_from_file(xml_file))
+        entries, pages = extract_entries_from_file(xml_file)
+        all_entries.extend(entries)
+        all_pages.update(pages)
+    id_counts = Counter(entry["id"] for entry in all_entries)
+    id_seen = defaultdict(int)
+    for entry in all_entries:
+        entry_id = entry["id"]
+        if id_counts[entry_id] > 1:
+            id_seen[entry_id] += 1
+            entry["slug"] = f"{entry_id}-{id_seen[entry_id]}"
+            entry.setdefault("warnings", []).append("Doppelte ID, URL-Suffix ergänzt")
+        else:
+            entry["slug"] = str(entry_id)
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_FILE.open("w", encoding="utf-8") as f:
         json.dump(all_entries, f, ensure_ascii=False, indent=2)
     print(f"Wrote {len(all_entries)} entries to {OUTPUT_FILE}")
+    with PAGES_FILE.open("w", encoding="utf-8") as f:
+        json.dump(sorted(all_pages), f, ensure_ascii=False, indent=2)
+    print(f"Wrote {len(all_pages)} pages to {PAGES_FILE}")
 
 
 if __name__ == "__main__":

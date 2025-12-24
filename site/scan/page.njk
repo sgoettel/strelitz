@@ -1,9 +1,18 @@
+---
+pagination:
+  data: pages
+  size: 1
+  alias: pageNumber
+permalink: "/scan/{{ pageNumber }}/"
+title: "Scan {{ pageNumber }}"
+---
+{% set assets = pageNumber | scanAssets %}
 <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Scan Viewer | Friedhofsregister Strelitz</title>
+  <title>Scan {{ assets.pageNumber }} | Friedhofsregister Strelitz</title>
   <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
 </head>
 <body>
@@ -23,7 +32,7 @@
   <main class="site-main container">
     <section class="section scan-viewer">
       <h1>OpenSeadragon Scan</h1>
-      <p class="meta">Seitenzählung: <code>imageNumber = pb + 1</code>. Beispiel: <code>/scan/1/</code> lädt Bild 2.</p>
+      <p class="meta">Seite {{ assets.pageNumber }} &middot; Bild {{ assets.imageNumber }}</p>
       <div class="osd-controls">
         <button id="zoom-in">Zoom +</button>
         <button id="zoom-out">Zoom -</button>
@@ -43,22 +52,13 @@
       <p>Offene Daten: Friedhofsregister der jüdischen Gemeinde Strelitz. Primärer Facsimile-Viewer: OpenSeadragon.</p>
     </div>
   </footer>
-  <script src="{{ '/assets/scan-paths.js' | url }}"></script>
   <script src="{{ '/assets/vendor/openseadragon.min.js' | url }}"></script>
   <script>
     (function(){
-      window.__ELEVENTY_PATH_PREFIX__ = "{{ pathPrefix }}";
-      const pathMatch = window.location.pathname.match(/\/scan\/(\d+)\/?/);
-      const urlParams = new URLSearchParams(window.location.search);
-      const pageNumber = pathMatch ? parseInt(pathMatch[1], 10) : parseInt(urlParams.get('page') || urlParams.get('img') || '1', 10);
-      const effectivePage = Number.isFinite(pageNumber) ? pageNumber : 1;
-      const assets = window.ScanPaths.resolveScanAssets(effectivePage);
+      const imageUrl = "{{ assets.imageUrl }}";
+      const imageNumber = {{ assets.imageNumber }};
+      const thumbUrl = "{{ assets.thumbUrl }}";
 
-      const imageNumber = assets.imageNumber;
-      const imageUrl = assets.imageUrl;
-      const thumbUrl = assets.thumbUrl;
-
-      document.title = `Scan ${assets.pageNumber ?? effectivePage} | Friedhofsregister Strelitz`;
       const viewer = OpenSeadragon({ id: 'osd-container', tileSources: imageUrl, imageAlt: `Scan ${imageNumber}` });
 
       document.getElementById('zoom-in').addEventListener('click', () => viewer.zoomIn());
