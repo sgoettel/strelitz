@@ -1,0 +1,80 @@
+---
+layout: layout.html
+title: Suche
+---
+<section class="section search-page">
+  <h1>Volltextsuche</h1>
+  <p>Nutze die Volltextsuche, um Personen, Orte oder Begriffe in der Transkription zu finden.</p>
+  <div class="search-form">
+    <label for="search-input">Suchbegriff</label>
+    <input id="search-input" type="search" name="q" placeholder="z. B. Meyer, Strelitz, 1892">
+  </div>
+  <p id="search-status" class="meta">Gib einen Suchbegriff ein, um Ergebnisse zu sehen.</p>
+  <ol id="search-results" class="search-results"></ol>
+</section>
+<script type="module" src="{{ '/_pagefind/pagefind.js' | url }}"></script>
+<script type="module">
+  const input = document.getElementById('search-input');
+  const results = document.getElementById('search-results');
+  const status = document.getElementById('search-status');
+
+  let searchTimeout;
+
+  const loadPagefind = async () => {
+    if (window.pagefind) {
+      return window.pagefind;
+    }
+    const module = await import("{{ '/_pagefind/pagefind.js' | url }}");
+    return module;
+  };
+
+  const renderResults = (items) => {
+    results.innerHTML = '';
+    items.forEach((item) => {
+      const entryTitle = item.meta?.title || item.title || 'Eintrag';
+      const listItem = document.createElement('li');
+      listItem.className = 'search-result';
+      listItem.innerHTML = `
+        <a href="${item.url}" class="search-result-title">${entryTitle}</a>
+        <p class="search-result-snippet">${item.excerpt || item.content || ''}</p>
+      `;
+      results.appendChild(listItem);
+    });
+  };
+
+  const runSearch = async () => {
+    const query = input.value.trim();
+    if (!query) {
+      status.textContent = 'Gib einen Suchbegriff ein, um Ergebnisse zu sehen.';
+      results.innerHTML = '';
+      return;
+    }
+
+    status.textContent = 'Suche läuft…';
+    const pagefind = await loadPagefind();
+    const search = await pagefind.search(query);
+    if (!search.results.length) {
+      status.textContent = 'Keine Treffer gefunden.';
+      results.innerHTML = '';
+      return;
+    }
+
+    const data = await Promise.all(search.results.map((result) => result.data()));
+    status.textContent = `${data.length} Treffer gefunden.`;
+    renderResults(data);
+  };
+
+  const handleInput = () => {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(runSearch, 200);
+  };
+
+  input.addEventListener('input', handleInput);
+
+  const params = new URLSearchParams(window.location.search);
+  const initialQuery = params.get('q');
+  if (initialQuery) {
+    input.value = initialQuery;
+    runSearch();
+  }
+</script>
