@@ -34,7 +34,7 @@ title: "Eintrag {{ entry.no or entry.id }}"
 
   <div class="entry-content">
     <h2>Transkription</h2>
-    <div class="entry-text">{{ entry.text_html | safeHtml }}</div>
+    <div class="entry-text" data-pagefind-body>{{ entry.text_html | safeHtml }}</div>
   </div>
 
   <div class="entry-fields">
