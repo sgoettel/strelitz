@@ -7,6 +7,7 @@ dist/
 
 # generated
 site/_data/entries.json
+site/_data/pages.json
 
 # generated
 site/_data/entries.json
