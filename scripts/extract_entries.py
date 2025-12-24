@@ -5,7 +5,6 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Dict, List, Set, Tuple
-codex/implement-build-and-deploy-for-github-pages
 
 
 seen_ids = {}
@@ -14,8 +13,6 @@ def uniq(base: str) -> str:
     n = seen_ids.get(base, 0) + 1
     seen_ids[base] = n
     return base if n == 1 else f"{base}-{n}"
-
-revamp
 
 try:
     from lxml import etree  # type: ignore
