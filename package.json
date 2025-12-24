@@ -6,11 +6,15 @@
   "dev": "eleventy --serve --watch --input=site --output=dist",
   "prebuild": "python3 scripts/extract_entries.py",
   "build": "eleventy --input=site --output=dist",
+  "postbuild": "npm run build:search",
+  "build:search": "pagefind --site dist",
+  "build:prod": "npm run build && npm run build:search",
   "predev": "python3 scripts/extract_entries.py"
 },
 
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "pagefind": "^1.4.0"
   },
   "dependencies": {
     "openseadragon": "^4.1.1"
