@@ -22,6 +22,14 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('scanAssets', (pageNo) => scanPaths.resolveScanAssets(pageNo));
 
+  // Liquid-only: allow using | safe in .html (Liquid) templates
+  eleventyConfig.addLiquidFilter("safe", (value) => value);
+
+  // Nunjucks: allow rendering trusted HTML strings in entry.njk via | safeHtml
+  eleventyConfig.addNunjucksFilter("safeHtml", (value) => value);
+
+
+
   return {
     dir: {
       input: "site",
