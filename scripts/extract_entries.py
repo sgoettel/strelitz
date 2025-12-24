@@ -5,6 +5,17 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Dict, List, Set, Tuple
+codex/implement-build-and-deploy-for-github-pages
+
+
+seen_ids = {}
+def uniq(base: str) -> str:
+    base = str(base)
+    n = seen_ids.get(base, 0) + 1
+    seen_ids[base] = n
+    return base if n == 1 else f"{base}-{n}"
+
+revamp
 
 try:
     from lxml import etree  # type: ignore
@@ -66,21 +77,18 @@ def dedupe(values: List[str]) -> List[str]:
     return result
 
 
-def derive_entry_id(item, warnings: List[str], fallback_index: int) -> str:
+def derive_entry_no(item, warnings: List[str]):
     label_texts = [normalize_text("".join(el.itertext())) for el in item.findall(f".//{{{NS}}}label")]
     for label in label_texts:
-        match = re.search(r"no\s*([0-9]+)", label, flags=re.IGNORECASE)
-        if match:
-            return match.group(1)
-        match = re.search(r"([0-9]+)", label)
-        if match:
-            return match.group(1)
-    xml_id = item.get(XML_ID)
-    if xml_id:
-        warnings.append("ID aus xml:id übernommen")
-        return xml_id
-    warnings.append("Konnte keine Nummer finden, benutze laufende Nummer")
-    return f"entry-{fallback_index}"
+        m = re.search(r"no\s*([0-9]+)", label, flags=re.IGNORECASE)
+        if m:
+            return int(m.group(1))
+        m = re.search(r"\b([0-9]+)\b", label)
+        if m:
+            return int(m.group(1))
+    warnings.append("Konnte keine Eintragsnummer im Label finden")
+    return None
+
 
 
 def parse_item(item, last_page: str, index: int) -> Dict:
@@ -91,7 +99,12 @@ def parse_item(item, last_page: str, index: int) -> Dict:
     else:
         warnings.append("Keine Seitenmarke vor diesem Eintrag gefunden")
 
-    entry_id = derive_entry_id(item, warnings, index)
+    entry_no = derive_entry_no(item, warnings)
+
+    # stabile, eindeutige URL-ID: bevorzugt xml:id, sonst Sequenz
+    base_id = item.get(XML_ID) or f"e{index:04d}"
+    entry_id = uniq(base_id)
+
 
     names = [normalize_text("".join(el.itertext())) for el in item.findall(f".//{{{NS}}}persName")]
     dates = [normalize_text("".join(el.itertext())) for el in item.findall(f".//{{{NS}}}date")]
@@ -99,6 +112,7 @@ def parse_item(item, last_page: str, index: int) -> Dict:
 
     return {
         "id": entry_id,
+        "no": entry_no,
         "page_no": page_no,
         "text_plain": extract_plain_text(item),
         "text_html": extract_text_html(item),

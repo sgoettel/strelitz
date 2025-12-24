@@ -1,10 +1,15 @@
+# Node modules
 node_modules/
+
+# Build‑Artefakte (altes .dist sowie neues dist‑Verzeichnis)
 .dist/
 dist/
+
+# lokale Caches
 .npm-cache/
 .jekyll-cache/
-.DS_Store
 
+codex/implement-build-and-deploy-for-github-pages
 # generated
 site/_data/entries.json
 site/_data/pages.json
@@ -12,5 +17,10 @@ site/_data/pages.json
 # generated
 site/_data/entries.json
 
-# generated
+# macOS system file
+.DS_Store
+revamp
+
+# generierte Datendateien (nicht committen!)
 site/_data/entries.json
+site/_data/pages.json
