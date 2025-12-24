@@ -19,6 +19,12 @@ Modernize the public site for the Strelitz Jewish cemetery register and add full
   - DFG/METS viewer link is optional/legacy
 - GitHub Actions deploy to `gh-pages` without touching the data folder.
 
+## Implementation notes (Phase 1)
+- All asset/data URLs must be GitHub Pages / pathPrefix safe (use Eleventy `url` filter or `pathPrefix`).
+- The OpenSeadragon UI icon directory must be published (prefixUrl configured) to avoid 404s.
+- The data folder must remain unchanged, but it must be served by the published site (via passthrough/deploy).
+
+
 ## Preferred stack
 - SSG: Eleventy
 - Search: Pagefind
