@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Scan Viewer | Friedhofsregister Strelitz</title>
   <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
+  <link rel="icon" href="{{ '/favicon.ico' | url }}">
 </head>
 <body>
   <header class="site-header">
@@ -57,7 +58,12 @@
       const thumbUrl = assets.thumbUrl;
 
       document.title = `Scan ${assets.pageNumber ?? effectivePage} | Friedhofsregister Strelitz`;
-      const viewer = OpenSeadragon({ id: 'osd-container', tileSources: imageUrl, imageAlt: `Scan ${imageNumber}` });
+      const viewer = OpenSeadragon({
+        id: 'osd-container',
+        tileSources: imageUrl,
+        imageAlt: `Scan ${imageNumber}`,
+        prefixUrl: "{{ '/assets/vendor/openseadragon-images/' | url }}"
+      });
 
       document.getElementById('zoom-in').addEventListener('click', () => viewer.zoomIn());
       document.getElementById('zoom-out').addEventListener('click', () => viewer.zoomOut());
