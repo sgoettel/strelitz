@@ -15,6 +15,7 @@ function resolvePathPrefix() {
 
 module.exports = function(eleventyConfig) {
   const pathPrefix = resolvePathPrefix();
+  eleventyConfig.setPathPrefix(pathPrefix);
 
   eleventyConfig.addPassthroughCopy({ "site/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "site/public": "." });
@@ -47,8 +48,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksFilter("safeHtml", (value) => value);
 
   eleventyConfig.addGlobalData("pathPrefix", pathPrefix);
-
-gh-pages
 
   return {
     pathPrefix,
