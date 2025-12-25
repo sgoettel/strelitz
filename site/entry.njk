@@ -5,12 +5,14 @@ pagination:
   size: 1
   alias: entry
 permalink: "/entry/{{ entry.slug }}/"
-title: "Eintrag {{ entry.no or entry.id }}"
+eleventyComputed:
+  title: "Eintrag Nr. {{ entry.no or entry.id }}{% if entry.names and entry.names.length %} – {{ entry.names[0] }}{% endif %}"
 ---
 <section class="section">
   <header class="entry-header">
     <p class="meta">Eintrag</p>
-    <h1>Nr. {{ entry.no or entry.id }}</h1>
+    {% set primaryName = entry.names[0] %}
+    <h1>Eintrag Nr. {{ entry.no or entry.id }}{% if primaryName %} &ndash; {{ primaryName }}{% endif %}</h1>
     {% if entry.page_no %}
       {% set scan = entry.page_no | scanAssets %}
       <p class="meta">Seite {{ entry.page_no }} &middot; Bild {{ scan.imageNumber }}</p>
@@ -27,7 +29,7 @@ title: "Eintrag {{ entry.no or entry.id }}"
     {% set assets = entry.page_no | scanAssets %}
     {% if assets.thumbUrl %}
       <div class="entry-thumb">
-        <img src="{{ assets.thumbUrl }}" alt="Thumbnail der Seite {{ entry.page_no }}" loading="lazy" onerror="this.style.display='none'" />
+        <img src="{{ assets.thumbUrl | url }}" alt="Thumbnail der Seite {{ entry.page_no }}" loading="lazy" onerror="this.style.display='none'" />
       </div>
     {% endif %}
   {% endif %}

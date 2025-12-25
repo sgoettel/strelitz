@@ -4,12 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "eleventy --serve --watch --input=site --output=dist",
-    "prebuild": "python3 scripts/extract_entries.py",
+    "prebuild": "python3 scripts/extract_entries.py && node scripts/build_scan_manifest.js",
     "build": "eleventy --input=site --output=dist",
     "build:search": "pagefind --site dist --output-subdir _pagefind",
-    "postbuild": "npm run build:search",
+    "postbuild": "npm run build:search && node scripts/audit-dist-links.js",
     "build:prod": "npm run build",
-    "predev": "python3 scripts/extract_entries.py"
+    "predev": "python3 scripts/extract_entries.py && node scripts/build_scan_manifest.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

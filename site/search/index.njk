@@ -12,11 +12,11 @@ title: Suche
   <p id="search-status" class="meta">Gib einen Suchbegriff ein, um Ergebnisse zu sehen.</p>
   <ol id="search-results" class="search-results"></ol>
 </section>
-<script type="module" src="{{ '/_pagefind/pagefind.js' | url }}"></script>
 <script type="module">
   const input = document.getElementById('search-input');
   const results = document.getElementById('search-results');
   const status = document.getElementById('search-status');
+  const bundlePath = "{{ '/_pagefind/' | url }}";
 
   let searchTimeout;
 
@@ -34,16 +34,26 @@ title: Suche
       const entryTitle = item.meta?.title || item.title || 'Eintrag';
       const listItem = document.createElement('li');
       listItem.className = 'search-result';
-      listItem.innerHTML = `
-        <a href="${item.url}" class="search-result-title">${entryTitle}</a>
-        <p class="search-result-snippet">${item.excerpt || item.content || ''}</p>
-      `;
+
+      const link = document.createElement('a');
+      link.href = item.url;
+      link.className = 'search-result-title';
+      link.textContent = entryTitle;
+
+      const snippet = document.createElement('p');
+      snippet.className = 'search-result-snippet';
+      snippet.textContent = item.excerpt || item.content || '';
+
+      listItem.appendChild(link);
+      listItem.appendChild(snippet);
       results.appendChild(listItem);
     });
   };
 
+  const normalizeTerm = (term) => term.trim().replace(/\s+/g, ' ');
+
   const runSearch = async () => {
-    const query = input.value.trim();
+    const query = normalizeTerm(input.value);
     if (!query) {
       status.textContent = 'Gib einen Suchbegriff ein, um Ergebnisse zu sehen.';
       results.innerHTML = '';
@@ -52,6 +62,7 @@ title: Suche
 
     status.textContent = 'Suche läuft…';
     const pagefind = await loadPagefind();
+    pagefind.options({ bundlePath });
     const search = await pagefind.search(query);
     if (!search.results.length) {
       status.textContent = 'Keine Treffer gefunden.';

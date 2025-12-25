@@ -1,44 +1,40 @@
-(function (root, factory) {
-  if (typeof module === 'object' && module.exports) {
-    module.exports = factory();
-  } else {
-    root.ScanPaths = factory();
-  }
-})(typeof self !== 'undefined' ? self : this, function () {
-  function getPathPrefix() {
-    if (typeof globalThis !== 'undefined' && typeof globalThis.__ELEVENTY_PATH_PREFIX__ === 'string') {
-      return globalThis.__ELEVENTY_PATH_PREFIX__;
-    }
-    if (typeof process !== 'undefined' && process.env) {
-      if (process.env.ELEVENTY_PATH_PREFIX) {
-        return process.env.ELEVENTY_PATH_PREFIX;
-      }
-      if (process.env.GITHUB_REPOSITORY) {
-        const repo = process.env.GITHUB_REPOSITORY.split('/')[1];
-        if (repo) {
-          return `/${repo}`;
-        }
-      }
-    }
-    return '';
-  }
+const fs = require('fs');
+const path = require('path');
 
-  function buildBasePath() {
-    const prefix = getPathPrefix();
-    const normalized = prefix && prefix !== '/' ? prefix.replace(/\/$/, '') : '';
-    return `${normalized}/friedhofsregister_der_juedischen_gemeinde_strelitz`;
+const MANIFEST_PATH = path.join(__dirname, '..', '_data', 'scan-manifest.json');
+let cachedManifest;
+
+const loadManifest = () => {
+  if (cachedManifest) {
+    return cachedManifest;
+  }
+  if (!fs.existsSync(MANIFEST_PATH)) {
+    throw new Error(`Scan manifest missing at ${MANIFEST_PATH}. Run scripts/build_scan_manifest.js first.`);
+  }
+  const raw = fs.readFileSync(MANIFEST_PATH, 'utf-8');
+  cachedManifest = JSON.parse(raw);
+  return cachedManifest;
+};
+
+const resolveScanAssets = (pageNumber) => {
+  const manifest = loadManifest();
+  const key = String(pageNumber);
+  const entry = manifest.byPb?.[key];
+  if (!entry) {
+    const known = Object.keys(manifest.byPb || {});
+    throw new Error(
+      `No scan mapping found for pb="${key}". Known pb values: ${known.slice(0, 10).join(', ')}${known.length > 10 ? '…' : ''}`
+    );
   }
 
-  function resolveScanAssets(pageNumber) {
-    const basePath = buildBasePath();
-    const pageNo = Number(pageNumber);
-    const validPage = Number.isFinite(pageNo) ? pageNo : null;
-    const imageNumber = validPage !== null ? validPage + 1 : null;
-    const imageUrl = imageNumber !== null ? `${basePath}/jpg/altstrelitz_friedregister${imageNumber}.jpg` : null;
-    const thumbUrl = imageNumber !== null ? `${basePath}/jpg/thumbs/altstrelitz_friedregister_thumbs_${imageNumber}.jpg` : null;
+  return {
+    pageNumber: Number.isFinite(Number(pageNumber)) ? Number(pageNumber) : pageNumber,
+    imageNumber: entry.imageNumber,
+    imageUrl: entry.image,
+    thumbUrl: entry.thumb
+  };
+};
 
-    return { pageNumber: validPage, imageNumber, imageUrl, thumbUrl, basePath };
-  }
-
-  return { resolveScanAssets };
-});
+module.exports = {
+  resolveScanAssets
+};

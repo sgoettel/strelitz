@@ -47,8 +47,27 @@ def strip_namespaces(el):
 def extract_text_html(item) -> str:
     clone = copy.deepcopy(item)
     strip_namespaces(clone)
-    for lb in clone.findall(".//lb"):
-        lb.tag = "br"
+    for elem in clone.iter():
+        if not isinstance(elem.tag, str):
+            continue
+        if elem.tag == "lb":
+            elem.tag = "br"
+        elif elem.tag == "del":
+            elem.set("class", f"{elem.get('class', '')} tei-del".strip())
+        elif elem.tag == "persName":
+            elem.tag = "span"
+            elem.set("class", f"{elem.get('class', '')} tei-persname".strip())
+        elif elem.tag == "date":
+            elem.tag = "time"
+            elem.set("class", f"{elem.get('class', '')} tei-date".strip())
+        elif elem.tag == "foreign":
+            elem.tag = "span"
+            elem.set("class", f"{elem.get('class', '')} tei-foreign".strip())
+            lang = (elem.get("lang") or "").lower()
+            if lang:
+                elem.set("lang", lang)
+            if lang.startswith("he") or lang.startswith("yi") or lang.startswith("heb"):
+                elem.set("dir", "rtl")
     html_parts: List[str] = []
     for child in clone:
         html_parts.append(etree.tostring(child, encoding="unicode", method="html"))

@@ -1,58 +1,33 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Downloads | Friedhofsregister Strelitz</title>
-  <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
-  <link rel="icon" href="{{ '/favicon.ico' | url }}">
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister Strelitz</a></div>
-      <nav class="site-nav">
-        <a href="{{ '/entries/' | url }}">Einträge</a>
-        <a href="{{ '/search/' | url }}">Suche</a>
-        <a href="{{ '/scan/' | url }}">Scans</a>
-        <a href="{{ '/downloads/' | url }}">Daten</a>
-      </nav>
+---
+layout: layout.html
+title: Downloads
+---
+<section class="section">
+  <h1>Downloads &amp; Datenzugriff</h1>
+  <p>Alle Daten bleiben im stabilen Ordner <code>friedhofsregister_der_juedischen_gemeinde_strelitz/</code>. Keine Dateien wurden verschoben oder umbenannt.</p>
+  <div class="list-grid">
+    <div class="card">
+      <h3>METS</h3>
+      <p><a href="{{ '/friedhofsregister_der_juedischen_gemeinde_strelitz/mets.xml' | url }}">mets.xml</a></p>
+      <p class="meta">DFG/Legacy-kompatibler Einstieg.</p>
     </div>
-  </header>
-  <main class="site-main container">
-    <section class="section">
-      <h1>Downloads &amp; Datenzugriff</h1>
-      <p>Alle Daten bleiben im stabilen Ordner <code>friedhofsregister_der_juedischen_gemeinde_strelitz/</code>. Keine Dateien wurden verschoben oder umbenannt.</p>
-      <div class="list-grid">
-        <div class="card">
-          <h3>METS</h3>
-          <p><a href="{{ '/friedhofsregister_der_juedischen_gemeinde_strelitz/mets.xml' | url }}">mets.xml</a></p>
-          <p class="meta">DFG/Legacy-kompatibler Einstieg.</p>
-        </div>
-        <div class="card">
-          <h3>TEI/XML</h3>
-          <p><a href="{{ '/friedhofsregister_der_juedischen_gemeinde_strelitz/TEI/jacobson_strelitzfriedhofsregister_1929.txt.xml' | url }}">jacobson_strelitzfriedhofsregister_1929.txt.xml</a></p>
-        </div>
-        <div class="card">
-          <h3>ALTO</h3>
-          <p><a href="{{ '/friedhofsregister_der_juedischen_gemeinde_strelitz/alto/' | url }}">ALTO Dateien (Ordner)</a></p>
-        </div>
-        <div class="card">
-          <h3>Bilder</h3>
-          <p><a href="{{ '/friedhofsregister_der_juedischen_gemeinde_strelitz/jpg/' | url }}">Fullsize JPGs</a></p>
-          <p><a href="{{ '/friedhofsregister_der_juedischen_gemeinde_strelitz/jpg/thumbs/' | url }}">Thumbnails</a></p>
-        </div>
-      </div>
-      <div class="section">
-        <h2>Scan-URL-Regel</h2>
-        <p class="meta">TEI <code>pb@n</code> beginnt bei 1, JPG-Sequenz bei 2. Der Viewer rechnet automatisch <code>imageNumber = pb + 1</code>.</p>
-      </div>
-    </section>
-  </main>
-  <footer class="site-footer">
-    <div class="container">
-      <p>Offene Daten: Friedhofsregister der jüdischen Gemeinde Strelitz. Primärer Facsimile-Viewer: OpenSeadragon.</p>
+    <div class="card">
+      <h3>TEI/XML</h3>
+      <p><a href="{{ '/friedhofsregister_der_juedischen_gemeinde_strelitz/TEI/jacobson_strelitzfriedhofsregister_1929.txt.xml' | url }}">jacobson_strelitzfriedhofsregister_1929.txt.xml</a></p>
     </div>
-  </footer>
-</body>
-</html>
+    <div class="card">
+      <h3>ALTO</h3>
+      <p><a href="https://github.com/sgoettel/strelitz/tree/main/friedhofsregister_der_juedischen_gemeinde_strelitz/alto" target="_blank" rel="noopener">ALTO Dateien (GitHub Browse)</a></p>
+      <p class="meta">GitHub Pages bietet kein Directory Listing.</p>
+    </div>
+    <div class="card">
+      <h3>Bilder</h3>
+      <p><a href="https://github.com/sgoettel/strelitz/tree/main/friedhofsregister_der_juedischen_gemeinde_strelitz/jpg" target="_blank" rel="noopener">Fullsize JPGs (GitHub Browse)</a></p>
+      <p><a href="https://github.com/sgoettel/strelitz/tree/main/friedhofsregister_der_juedischen_gemeinde_strelitz/jpg/thumbs" target="_blank" rel="noopener">Thumbnails (GitHub Browse)</a></p>
+    </div>
+  </div>
+  <div class="section">
+    <h2>Scan-URL-Regel</h2>
+    <p class="meta">Die Zuordnung <code>pb@n</code> → Scan-Datei wird build-time aus TEI und Dateisystem generiert (Manifest) und hart validiert. Keine pb+1-Rechnung im Template.</p>
+  </div>
+</section>

@@ -180,6 +180,58 @@ a:hover { text-decoration: underline; }
 
 .osd-controls button:hover { background: rgba(255,255,255,0.12); }
 
+.osd-error {
+  margin-top: 0.75rem;
+  color: #f6b4b4;
+}
+
+.entry-header h1 {
+  margin: 0.25rem 0 0.5rem;
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+}
+
+.entry-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.75rem; }
+
+.entry-text {
+  line-height: 1.7;
+  font-size: 1.05rem;
+  color: #f0f3f7;
+}
+
+.entry-text p { margin: 0 0 0.8rem; }
+
+.tei-del { text-decoration: line-through; opacity: 0.85; }
+.tei-persname { font-weight: 600; }
+.tei-date { font-variant-numeric: tabular-nums; }
+.tei-foreign { font-style: italic; }
+
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.search-result {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 0.8rem 1rem;
+}
+
+.search-result-title {
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 0.35rem;
+}
+
+.search-result-snippet {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
 .site-footer {
   border-top: 1px solid rgba(255,255,255,0.05);
   padding: 1rem 0 2rem;
