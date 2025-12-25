@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "eleventy --serve --watch --input=site --output=dist",
     "prebuild": "python3 scripts/extract_entries.py",
-    "build": "eleventy --input=site --output=dist && npm run build:search",
+    "build": "eleventy --input=site --output=dist",
     "build:search": "pagefind --site dist --output-subdir _pagefind",
     "postbuild": "npm run build:search",
-    "build:prod": "npm run build && npm run build:search",
+    "build:prod": "npm run build",
     "predev": "python3 scripts/extract_entries.py"
   },
   "devDependencies": {

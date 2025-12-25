@@ -19,6 +19,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "site/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "site/public": "." });
   eleventyConfig.addPassthroughCopy({
+    "friedhofsregister_der_juedischen_gemeinde_strelitz": "friedhofsregister_der_juedischen_gemeinde_strelitz"
+  });
+  eleventyConfig.addPassthroughCopy({
     "node_modules/openseadragon/build/openseadragon/openseadragon.min.js": "assets/vendor/openseadragon.min.js",
     "node_modules/openseadragon/build/openseadragon/images": "assets/vendor/openseadragon-images"
   });
