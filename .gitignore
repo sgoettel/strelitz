@@ -8,3 +8,4 @@ dist/
 # macOS system file
 .DS_Store
 site/_data/entries.json
+site/_data/scan-manifest.json

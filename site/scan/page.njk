@@ -17,7 +17,7 @@ title: "Scan {{ pageNumber }}"
   <link rel="icon" href="{{ '/favicon.ico' | url }}">
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" data-pagefind-ignore>
     <div class="container header-inner">
       <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister Strelitz</a></div>
       <nav class="site-nav">
@@ -28,7 +28,7 @@ title: "Scan {{ pageNumber }}"
       </nav>
     </div>
   </header>
-  <main class="site-main container">
+  <main class="site-main container" data-pagefind-body>
     <section class="section scan-viewer">
       <h1>OpenSeadragon Scan</h1>
       <p class="meta">Seite {{ assets.pageNumber }} &middot; Bild {{ assets.imageNumber }}</p>
@@ -38,7 +38,14 @@ title: "Scan {{ pageNumber }}"
         <button id="reset">Reset</button>
         <a class="button secondary" id="open-original" target="_blank" rel="noopener">Bild in neuem Tab</a>
       </div>
-      <div id="osd-container" aria-label="Scan Viewer"></div>
+      <div
+        id="osd-container"
+        aria-label="Scan Viewer"
+        data-image-url="{{ assets.imageUrl | url }}"
+        data-thumb-url="{% if assets.thumbUrl %}{{ assets.thumbUrl | url }}{% endif %}"
+        data-image-number="{{ assets.imageNumber }}"
+      ></div>
+      <p id="osd-error" class="osd-error" hidden>Der Scan konnte nicht geladen werden.</p>
       <div class="section">
         <h2>Thumbnail (optional)</h2>
         <img id="thumb" class="thumb" alt="Thumbnail" loading="lazy" aria-hidden="true">
@@ -46,7 +53,7 @@ title: "Scan {{ pageNumber }}"
       </div>
     </section>
   </main>
-  <footer class="site-footer">
+  <footer class="site-footer" data-pagefind-ignore>
     <div class="container">
       <p>Offene Daten: Friedhofsregister der jüdischen Gemeinde Strelitz. Primärer Facsimile-Viewer: OpenSeadragon.</p>
     </div>
@@ -54,15 +61,27 @@ title: "Scan {{ pageNumber }}"
   <script src="{{ '/assets/vendor/openseadragon.min.js' | url }}"></script>
   <script>
     (function(){
-      const imageUrl = "{{ assets.imageUrl }}";
-      const imageNumber = {{ assets.imageNumber }};
-      const thumbUrl = "{{ assets.thumbUrl }}";
+      const container = document.getElementById('osd-container');
+      const imageUrl = container.dataset.imageUrl;
+      const imageNumber = container.dataset.imageNumber;
+      const thumbUrl = container.dataset.thumbUrl;
+      const errorMessage = document.getElementById('osd-error');
 
       const viewer = OpenSeadragon({
         id: 'osd-container',
-        tileSources: imageUrl,
+        tileSources: {
+          type: 'image',
+          url: imageUrl
+        },
         imageAlt: `Scan ${imageNumber}`,
         prefixUrl: "{{ '/assets/vendor/openseadragon-images/' | url }}"
+      });
+
+      viewer.addHandler('open-failed', (event) => {
+        const error = event?.message || event?.error || event;
+        console.error('OpenSeadragon open-failed', { imageUrl, error });
+        errorMessage.textContent = 'Der Scan konnte nicht geladen werden. Bitte prüfe die Bild-URL in der Konsole.';
+        errorMessage.hidden = false;
       });
 
       document.getElementById('zoom-in').addEventListener('click', () => viewer.zoomIn());
@@ -74,8 +93,12 @@ title: "Scan {{ pageNumber }}"
       originalLink.textContent = `Bild ${imageNumber} in neuem Tab`;
 
       const thumb = document.getElementById('thumb');
-      thumb.src = thumbUrl;
-      thumb.addEventListener('error', () => { thumb.style.display = 'none'; });
+      if (thumbUrl) {
+        thumb.src = thumbUrl;
+        thumb.addEventListener('error', () => { thumb.style.display = 'none'; });
+      } else {
+        thumb.style.display = 'none';
+      }
     })();
   </script>
 </body>

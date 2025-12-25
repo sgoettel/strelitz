@@ -8,7 +8,7 @@
   <link rel="icon" href="{{ '/favicon.ico' | url }}">
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" data-pagefind-ignore>
     <div class="container header-inner">
       <div class="brand">
         <a href="{{ '/' | url }}">Friedhofsregister Strelitz</a>
@@ -21,10 +21,10 @@
       </nav>
     </div>
   </header>
-  <main class="site-main container">
+  <main class="site-main container" data-pagefind-body>
     {{ content | safe }}
   </main>
-  <footer class="site-footer">
+  <footer class="site-footer" data-pagefind-ignore>
     <div class="container">
       <p>Offene Daten: Friedhofsregister der jüdischen Gemeinde Strelitz. Primärer Facsimile-Viewer: OpenSeadragon.</p>
     </div>

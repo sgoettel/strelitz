@@ -25,8 +25,22 @@ npm run dev
 npm run build
 ```
 - Baut die statische Site nach `dist/`.
-- Das Facsimile unter `/scan/<pb>/` lädt automatisch `imageNumber = pb + 1` aus `friedhofsregister_der_juedischen_gemeinde_strelitz/jpg/`.
+- Erstellt vor dem Build ein Scan-Manifest aus TEI + Dateisystem (harte Validierung) und führt einen Post-Build-Link-Audit aus.
+
+## Scan-Manifest (pb → Datei)
+- `scripts/build_scan_manifest.js` erzeugt `site/_data/scan-manifest.json` (ignored in Git).
+- Mapping basiert auf der Reihenfolge der `<pb n="...">`-Marker in der TEI und der sortierten Bildliste im `jpg/`-Ordner.
+- Fehlende Zuordnungen brechen den Build mit einem klaren Fehler ab.
+
+## Lokaler Subpath-Test
+```
+ELEVENTY_PATH_PREFIX=/strelitz npm run build
+```
+- Prüft, ob Links, Pagefind Assets und OpenSeadragon-Icons unter `/strelitz/` korrekt sind.
+
+## CI/Post-Build Checks
+- `scripts/audit-dist-links.js` prüft `dist/` auf fehlende `href/src`-Ziele (inkl. `_pagefind`, OSD-Icons, Scan-Bilder).
 
 ## OpenSeadragon
 - Der Viewer ist serverlos und lädt die Fullsize-JPGs direkt aus dem Datenordner.
-- Thumbnails werden unter `/friedhofsregister_der_juedischen_gemeinde_strelitz/jpg/thumbs/altstrelitz_friedregister_thumbs_<imageNumber>.jpg` erwartet und ausgeblendet, falls nicht vorhanden.
+- Die Bild-URLs kommen aus dem Manifest und sind pathPrefix-safe; fehlende Thumbnails werden ausgeblendet.
