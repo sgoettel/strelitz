@@ -45,6 +45,8 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addGlobalData("pathPrefix", pathPrefix);
 
+gh-pages
+
   return {
     pathPrefix,
     dir: {
