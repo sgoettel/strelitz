@@ -15,7 +15,7 @@ function resolvePathPrefix() {
 
 module.exports = function(eleventyConfig) {
   const pathPrefix = resolvePathPrefix();
-  eleventyConfig.setPathPrefix(pathPrefix);
+  eleventyConfig.addGlobalData("pathPrefix", pathPrefix);
 
   eleventyConfig.addPassthroughCopy({ "site/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "site/public": "." });
