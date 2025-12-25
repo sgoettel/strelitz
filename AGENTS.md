@@ -1,38 +1,72 @@
 # AGENTS.md
 
 ## Project goal
-Modernize the public site for the Strelitz Jewish cemetery register and add full-text search (genealogy-first UX).
+Provide a durable, genealogy-first static website for the Strelitz Jewish cemetery register:
+fast search, stable entry pages, and reliable scan viewing (OpenSeadragon) — without changing the underlying data or breaking URLs.
 
-## Hard constraints (SAFE / Phase 1)
-- Do NOT move/rename/delete:
+## Non-negotiable invariants (do not break)
+- Do NOT move/rename/delete the data folder:
   `friedhofsregister_der_juedischen_gemeinde_strelitz/`
-- Keep this URL stable:
+- Keep this URL stable and the file unchanged:
   `friedhofsregister_der_juedischen_gemeinde_strelitz/mets.xml`
-- Phase 1 is presentation/indexing only:
-  do NOT “clean up” or semantically rewrite TEI/ALTO contents.
+- No semantic “cleanups” of TEI/ALTO content:
+  parsing/extraction + presentation/indexing only.
 
-## Deliverables (Phase 1)
-- New static site (no Jekyll) with:
-  - search page (static full-text search)
-  - entry pages (one per register entry)
-  - primary scan viewing via OpenSeadragon (loads JPGs from the existing data folder)
-  - DFG/METS viewer link is optional/legacy
-- GitHub Actions deploy to `gh-pages` without touching the data folder.
+## Public URL stability
+These routes must remain valid:
+- `/entry/<id>/`
+- `/scan/<pb>/`
+- `/search/`
+Also keep existing data URLs stable under:
+- `/friedhofsregister_der_juedischen_gemeinde_strelitz/...`
 
-## Implementation notes (Phase 1)
-- All asset/data URLs must be GitHub Pages / pathPrefix safe (use Eleventy `url` filter or `pathPrefix`).
-- The OpenSeadragon UI icon directory must be published (prefixUrl configured) to avoid 404s.
-- The data folder must remain unchanged, but it must be served by the published site (via passthrough/deploy).
+## Runtime environment constraints (GitHub Pages)
+- The site is served under the subpath `/strelitz/` (pathPrefix matters everywhere).
+- GitHub Pages has **no directory listing**:
+  never link to folder URLs like `/.../jpg/` or `/.../alto/` unless you generate an `index.html` for them.
+- All asset/data URLs must be pathPrefix-safe:
+  use Eleventy’s `url` filter (or an equivalent, single-source base URL mechanism) consistently.
 
-
-## Preferred stack
+## Stack (current)
 - SSG: Eleventy
-- Search: Pagefind
-- TEI extraction: Python (lxml) or Node; keep it deterministic.
+- Search: Pagefind (output in `dist/_pagefind`)
+- Scan viewer: OpenSeadragon (icons in `dist/assets/vendor/openseadragon-images/`)
+- TEI extraction: deterministic (Python lxml or Node), build-time.
 
-## Definition of Done
-- Site builds locally and in CI.
-- Search returns meaningful snippets.
-- OpenSeadragon scan pages work.
-- DFG/METS links still work (legacy).
+## Must-have engineering rules
+### 1) pb@n → scan filename mapping
+- Do NOT rely on arithmetic rules (e.g. `pb + 1`) in templates or runtime JS.
+- Generate a build-time manifest from the filesystem + TEI `<pb n="...">`:
+  `pb -> { image, thumb? }`.
+- If any `<pb>` cannot be resolved to a scan image: **fail the build** (exit != 0) with a clear error message.
+
+### 2) OpenSeadragon must work on GitHub Pages subpath
+- Initialize the viewer from a template-provided, already pathPrefix-safe image URL (e.g. via `data-image-url`).
+- Ensure OSD control icons prefix is also pathPrefix-safe.
+- On failure: show a visible error in the viewer and log the actual URL + error.
+
+### 3) Pagefind must be content-scoped and pathPrefix-safe
+- Ensure the search query is passed to Pagefind unchanged.
+- Scope indexing to the real content area:
+  use `data-pagefind-body` / `data-pagefind-ignore` (or equivalent) to avoid nav/footer boilerplate polluting results.
+- Pagefind assets must load under `/strelitz/`:
+  set `bundlePath` accordingly (pathPrefix-safe).
+
+### 4) CI should catch broken links/assets
+- Add a post-build audit that checks `dist/` references (href/src) against existing files:
+  fail CI on missing assets (including `_pagefind`, OSD icons, manifest-resolved images).
+
+## Deliverables (stabilization scope)
+- Working scan pages (`/scan/<pb>/`) with OpenSeadragon viewer.
+- Working search (`/search/`) with plausible results for common names (e.g. “Meyer”).
+- Entry pages (`/entry/<id>/`) with human-readable rendering (no “raw HTML dump” look).
+- Downloads/data page without dead directory links; use file lists, GitHub browse links, or archive assets.
+- GitHub Actions deploys to `gh-pages` deterministically without modifying the data folder.
+
+## Definition of Done (acceptance checks)
+- Build succeeds locally and in CI.
 - Data folder unchanged (verify by path-level diff).
+- `/scan/25/` (and several others) loads an image + zoom; no TileSource error.
+- `/search/` loads Pagefind assets under subpath and returns plausible matches for “Meyer”.
+- `/entry/e0090/` and `/entry/i-114/` render cleanly (readable transcription + extracted fields).
+- No “directory” links on downloads/data pages that 404 on GitHub Pages.
