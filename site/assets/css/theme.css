@@ -1,0 +1,152 @@
+:root {
+  --bg: #f5f1eb;
+  --surface: #ffffff;
+  --surface-muted: #faf6f0;
+  --border: #d7cfbf;
+  --text: #2c2924;
+  --muted: #6b645a;
+  --link: #1f4d6b;
+  --link-hover: #16384f;
+  --focus: #9a7b4a;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.layout--text .container {
+  max-width: 72ch;
+  width: min(72ch, 92vw);
+}
+
+.layout--wide .container {
+  max-width: 1200px;
+  width: min(1200px, 94vw);
+}
+
+.site-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: none;
+}
+
+.brand a {
+  color: var(--text);
+}
+
+.site-nav a {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.site-nav a:hover {
+  background: #eee8df;
+}
+
+.site-main {
+  padding: 2.25rem 0 3rem;
+}
+
+.hero {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.hero p {
+  color: var(--muted);
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: none;
+  border-color: #c9b99e;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
+
+.card p {
+  color: var(--muted);
+}
+
+.section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.button {
+  background: #f2ede5;
+  color: var(--text);
+  border: 1px solid var(--border);
+  font-weight: 600;
+}
+
+.button.secondary {
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.meta,
+.search-result-snippet {
+  color: var(--muted);
+}
+
+.search-result {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.scan-viewer {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+#osd-container {
+  background: var(--surface-muted);
+  border: 1px solid var(--border);
+}
+
+.entry-text {
+  color: var(--text);
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}

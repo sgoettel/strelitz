@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Start | Friedhofsregister Strelitz</title>
   <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | url }}">
   <link rel="icon" href="{{ '/favicon.ico' | url }}">
 </head>
-<body>
+<body class="layout--text">
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister Strelitz</a></div>
@@ -23,18 +24,18 @@
     <section class="hero">
       <h1>Friedhofsregister der jüdischen Gemeinde Strelitz</h1>
       <div class="cta-grid">
-        <div class="card">
+        <a class="card card-link" href="{{ '/search/' | url }}">
           <h3>Suchen</h3>
           <p>Volltextsuche Namen, Orte und Begriffe.</p>
-        </div>
-        <div class="card">
+        </a>
+        <a class="card card-link" href="{{ '/entries/' | url }}">
           <h3>Einträge</h3>
           <p>Einzelseiten pro Registereintrag.</p>
-        </div>
-        <div class="card">
+        </a>
+        <a class="card card-link" href="{{ '/scan/' | url }}">
           <h3>Digitalisate</h3>
           <p>Scans im OpenSeadragon Viewer.</p>
-        </div>
+        </a>
       </div>
     </section>
   </main>

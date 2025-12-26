@@ -5,9 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ title }} | Friedhofsregister Strelitz</title>
   <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | url }}">
   <link rel="icon" href="{{ '/favicon.ico' | url }}">
 </head>
-<body>
+{% assign isWide = false %}
+{% if page.url == '/scan/' or page.url contains '/scan/' or page.url contains '/search/' %}
+  {% assign isWide = true %}
+{% endif %}
+{% assign layoutClass = 'layout--text' %}
+{% if isWide %}
+  {% assign layoutClass = 'layout--wide' %}
+{% endif %}
+<body class="{{ layoutClass }}">
   <header class="site-header" data-pagefind-ignore>
     <div class="container header-inner">
       <div class="brand">
