@@ -44,6 +44,11 @@ textarea:focus-visible {
   width: min(1200px, 94vw);
 }
 
+.layout--home .container {
+  max-width: 1040px;
+  width: min(1040px, 94vw);
+}
+
 .site-header {
   background: var(--surface);
   border-bottom: 1px solid var(--border);
@@ -135,6 +140,29 @@ textarea:focus-visible {
 .scan-viewer {
   background: var(--surface);
   border: 1px solid var(--border);
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.search-form label {
+  font-weight: 600;
+}
+
+.search-form input[type='search'] {
+  padding: 0.75rem 0.9rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+.search-form input[type='search']::placeholder {
+  color: var(--muted);
 }
 
 #osd-container {
