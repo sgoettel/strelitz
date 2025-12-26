@@ -2,7 +2,7 @@ name: Build & Deploy (Eleventy)
 
 on:
   push:
-    branches: ["gh-pages", "revamp"]
+    branches: ["gh-pages"]
 
 permissions:
   contents: read
