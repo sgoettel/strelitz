@@ -14,9 +14,10 @@ title: "Scan {{ pageNumber }}"
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Scan {{ assets.pageNumber }} | Friedhofsregister Strelitz</title>
   <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | url }}">
   <link rel="icon" href="{{ '/favicon.ico' | url }}">
 </head>
-<body>
+<body class="layout--wide">
   <header class="site-header" data-pagefind-ignore>
     <div class="container header-inner">
       <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister Strelitz</a></div>
@@ -32,6 +33,18 @@ title: "Scan {{ pageNumber }}"
     <section class="section scan-viewer">
       <h1>OpenSeadragon Scan</h1>
       <p class="meta">Seite {{ assets.pageNumber }} &middot; Bild {{ assets.imageNumber }}</p>
+      <nav class="scan-nav" aria-label="Scan navigation">
+        {% if pageNumber > 1 %}
+          <a class="button secondary" href="{{ ('/scan/' ~ (pageNumber - 1) ~ '/') | url }}">Vorherige Seite</a>
+        {% else %}
+          <span class="button secondary" aria-disabled="true">Vorherige Seite</span>
+        {% endif %}
+        {% if pageNumber < 96 %}
+          <a class="button secondary" href="{{ ('/scan/' ~ (pageNumber + 1) ~ '/') | url }}">Nächste Seite</a>
+        {% else %}
+          <span class="button secondary" aria-disabled="true">Nächste Seite</span>
+        {% endif %}
+      </nav>
       <div class="osd-controls">
         <button id="zoom-in">Zoom +</button>
         <button id="zoom-out">Zoom -</button>
@@ -65,6 +78,13 @@ title: "Scan {{ pageNumber }}"
       const imageNumber = container.dataset.imageNumber;
       const thumbUrl = container.dataset.thumbUrl;
       const errorMessage = document.getElementById('osd-error');
+
+      if (!imageUrl) {
+        console.error('OpenSeadragon image URL is missing.');
+        errorMessage.textContent = 'Der Scan konnte nicht geladen werden. Bild-URL fehlt.';
+        errorMessage.hidden = false;
+        return;
+      }
 
       const viewer = OpenSeadragon({
         id: 'osd-container',
