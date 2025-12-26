@@ -1,47 +1,21 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Start | Friedhofsregister Strelitz</title>
-  <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | url }}">
-  <link rel="icon" href="{{ '/favicon.ico' | url }}">
-</head>
-<body class="layout--text">
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister Strelitz</a></div>
-      <nav class="site-nav">
-        <a href="{{ '/entries/' | url }}">Einträge</a>
-        <a href="{{ '/search/' | url }}">Suche</a>
-        <a href="{{ '/scan/' | url }}">Scans</a>
-        <a href="{{ '/downloads/' | url }}">Daten</a>
-      </nav>
-    </div>
-  </header>
-  <main class="site-main container">
-    <section class="hero">
-      <h1>Friedhofsregister der jüdischen Gemeinde Strelitz</h1>
-      <div class="cta-grid">
-        <a class="card card-link" href="{{ '/search/' | url }}">
-          <h3>Suchen</h3>
-          <p>Volltextsuche Namen, Orte und Begriffe.</p>
-        </a>
-        <a class="card card-link" href="{{ '/entries/' | url }}">
-          <h3>Einträge</h3>
-          <p>Einzelseiten pro Registereintrag.</p>
-        </a>
-        <a class="card card-link" href="{{ '/scan/' | url }}">
-          <h3>Digitalisate</h3>
-          <p>Scans im OpenSeadragon Viewer.</p>
-        </a>
-      </div>
-    </section>
-  </main>
-  <footer class="site-footer">
-    <div class="container">
-    </div>
-  </footer>
-</body>
-</html>
+---
+layout: layout.html
+title: Start
+---
+<section class="hero">
+  <h1>Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)</h1>
+  <div class="cta-grid">
+    <a class="card card-link" href="{{ '/search/' | url }}">
+      <h3>Suchen</h3>
+      <p>Volltextsuche Namen, Orte und Begriffe.</p>
+    </a>
+    <a class="card card-link" href="{{ '/entries/' | url }}">
+      <h3>Einträge</h3>
+      <p>Einzelseiten pro Registereintrag.</p>
+    </a>
+    <a class="card card-link" href="{{ '/scan/' | url }}">
+      <h3>Digitalisate</h3>
+      <p>Scans im OpenSeadragon Viewer.</p>
+    </a>
+  </div>
+</section>
