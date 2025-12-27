@@ -12,7 +12,7 @@ title: "Scan {{ pageNumber }}"
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Scan {{ assets.pageNumber }} | Friedhofsregister Strelitz</title>
+  <title>Scan {{ assets.pageNumber }} | Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)</title>
   <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
   <link rel="stylesheet" href="{{ '/assets/css/theme.css' | url }}">
   <link rel="icon" href="{{ '/favicon.ico' | url }}">
@@ -20,7 +20,7 @@ title: "Scan {{ pageNumber }}"
 <body class="layout--wide">
   <header class="site-header" data-pagefind-ignore>
     <div class="container header-inner">
-      <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister Strelitz</a></div>
+      <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)</a></div>
       <nav class="site-nav">
         <a href="{{ '/entries/' | url }}">Einträge</a>
         <a href="{{ '/search/' | url }}">Suche</a>
@@ -33,14 +33,16 @@ title: "Scan {{ pageNumber }}"
     <section class="section scan-viewer">
       <h1>OpenSeadragon Scan</h1>
       <p class="meta">Seite {{ assets.pageNumber }} &middot; Bild {{ assets.imageNumber }}</p>
+      {% set prevHref = pagination.href.previous or pagination.previousPageHref %}
+      {% set nextHref = pagination.href.next or pagination.nextPageHref %}
       <nav class="scan-nav" aria-label="Scan navigation">
-        {% if pageNumber > 1 %}
-          <a class="button secondary" href="{{ ('/scan/' ~ (pageNumber - 1) ~ '/') | url }}">Vorherige Seite</a>
+        {% if prevHref %}
+          <a class="button secondary" href="{{ prevHref | url }}">Vorherige Seite</a>
         {% else %}
           <span class="button secondary" aria-disabled="true">Vorherige Seite</span>
         {% endif %}
-        {% if pageNumber < 96 %}
-          <a class="button secondary" href="{{ ('/scan/' ~ (pageNumber + 1) ~ '/') | url }}">Nächste Seite</a>
+        {% if nextHref %}
+          <a class="button secondary" href="{{ nextHref | url }}">Nächste Seite</a>
         {% else %}
           <span class="button secondary" aria-disabled="true">Nächste Seite</span>
         {% endif %}
