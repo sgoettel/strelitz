@@ -1,3 +1,4 @@
+const nunjucks = require('nunjucks');
 const scanPaths = require('./site/assets/scan-paths');
 
 function resolvePathPrefix() {
@@ -45,7 +46,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addLiquidFilter("safe", (value) => value);
 
   // Nunjucks: allow rendering trusted HTML strings in entry.njk via | safeHtml
-  eleventyConfig.addNunjucksFilter("safeHtml", (value) => value);
+  // Only mark HTML as safe when it comes from the whitelist serializer (entry.text_html).
+  eleventyConfig.addNunjucksFilter("safeHtml", (value) => {
+    if (typeof value !== "string") {
+      return value;
+    }
+    return new nunjucks.runtime.SafeString(value);
+  });
 
   eleventyConfig.addGlobalData("pathPrefix", pathPrefix);
 
