@@ -221,27 +221,41 @@ a:hover { text-decoration: underline; }
   width: 100%;
   border-collapse: collapse;
   min-width: 640px;
+  font-size: 1rem;
 }
 
-.entries-table th,
-.entries-table td {
+.entries-table thead th {
   text-align: left;
   padding: 0.75rem 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.entries-table tbody td {
+  text-align: left;
+  padding: 0.85rem 0.85rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   vertical-align: top;
 }
 
-.entries-table th {
-  font-size: 0.9rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--muted);
+.entries-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.03);
 }
 
-.entries-no,
+.entries-no {
+  width: 120px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
 .entries-date {
   width: 12%;
   white-space: nowrap;
+  font-variant-numeric: tabular-nums;
 }
 
 .entries-name {
@@ -252,15 +266,21 @@ a:hover { text-decoration: underline; }
   width: 16%;
 }
 
+.entries-action .button {
+  padding: 0.45rem 0.8rem;
+  font-size: 0.95rem;
+}
+
 .entries-cards {
   display: none;
   margin-top: 1.5rem;
   gap: 1rem;
+  flex-direction: column;
 }
 
 .entry-card {
   background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 14px;
   padding: 1rem;
   display: grid;
@@ -268,14 +288,16 @@ a:hover { text-decoration: underline; }
 }
 
 .entry-card-no {
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
   color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
 }
 
 .entry-card-name {
   font-weight: 700;
+  font-size: 1.1rem;
 }
 
 .entry-card-dates {
@@ -292,93 +314,13 @@ a:hover { text-decoration: underline; }
   margin-right: 0.35rem;
 }
 
-.tei-del { text-decoration: line-through; opacity: 0.85; }
-.tei-label {
-  font-weight: 600;
-  letter-spacing: 0.02em;
-}
-.tei-fw {
-  font-size: 0.9em;
-  color: var(--muted);
-}
-.tei-persname {
-  font-weight: 700;
-  color: var(--text);
-}
-.tei-date {
-  color: var(--text);
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-}
-.tei-rolename {
-  font-variant: small-caps;
-  letter-spacing: 0.03em;
-  color: var(--muted);
-}
-.tei-unclear {
-  text-decoration: underline dotted;
-  text-underline-offset: 2px;
-  opacity: 0.85;
-}
-.tei-ref {
-  font-variant: all-small-caps;
-  letter-spacing: 0.04em;
-  color: #cdd6e3;
-}
-.tei-foreign { font-style: italic; }
-.tei-foreign-hbo {
-  display: inline;
-  margin: 0;
-  padding: 0;
-  background: none;
-  font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
-  direction: rtl;
-  unicode-bidi: isolate;
-  text-align: left;
-}
-
-.search-results {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0 0;
-  display: grid;
-  gap: 1rem;
-}
-
-.search-result {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 12px;
-  padding: 0.8rem 1rem;
-}
-
-.search-result-title {
-  font-weight: 700;
-  display: inline-block;
-  margin-bottom: 0.35rem;
-}
-
-.search-result-snippet {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.5;
-}
-
-.site-footer {
-  border-top: 1px solid rgba(255,255,255,0.05);
-  padding: 0.85rem 0;
-  color: var(--muted);
-  font-size: 0.95rem;
-  flex-shrink: 0;
-}
-
-@media (max-width: 720px) {
-  .site-nav { flex-wrap: wrap; gap: 0.5rem; }
-  .header-inner { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
-  .hero { padding: 1.25rem; }
+.entry-card .button {
+  justify-self: start;
+  margin-top: 0.4rem;
 }
 
 @media (max-width: 820px) {
   .entries-table-wrapper { display: none; }
-  .entries-cards { display: grid; }
+  .entries-cards { display: flex; }
 }
+
