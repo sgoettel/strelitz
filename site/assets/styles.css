@@ -204,8 +204,33 @@ a:hover { text-decoration: underline; }
 .entry-text p { margin: 0 0 0.8rem; }
 
 .tei-del { text-decoration: line-through; opacity: 0.85; }
-.tei-persname { font-weight: 600; }
-.tei-date { font-variant-numeric: tabular-nums; }
+.tei-label {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.tei-fw {
+  font-size: 0.9em;
+  color: var(--muted);
+}
+.tei-placename,
+.tei-persname {
+  font-weight: 600;
+  color: #e3ecf7;
+}
+.tei-date {
+  color: #dbe3ef;
+  font-variant-numeric: tabular-nums;
+}
+.tei-unclear {
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+  opacity: 0.85;
+}
+.tei-ref {
+  font-variant: all-small-caps;
+  letter-spacing: 0.04em;
+  color: #cdd6e3;
+}
 .tei-foreign { font-style: italic; }
 
 .search-results {
