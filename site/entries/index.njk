@@ -5,23 +5,51 @@ title: Register-Einträge
 <section class="section">
   <h1>Register-Einträge</h1>
   <p>Alle Einträge des Friedhofsregisters, sortiert nach Nummer (mit Fallback für fehlende Nummern). Für gezielte Suche nutze die <a href="{{ '/search/' | url }}">Suche</a>.</p>
-  <ul class="entry-list">
+  <div class="entries-table-wrapper">
+    <table class="entries-table">
+      <thead>
+        <tr>
+          <th scope="col">Nr.</th>
+          <th scope="col">Name</th>
+          <th scope="col">Datum(e)</th>
+          <th scope="col">Aktion</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for entry in entries | sortEntries %}
+          <tr>
+            <td class="entries-no">{{ entry.no or "–" }}</td>
+            <td class="entries-name">{{ entry.names[0] or "—" }}</td>
+            <td class="entries-dates">
+              {% if entry.dates and entry.dates.length %}
+                {{ entry.dates | slice(0, 2) | join(" · ") }}
+              {% else %}
+                —
+              {% endif %}
+            </td>
+            <td class="entries-action">
+              <a class="button" href="{{ ('/entry/' + entry.slug + '/') | url }}">Details</a>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="entries-cards">
     {% for entry in entries | sortEntries %}
-      <li class="entry-list-item">
-        <div class="entry-meta">
-          <strong>Nr. {{ entry.id }}</strong>
-          {% if entry.page_no %}
-            <span class="meta">Seite {{ entry.page_no }}</span>
+      <article class="entry-card">
+        <div class="entry-card-no">Nr. {{ entry.no or "–" }}</div>
+        <div class="entry-card-name">{{ entry.names[0] or "—" }}</div>
+        <div class="entry-card-dates">
+          {% if entry.dates and entry.dates.length %}
+            {{ entry.dates | slice(0, 2) | join(" · ") }}
+          {% else %}
+            —
           {% endif %}
         </div>
-        <div class="entry-actions">
-          <a class="button" href="{{ ('/entry/' + entry.slug + '/') | url }}">Details</a>
-          {% if entry.page_no %}
-            <a class="button secondary" href="{{ ('/scan/' + entry.page_no + '/') | url }}">Scan öffnen (Zoom)</a>
-          {% endif %}
-        </div>
-        <p class="snippet">{{ entry.text_plain }}</p>
-      </li>
+        <a class="button" href="{{ ('/entry/' + entry.slug + '/') | url }}">Details</a>
+      </article>
     {% endfor %}
-  </ul>
+  </div>
 </section>
