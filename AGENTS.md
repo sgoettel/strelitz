@@ -7,10 +7,15 @@ fast search, stable entry pages, and reliable scan viewing (OpenSeadragon) — w
 ## Non-negotiable invariants (do not break)
 - Do NOT move/rename/delete the data folder:
   `friedhofsregister_der_juedischen_gemeinde_strelitz/`
+- Do NOT modify the TEI source file (taboo; read-only):
+  `friedhofsregister_der_juedischen_gemeinde_strelitz/TEI/jacobson_strelitzfriedhofsregister_1929.txt.xml`
 - Keep this URL stable and the file unchanged:
   `friedhofsregister_der_juedischen_gemeinde_strelitz/mets.xml`
 - No semantic “cleanups” of TEI/ALTO content:
   parsing/extraction + presentation/indexing only.
+
+## Build output is read-only
+- Do NOT edit `dist/` (build output). Only change source files under `site/`, `scripts/`, `assets/`, or config.
 
 ## Public URL stability
 These routes must remain valid:
@@ -30,8 +35,8 @@ Also keep existing data URLs stable under:
 ## Stack (current)
 - SSG: Eleventy
 - Search: Pagefind (output in `dist/_pagefind`)
-- Scan viewer: OpenSeadragon (icons in `dist/assets/vendor/openseadragon-images/`)
-- TEI extraction: deterministic (Python lxml or Node), build-time.
+- Scan viewer: OpenSeadragon
+- TEI extraction: deterministic, build-time (Python lxml or Node)
 
 ## Must-have engineering rules
 ### 1) pb@n → scan filename mapping
@@ -42,18 +47,23 @@ Also keep existing data URLs stable under:
 
 ### 2) OpenSeadragon must work on GitHub Pages subpath
 - Initialize the viewer from a template-provided, already pathPrefix-safe image URL (e.g. via `data-image-url`).
-- Ensure OSD control icons prefix is also pathPrefix-safe.
+- Ensure the OSD control icon prefix is pathPrefix-safe and published.
 - On failure: show a visible error in the viewer and log the actual URL + error.
 
 ### 3) Pagefind must be content-scoped and pathPrefix-safe
 - Ensure the search query is passed to Pagefind unchanged.
 - Scope indexing to the real content area:
   use `data-pagefind-body` / `data-pagefind-ignore` (or equivalent) to avoid nav/footer boilerplate polluting results.
-- Pagefind assets must load under `/strelitz/`:
-  set `bundlePath` accordingly (pathPrefix-safe).
+- Pagefind assets must load under `/strelitz/` (pathPrefix-safe).
 
-### 4) CI should catch broken links/assets
-- Add a post-build audit that checks `dist/` references (href/src) against existing files:
+### 4) Transcription rendering must be safe and deterministic
+- Render TEI-derived transcription as HTML only if it is produced by a whitelist-based serializer (DOM-based),
+  not by regex/string concatenation.
+- Only map a controlled subset of TEI tags for display (e.g. `lb`, `label`, `fw`, `persName`, `date`,
+  `placeName`, `ref`, `unclear`, `foreign`, `del`). Everything else must degrade gracefully to plain text/spans.
+
+### 5) CI should catch broken links/assets
+- Add/keep a post-build audit that checks `dist/` references (href/src) against existing files:
   fail CI on missing assets (including `_pagefind`, OSD icons, manifest-resolved images).
 
 ## Deliverables (stabilization scope)
@@ -66,7 +76,7 @@ Also keep existing data URLs stable under:
 ## Definition of Done (acceptance checks)
 - Build succeeds locally and in CI.
 - Data folder unchanged (verify by path-level diff).
-- `/scan/25/` (and several others) loads an image + zoom; no TileSource error.
+- Several `/scan/<pb>/` pages load images + zoom; no TileSource error.
 - `/search/` loads Pagefind assets under subpath and returns plausible matches for “Meyer”.
-- `/entry/e0090/` and `/entry/i-114/` render cleanly (readable transcription + extracted fields).
+- At least one `e####` entry and one `i-#` entry render cleanly (readable transcription + extracted fields).
 - No “directory” links on downloads/data pages that 404 on GitHub Pages.
