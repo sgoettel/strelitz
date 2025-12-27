@@ -232,6 +232,17 @@ a:hover { text-decoration: underline; }
   color: #cdd6e3;
 }
 .tei-foreign { font-style: italic; }
+.tei-foreign-hbo {
+  display: block;
+  margin: 0.35rem 0;
+  padding: 0.2rem 0.45rem;
+  line-height: 1.7;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  font-family: "SBL Hebrew", "Ezra SIL", "Times New Roman", serif;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
 
 .search-results {
   list-style: none;

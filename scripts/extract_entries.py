@@ -87,6 +87,8 @@ def extract_text_html(item) -> str:
             lang = (elem.get("lang") or "").lower()
             if lang:
                 elem.set("lang", lang)
+            if lang == "hbo":
+                elem.set("class", f"{elem.get('class', '')} tei-foreign-hbo".strip())
             if lang.startswith("he") or lang.startswith("yi") or lang.startswith("heb"):
                 elem.set("dir", "rtl")
     allowed_tags = {"br", "del", "span", "time", "ol", "ul", "li"}
