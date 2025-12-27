@@ -47,6 +47,7 @@ def strip_namespaces(el):
 def extract_text_html(item) -> str:
     clone = copy.deepcopy(item)
     strip_namespaces(clone)
+    allowed_tags = {"br", "del", "span", "time", "ol", "ul", "li"}
     for elem in clone.iter():
         if not isinstance(elem.tag, str):
             continue
@@ -68,6 +69,39 @@ def extract_text_html(item) -> str:
                 elem.set("lang", lang)
             if lang.startswith("he") or lang.startswith("yi") or lang.startswith("heb"):
                 elem.set("dir", "rtl")
+
+    def unwrap_disallowed(parent):
+        i = 0
+        while i < len(parent):
+            child = parent[i]
+            unwrap_disallowed(child)
+            if isinstance(child.tag, str) and child.tag in allowed_tags:
+                i += 1
+                continue
+            inserted = list(child)
+            if child.text:
+                if i == 0:
+                    parent.text = (parent.text or "") + child.text
+                else:
+                    prev = parent[i - 1]
+                    prev.tail = (prev.tail or "") + child.text
+            insert_pos = i
+            for grandchild in inserted:
+                child.remove(grandchild)
+                parent.insert(insert_pos, grandchild)
+                insert_pos += 1
+            tail_text = child.tail or ""
+            parent.remove(child)
+            if tail_text:
+                if insert_pos == 0:
+                    parent.text = (parent.text or "") + tail_text
+                else:
+                    prev = parent[insert_pos - 1]
+                    prev.tail = (prev.tail or "") + tail_text
+            if inserted:
+                i += len(inserted)
+
+    unwrap_disallowed(clone)
     html_parts: List[str] = []
     for child in clone:
         html_parts.append(etree.tostring(child, encoding="unicode", method="html"))
