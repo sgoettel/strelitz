@@ -31,8 +31,7 @@ title: "Scan {{ pageNumber }}"
   </header>
   <main class="site-main container" data-pagefind-body>
     <section class="section scan-viewer">
-      <h1>OpenSeadragon Scan</h1>
-      <p class="meta">Seite {{ assets.pageNumber }} &middot; Bild {{ assets.imageNumber }}</p>
+      <p class="meta">Seite {{ assets.pageNumber }}</p>
       {% set prevHref = pagination.href.previous or pagination.previousPageHref %}
       {% set nextHref = pagination.href.next or pagination.nextPageHref %}
       <nav class="scan-nav" aria-label="Scan navigation">
@@ -47,25 +46,13 @@ title: "Scan {{ pageNumber }}"
           <span class="button secondary" aria-disabled="true">Nächste Seite</span>
         {% endif %}
       </nav>
-      <div class="osd-controls">
-        <button id="zoom-in">Zoom +</button>
-        <button id="zoom-out">Zoom -</button>
-        <button id="reset">Reset</button>
-        <a class="button secondary" id="open-original" target="_blank" rel="noopener">Bild in neuem Tab</a>
-      </div>
       <div
         id="osd-container"
         aria-label="Scan Viewer"
         data-image-url="{{ assets.imageUrl | url }}"
-        data-thumb-url="{% if assets.thumbUrl %}{{ assets.thumbUrl | url }}{% endif %}"
         data-image-number="{{ assets.imageNumber }}"
       ></div>
       <p id="osd-error" class="osd-error" hidden>Der Scan konnte nicht geladen werden.</p>
-      <div class="section">
-        <h2>Thumbnail (optional)</h2>
-        <img id="thumb" class="thumb" alt="Thumbnail" loading="lazy" aria-hidden="true">
-        <p class="meta">Falls ein Thumbnail fehlt oder abweicht, blendet die Seite es automatisch aus.</p>
-      </div>
     </section>
   </main>
   <footer class="site-footer" data-pagefind-ignore>
@@ -78,7 +65,6 @@ title: "Scan {{ pageNumber }}"
       const container = document.getElementById('osd-container');
       const imageUrl = container.dataset.imageUrl;
       const imageNumber = container.dataset.imageNumber;
-      const thumbUrl = container.dataset.thumbUrl;
       const errorMessage = document.getElementById('osd-error');
 
       if (!imageUrl) {
@@ -105,21 +91,6 @@ title: "Scan {{ pageNumber }}"
         errorMessage.hidden = false;
       });
 
-      document.getElementById('zoom-in').addEventListener('click', () => viewer.zoomIn());
-      document.getElementById('zoom-out').addEventListener('click', () => viewer.zoomOut());
-      document.getElementById('reset').addEventListener('click', () => viewer.reset());
-
-      const originalLink = document.getElementById('open-original');
-      originalLink.href = imageUrl;
-      originalLink.textContent = `Bild ${imageNumber} in neuem Tab`;
-
-      const thumb = document.getElementById('thumb');
-      if (thumbUrl) {
-        thumb.src = thumbUrl;
-        thumb.addEventListener('error', () => { thumb.style.display = 'none'; });
-      } else {
-        thumb.style.display = 'none';
-      }
     })();
   </script>
 </body>
