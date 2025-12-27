@@ -54,12 +54,33 @@ def extract_text_html(item) -> str:
             elem.tag = "br"
         elif elem.tag == "del":
             elem.set("class", f"{elem.get('class', '')} tei-del".strip())
+        elif elem.tag == "label":
+            elem.tag = "span"
+            elem.set("class", f"{elem.get('class', '')} tei-label".strip())
+        elif elem.tag == "fw":
+            elem.tag = "span"
+            elem.set("class", f"{elem.get('class', '')} tei-fw".strip())
         elif elem.tag == "persName":
             elem.tag = "span"
             elem.set("class", f"{elem.get('class', '')} tei-persname".strip())
         elif elem.tag == "date":
             elem.tag = "time"
             elem.set("class", f"{elem.get('class', '')} tei-date".strip())
+        elif elem.tag == "placeName":
+            elem.tag = "span"
+            elem.set("class", f"{elem.get('class', '')} tei-placename".strip())
+        elif elem.tag == "unclear":
+            elem.tag = "span"
+            elem.set("class", f"{elem.get('class', '')} tei-unclear".strip())
+            elem.set("title", "unclear/illegible")
+        elif elem.tag == "ref":
+            elem.tag = "span"
+            elem.set("class", f"{elem.get('class', '')} tei-ref".strip())
+        elif elem.tag == "list":
+            hint = f"{elem.get('type', '')} {elem.get('rend', '')}".lower()
+            elem.tag = "ol" if any(key in hint for key in ("ordered", "number", "ol")) else "ul"
+        elif elem.tag == "item":
+            elem.tag = "li"
         elif elem.tag == "foreign":
             elem.tag = "span"
             elem.set("class", f"{elem.get('class', '')} tei-foreign".strip())
@@ -68,11 +89,38 @@ def extract_text_html(item) -> str:
                 elem.set("lang", lang)
             if lang.startswith("he") or lang.startswith("yi") or lang.startswith("heb"):
                 elem.set("dir", "rtl")
+    allowed_tags = {"br", "del", "span", "time", "ol", "ul", "li"}
+    def unwrap(parent, elem):
+        index = list(parent).index(elem)
+        if elem.text:
+            if index == 0:
+                parent.text = (parent.text or "") + elem.text
+            else:
+                sibling = parent[index - 1]
+                sibling.tail = (sibling.tail or "") + elem.text
+        children = list(elem)
+        for child in children:
+            parent.insert(index, child)
+            index += 1
+        tail = elem.tail
+        parent.remove(elem)
+        if tail:
+            if index == 0:
+                parent.text = (parent.text or "") + tail
+            else:
+                sibling = parent[index - 1]
+                sibling.tail = (sibling.tail or "") + tail
+    for parent in clone.iter():
+        for child in list(parent):
+            if not isinstance(child.tag, str):
+                continue
+            if child.tag not in allowed_tags:
+                unwrap(parent, child)
     html_parts: List[str] = []
     for child in clone:
         html_parts.append(etree.tostring(child, encoding="unicode", method="html"))
     if not html_parts:
-        html_parts.append(etree.tostring(clone, encoding="unicode", method="html"))
+        return "".join(clone.itertext())
     return "".join(html_parts)
 
 
