@@ -47,77 +47,122 @@ def strip_namespaces(el):
 def extract_text_html(item) -> str:
     clone = copy.deepcopy(item)
     strip_namespaces(clone)
+    allowed_tags = {"p", "br", "span", "time", "ol", "ul", "li", "del"}
+
+    def add_class(elem, class_name: str) -> None:
+        classes = elem.get("class", "").split()
+        if class_name not in classes:
+            classes.append(class_name)
+        if classes:
+            elem.set("class", " ".join(classes))
     for elem in clone.iter():
         if not isinstance(elem.tag, str):
             continue
         if elem.tag == "lb":
             elem.tag = "br"
         elif elem.tag == "del":
-            elem.set("class", f"{elem.get('class', '')} tei-del".strip())
+            add_class(elem, "tei-del")
         elif elem.tag == "label":
             elem.tag = "span"
-            elem.set("class", f"{elem.get('class', '')} tei-label".strip())
+            add_class(elem, "tei-label")
         elif elem.tag == "fw":
             elem.tag = "span"
-            elem.set("class", f"{elem.get('class', '')} tei-fw".strip())
+            add_class(elem, "tei-fw")
         elif elem.tag == "persName":
             elem.tag = "span"
-            elem.set("class", f"{elem.get('class', '')} tei-persname".strip())
+            add_class(elem, "tei-persname")
         elif elem.tag == "date":
             elem.tag = "time"
-            elem.set("class", f"{elem.get('class', '')} tei-date".strip())
+            add_class(elem, "tei-date")
         elif elem.tag == "placeName":
             elem.tag = "span"
-            elem.set("class", f"{elem.get('class', '')} tei-placename".strip())
+            add_class(elem, "tei-placename")
+        elif elem.tag == "roleName":
+            elem.tag = "span"
+            add_class(elem, "tei-rolename")
         elif elem.tag == "unclear":
             elem.tag = "span"
-            elem.set("class", f"{elem.get('class', '')} tei-unclear".strip())
-            elem.set("title", "unclear/illegible")
-        elif elem.tag == "ref":
-            elem.tag = "span"
-            elem.set("class", f"{elem.get('class', '')} tei-ref".strip())
+            add_class(elem, "tei-unclear")
         elif elem.tag == "list":
-            hint = f"{elem.get('type', '')} {elem.get('rend', '')}".lower()
-            elem.tag = "ol" if any(key in hint for key in ("ordered", "number", "ol")) else "ul"
+            rend = (elem.get("rend") or "").lower()
+            elem.tag = "ol" if "numbered" in rend else "ul"
         elif elem.tag == "item":
             elem.tag = "li"
         elif elem.tag == "foreign":
             elem.tag = "span"
-            elem.set("class", f"{elem.get('class', '')} tei-foreign".strip())
+            add_class(elem, "tei-foreign")
             lang = (elem.get("lang") or "").lower()
             if lang:
                 elem.set("lang", lang)
-            if lang == "hbo":
-                elem.set("class", f"{elem.get('class', '')} tei-foreign-hbo".strip())
-            if lang.startswith("he") or lang.startswith("yi") or lang.startswith("heb"):
-                elem.set("dir", "rtl")
-    allowed_tags = {"br", "del", "span", "time", "ol", "ul", "li"}
-    def unwrap(parent, elem):
-        index = list(parent).index(elem)
-        if elem.text:
-            if index == 0:
-                parent.text = (parent.text or "") + elem.text
-            else:
-                sibling = parent[index - 1]
-                sibling.tail = (sibling.tail or "") + elem.text
-        children = list(elem)
-        for child in children:
-            parent.insert(index, child)
-            index += 1
-        tail = elem.tail
-        parent.remove(elem)
+            if lang in {"hbo", "heb", "he"}:
+                add_class(elem, "tei-foreign-hbo")
+
+    def remove_child_preserve_tail(parent, child, index: int) -> None:
+        tail = child.tail
+        parent.remove(child)
         if tail:
             if index == 0:
                 parent.text = (parent.text or "") + tail
             else:
                 sibling = parent[index - 1]
                 sibling.tail = (sibling.tail or "") + tail
-    for parent in clone.iter():
-        for child in list(parent):
-            if not isinstance(child.tag, str):
-                continue
-            if child.tag not in allowed_tags:
-                unwrap(parent, child)
+
+    def cleanup_breaks(parent) -> None:
+        while len(parent) > 0 and parent[0].tag == "br":
+            remove_child_preserve_tail(parent, parent[0], 0)
+        i = 0
+        consecutive = 0
+        while i < len(parent):
+            child = parent[i]
+            if child.tag == "br":
+                consecutive += 1
+                if consecutive > 2:
+                    remove_child_preserve_tail(parent, child, i)
+                    continue
+            else:
+                consecutive = 0
+            i += 1
+
+    if HAS_LXML:
+        present_tags = {
+            elem.tag
+            for elem in clone.iter()
+            if isinstance(elem.tag, str)
+        }
+        disallowed_tags = present_tags - allowed_tags
+        if disallowed_tags:
+            etree.strip_tags(clone, *sorted(disallowed_tags))
+    else:  # pragma: no cover - fallback for restricted environments
+        def unwrap(parent, elem):
+            index = list(parent).index(elem)
+            if elem.text:
+                if index == 0:
+                    parent.text = (parent.text or "") + elem.text
+                else:
+                    sibling = parent[index - 1]
+                    sibling.tail = (sibling.tail or "") + elem.text
+            children = list(elem)
+            for child in children:
+                parent.insert(index, child)
+                index += 1
+            tail = elem.tail
+            parent.remove(elem)
+            if tail:
+                if index == 0:
+                    parent.text = (parent.text or "") + tail
+                else:
+                    sibling = parent[index - 1]
+                    sibling.tail = (sibling.tail or "") + tail
+        for parent in clone.iter():
+            for child in list(parent):
+                if not isinstance(child.tag, str):
+                    continue
+                if child.tag not in allowed_tags:
+                    unwrap(parent, child)
+
+    cleanup_breaks(clone)
+    for paragraph in clone.iter("p"):
+        cleanup_breaks(paragraph)
     html_parts: List[str] = []
     for child in clone:
         html_parts.append(etree.tostring(child, encoding="unicode", method="html"))
