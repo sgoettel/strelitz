@@ -31,10 +31,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('sortEntries', (entries) => {
     if (!Array.isArray(entries)) return entries;
     return [...entries].sort((a, b) => {
-      const ai = Number(a.id);
-      const bi = Number(b.id);
-      if (Number.isFinite(ai) && Number.isFinite(bi)) {
-        return ai - bi;
+      const aNo = Number(a.no);
+      const bNo = Number(b.no);
+      const aHasNo = Number.isFinite(aNo);
+      const bHasNo = Number.isFinite(bNo);
+      if (aHasNo && bHasNo) {
+        return aNo - bNo;
+      }
+      if (aHasNo !== bHasNo) {
+        return aHasNo ? -1 : 1;
       }
       return String(a.id).localeCompare(String(b.id));
     });

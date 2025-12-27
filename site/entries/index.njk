@@ -4,27 +4,36 @@ title: Register-Einträge
 ---
 <section class="section">
   <h1>Register-Einträge</h1>
-  <p>Alle Einträge des Friedhofsregisters, sortiert nach Nummer (mit Fallback für fehlende Nummern). Für gezielte Suche nutze die <a href="{{ '/search/' | url }}">Suche</a>.</p>
+  <p>Alle Einträge des Friedhofsregisters, sortiert nach Nummer. Für gezielte Recherche nutze die <a href="{{ '/search/' | url }}">Volltextsuche</a>.</p>
+
   <div class="entries-table-wrapper">
     <table class="entries-table">
       <thead>
         <tr>
           <th scope="col">Nr.</th>
           <th scope="col">Name</th>
-          <th scope="col">Datum(e)</th>
+          <th scope="col">Datum 1</th>
+          <th scope="col">Datum 2</th>
           <th scope="col">Aktion</th>
         </tr>
       </thead>
       <tbody>
         {% for entry in entries | sortEntries %}
           <tr>
-            <td class="entries-no">{{ entry.no or "–" }}</td>
-            <td class="entries-name">{{ entry.names[0] or "—" }}</td>
-            <td class="entries-dates">
+            <td class="entries-no">{{ entry.no or '-' }}</td>
+            <td class="entries-name">{{ entry.names[0] or '—' }}</td>
+            <td class="entries-date">
               {% if entry.dates and entry.dates.length %}
-                {{ entry.dates | slice(0, 2) | join(" · ") }}
+                {{ entry.dates[0] }}
               {% else %}
-                —
+                -
+              {% endif %}
+            </td>
+            <td class="entries-date">
+              {% if entry.dates and entry.dates.length > 1 %}
+                {{ entry.dates[1] }}
+              {% else %}
+                -
               {% endif %}
             </td>
             <td class="entries-action">
@@ -38,15 +47,14 @@ title: Register-Einträge
 
   <div class="entries-cards">
     {% for entry in entries | sortEntries %}
+      {% set firstDate = entry.dates[0] if entry.dates and entry.dates.length else '-' %}
+      {% set secondDate = entry.dates[1] if entry.dates and entry.dates.length > 1 else '-' %}
       <article class="entry-card">
-        <div class="entry-card-no">Nr. {{ entry.no or "–" }}</div>
-        <div class="entry-card-name">{{ entry.names[0] or "—" }}</div>
+        <div class="entry-card-no">Nr. {{ entry.no or '-' }}</div>
+        <div class="entry-card-name">{{ entry.names[0] or '—' }}</div>
         <div class="entry-card-dates">
-          {% if entry.dates and entry.dates.length %}
-            {{ entry.dates | slice(0, 2) | join(" · ") }}
-          {% else %}
-            —
-          {% endif %}
+          <div><span class="entry-card-label">Datum 1:</span> {{ firstDate }}</div>
+          <div><span class="entry-card-label">Datum 2:</span> {{ secondDate }}</div>
         </div>
         <a class="button" href="{{ ('/entry/' + entry.slug + '/') | url }}">Details</a>
       </article>
