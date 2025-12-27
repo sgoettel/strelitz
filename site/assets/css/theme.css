@@ -15,6 +15,9 @@ body {
   color: var(--text);
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
   line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -70,6 +73,7 @@ textarea:focus-visible {
 
 .site-main {
   padding: 2.25rem 0 3rem;
+  flex: 1 0 auto;
 }
 
 .hero {
@@ -177,4 +181,7 @@ textarea:focus-visible {
 .site-footer {
   border-top: 1px solid var(--border);
   color: var(--muted);
+  padding: 0.85rem 0;
+  font-size: 0.95rem;
+  flex-shrink: 0;
 }

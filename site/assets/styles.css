@@ -15,6 +15,8 @@ body {
   background: linear-gradient(135deg, #0b1726 0%, #12263c 60%, #0b1726 100%);
   color: var(--text);
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 a { color: var(--accent); text-decoration: none; }
@@ -68,6 +70,7 @@ a:hover { text-decoration: underline; }
 
 .site-main {
   padding: 2.5rem 0 3rem;
+  flex: 1 0 auto;
 }
 
 .hero {
@@ -234,8 +237,10 @@ a:hover { text-decoration: underline; }
 
 .site-footer {
   border-top: 1px solid rgba(255,255,255,0.05);
-  padding: 1rem 0 2rem;
+  padding: 0.85rem 0;
   color: var(--muted);
+  font-size: 0.95rem;
+  flex-shrink: 0;
 }
 
 @media (max-width: 720px) {
