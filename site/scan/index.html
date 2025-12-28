@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Scan Viewer | Friedhofsregister Strelitz</title>
-  <link rel="canonical" href="{{ '/scan/1/' | url }}">
-  <meta http-equiv="refresh" content="0; url={{ '/scan/1/' | url }}">
-</head>
-<body>
-  <main class="site-main">
-    <p>Weiterleitung zu <a href="{{ '/scan/1/' | url }}">/scan/1/</a> …</p>
-  </main>
-  <script>
-    window.location.replace("{{ '/scan/1/' | url }}");
-  </script>
-</body>
-</html>
+---
+layout: layout.html
+title: Scan Viewer
+---
+<link rel="canonical" href="{{ '/scan/1/' | url }}">
+<meta http-equiv="refresh" content="0; url={{ '/scan/1/' | url }}">
+<section class="section">
+  <p>Weiterleitung zu <a href="{{ '/scan/1/' | url }}">/scan/1/</a> …</p>
+</section>
+<script>
+  window.location.replace("{{ '/scan/1/' | url }}");
+</script>
