@@ -127,22 +127,42 @@ def parse_text_blocks(alto_path: Path) -> Tuple[Tuple[float, float], List[TextBl
     return (page_width, page_height), blocks
 
 
+def first_nonempty(lines: List[str]) -> str:
+    for line in lines:
+        line = (line or "").strip()
+        if line:
+            return line
+    return ""
+
+
 def compile_number_patterns(entry_no: int) -> Dict[str, re.Pattern]:
     number = re.escape(str(entry_no))
-    number_pattern = re.compile(rf"(?<!\d){number}(?:\.(?!\d))?", flags=re.IGNORECASE)
+    number_pattern = re.compile(rf"(?<!\d){number}\b\.?", flags=re.IGNORECASE)
     prefix_pattern = re.compile(
-        rf"\b(?:no|n0|nr)\b\.?\s*(?<!\d){number}(?:\.(?!\d))?",
+        rf"\b(?:no|n0|nr)\b\.?\s*(?<!\d){number}\b\.?",
         flags=re.IGNORECASE
     )
     return {"number": number_pattern, "prefix": prefix_pattern}
 
 
-def score_block(block: TextBlock, patterns: Dict[str, re.Pattern], page_height: float) -> Optional[int]:
+def score_block(
+    block: TextBlock,
+    patterns: Dict[str, re.Pattern],
+    page_height: float,
+    entry_no: int
+) -> Optional[int]:
     if not block.text:
         return None
     if not patterns["number"].search(block.text):
         return None
     score = 10
+    first = first_nonempty(block.lines)
+    if re.match(rf"^\s*(?:no|n0|nr)\.?\s*{entry_no}\b\.?\s*$", first, flags=re.IGNORECASE):
+        score += 200
+    elif re.match(rf"^\s*{entry_no}\b\.?\s*$", first, flags=re.IGNORECASE):
+        score += 160
+    elif re.match(rf"^\s*{entry_no}\b\.?\s+", first, flags=re.IGNORECASE):
+        score += 120
     if patterns["prefix"].search(block.text):
         score += 100
     for idx, line in enumerate(block.lines[:2]):
@@ -155,17 +175,25 @@ def score_block(block: TextBlock, patterns: Dict[str, re.Pattern], page_height: 
     return score
 
 
-def select_best_block(blocks: List[TextBlock], entry_no: int, page_height: float) -> Optional[TextBlock]:
+def score_blocks(
+    blocks: List[TextBlock],
+    entry_no: int,
+    page_height: float
+) -> List[Tuple[int, TextBlock]]:
     patterns = compile_number_patterns(entry_no)
     scored: List[Tuple[int, TextBlock]] = []
     for block in blocks:
-        score = score_block(block, patterns, page_height)
+        score = score_block(block, patterns, page_height, entry_no)
         if score is None:
             continue
         scored.append((score, block))
+    scored.sort(key=lambda item: item[0], reverse=True)
+    return scored
+
+
+def select_best_block(scored: List[Tuple[int, TextBlock]]) -> Optional[TextBlock]:
     if not scored:
         return None
-    scored.sort(key=lambda item: item[0], reverse=True)
     best_score, best_block = scored[0]
     if best_score < MIN_SCORE:
         return None
@@ -253,9 +281,18 @@ def main() -> None:
             unmatched.append(f"{slug} (no={entry_no}, page_no={page_no}, image={basename}, error={exc})")
             continue
 
-        best_block = select_best_block(blocks, entry_number, page_size[1])
+        scored = score_blocks(blocks, entry_number, page_size[1])
+        best_block = select_best_block(scored)
         if not best_block:
             unmatched.append(f"{slug} (no={entry_no}, page_no={page_no}, image={basename})")
+            print(f"[entry-crops] Unmatched entry candidates: slug={slug}, no={entry_no}, page_no={page_no}")
+            if scored:
+                for score, block in scored[:3]:
+                    first = first_nonempty(block.lines)
+                    bbox = (block.hpos, block.vpos, block.width, block.height)
+                    print(f"  - score={score} first_line={first!r} bbox={bbox}")
+            else:
+                print("  - no scored candidates")
             continue
 
         with Image.open(jpg_path) as img:
