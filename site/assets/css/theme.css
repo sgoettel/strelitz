@@ -178,6 +178,10 @@ textarea:focus-visible {
   color: var(--text);
 }
 
+.entry-text .tei-persname {
+  color: #000;
+}
+
 .site-footer {
   border-top: 1px solid var(--border);
   color: var(--muted);

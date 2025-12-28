@@ -211,6 +211,10 @@ a:hover { text-decoration: underline; }
 }
 
 .entry-text p { margin: 0 0 0.95rem; }
+.entry-text .tei-persname { font-weight: 700; }
+.entry-text .tei-placename { font-weight: 700; }
+.entry-text .tei-rolename { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+.entry-text .tei-foreign { font-style: italic; }
 
 .entries-table-wrapper {
   margin-top: 1.5rem;
