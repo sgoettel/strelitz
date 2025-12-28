@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
   <link rel="stylesheet" href="{{ '/assets/css/theme.css' | url }}">
   <link rel="icon" href="{{ '/favicon.ico' | url }}">
+  {% if jsonld %}
+  <script type="application/ld+json">{{ jsonld | safe }}</script>
+  {% endif %}
 </head>
 {% assign layoutClass = 'layout--home' %}
 <body class="{{ layoutClass }}">
