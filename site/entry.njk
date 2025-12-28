@@ -24,9 +24,11 @@ eleventyComputed:
 
   {% if entry.page_no %}
     {% set assets = entry.page_no | scanAssets %}
-    {% if assets.thumbUrl %}
+    {% set cropUrl = entryCrops[entry.slug] if entryCrops and entryCrops[entry.slug] else null %}
+    {% set thumbUrl = cropUrl or assets.thumbUrl %}
+    {% if thumbUrl %}
       <div class="entry-thumb">
-        <img src="{{ assets.thumbUrl | url }}" alt="Thumbnail der Seite {{ entry.page_no }}" loading="lazy" onerror="this.style.display='none'" />
+        <img src="{{ thumbUrl | url }}" alt="Thumbnail der Seite {{ entry.page_no }}" loading="lazy" onerror="this.style.display='none'" />
       </div>
     {% endif %}
   {% endif %}
