@@ -1,99 +1,69 @@
 ---
+layout: layout.html
 pagination:
   data: pages
   size: 1
   alias: pageNumber
 permalink: "/scan/{{ pageNumber }}/"
-title: "Scan {{ pageNumber }}"
+eleventyComputed:
+  title: "Scan {{ pageNumber }}"
 ---
 {% set assets = pageNumber | scanAssets %}
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Scan {{ assets.pageNumber }} | Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)</title>
-  <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/theme.css' | url }}">
-  <link rel="icon" href="{{ '/favicon.ico' | url }}">
-</head>
-<body class="layout--wide">
-  <header class="site-header" data-pagefind-ignore>
-    <div class="container header-inner">
-      <div class="brand"><a href="{{ '/' | url }}">Friedhofsregister der jüdischen Gemeinde zu Strelitz (1740–1923)</a></div>
-      <nav class="site-nav">
-        <a href="{{ '/search/' | url }}">Suche</a>
-        <a href="{{ '/entries/' | url }}">Einträge</a>
-        <a href="{{ '/scan/' | url }}">Digitalisate</a>
-        <a href="{{ '/downloads/' | url }}">Daten</a>
-      </nav>
-    </div>
-  </header>
-  <main class="site-main container" data-pagefind-body>
-    <section class="section scan-viewer">
-      <p class="meta">Seite {{ assets.pageNumber }}</p>
-      {% set prevHref = pagination.href.previous or pagination.previousPageHref %}
-      {% set nextHref = pagination.href.next or pagination.nextPageHref %}
-      <nav class="scan-nav" aria-label="Scan navigation">
-        {% if prevHref %}
-          <a class="button secondary" href="{{ prevHref | url }}">Vorherige Seite</a>
-        {% else %}
-          <span class="button secondary" aria-disabled="true">Vorherige Seite</span>
-        {% endif %}
-        {% if nextHref %}
-          <a class="button secondary" href="{{ nextHref | url }}">Nächste Seite</a>
-        {% else %}
-          <span class="button secondary" aria-disabled="true">Nächste Seite</span>
-        {% endif %}
-      </nav>
-      <div
-        id="osd-container"
-        aria-label="Scan Viewer"
-        data-image-url="{{ assets.imageUrl | url }}"
-        data-image-number="{{ assets.imageNumber }}"
-      ></div>
-      <p id="osd-error" class="osd-error" hidden>Der Scan konnte nicht geladen werden.</p>
-    </section>
-  </main>
-  <footer class="site-footer" data-pagefind-ignore>
-    <div class="container">
-      <a href="https://github.com/sgoettel/">Sebastian Göttel</a> ·
-      <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Built with Codex
-    </div>
-  </footer>
-  <script src="{{ '/assets/vendor/openseadragon.min.js' | url }}"></script>
-  <script>
-    (function(){
-      const container = document.getElementById('osd-container');
-      const imageUrl = container.dataset.imageUrl;
-      const imageNumber = container.dataset.imageNumber;
-      const errorMessage = document.getElementById('osd-error');
+<section class="section scan-viewer">
+  <p class="meta">Seite {{ assets.pageNumber }}</p>
+  {% set prevHref = pagination.href.previous or pagination.previousPageHref %}
+  {% set nextHref = pagination.href.next or pagination.nextPageHref %}
+  <nav class="scan-nav" aria-label="Scan navigation">
+    {% if prevHref %}
+      <a class="button secondary" href="{{ prevHref | url }}">Vorherige Seite</a>
+    {% else %}
+      <span class="button secondary" aria-disabled="true">Vorherige Seite</span>
+    {% endif %}
+    {% if nextHref %}
+      <a class="button secondary" href="{{ nextHref | url }}">Nächste Seite</a>
+    {% else %}
+      <span class="button secondary" aria-disabled="true">Nächste Seite</span>
+    {% endif %}
+  </nav>
+  <div
+    id="osd-container"
+    aria-label="Scan Viewer"
+    data-image-url="{{ assets.imageUrl | url }}"
+    data-image-number="{{ assets.imageNumber }}"
+  ></div>
+  <p id="osd-error" class="osd-error" hidden>Der Scan konnte nicht geladen werden.</p>
+</section>
+<script src="{{ '/assets/vendor/openseadragon.min.js' | url }}"></script>
+<script>
+  (function(){
+    const container = document.getElementById('osd-container');
+    const imageUrl = container.dataset.imageUrl;
+    const imageNumber = container.dataset.imageNumber;
+    const errorMessage = document.getElementById('osd-error');
 
-      if (!imageUrl) {
-        console.error('OpenSeadragon image URL is missing.');
-        errorMessage.textContent = 'Der Scan konnte nicht geladen werden. Bild-URL fehlt.';
-        errorMessage.hidden = false;
-        return;
-      }
+    if (!imageUrl) {
+      console.error('OpenSeadragon image URL is missing.');
+      errorMessage.textContent = 'Der Scan konnte nicht geladen werden. Bild-URL fehlt.';
+      errorMessage.hidden = false;
+      return;
+    }
 
-      const viewer = OpenSeadragon({
-        id: 'osd-container',
-        tileSources: {
-          type: 'image',
-          url: imageUrl
-        },
-        imageAlt: `Scan ${imageNumber}`,
-        prefixUrl: "{{ '/assets/vendor/openseadragon-images/' | url }}"
-      });
+    const viewer = OpenSeadragon({
+      id: 'osd-container',
+      tileSources: {
+        type: 'image',
+        url: imageUrl
+      },
+      imageAlt: `Scan ${imageNumber}`,
+      prefixUrl: "{{ '/assets/vendor/openseadragon-images/' | url }}"
+    });
 
-      viewer.addHandler('open-failed', (event) => {
-        const error = event?.message || event?.error || event;
-        console.error('OpenSeadragon open-failed', { imageUrl, error });
-        errorMessage.textContent = 'Der Scan konnte nicht geladen werden. Bitte prüfe die Bild-URL in der Konsole.';
-        errorMessage.hidden = false;
-      });
+    viewer.addHandler('open-failed', (event) => {
+      const error = event?.message || event?.error || event;
+      console.error('OpenSeadragon open-failed', { imageUrl, error });
+      errorMessage.textContent = 'Der Scan konnte nicht geladen werden. Bitte prüfe die Bild-URL in der Konsole.';
+      errorMessage.hidden = false;
+    });
 
-    })();
-  </script>
-</body>
-</html>
+  })();
+</script>
