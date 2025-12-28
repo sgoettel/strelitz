@@ -1,11 +1,22 @@
-# Node modules
+# Dependencies
 node_modules/
+
+# Build output
 dist/
 .dist/
+
+# Tool caches
 .npm-cache/
 .jekyll-cache/
+.cache/
+.tmp/
 
-# macOS system file
+# OS junk
 .DS_Store
+
+# Generated site data (do not commit)
 site/_data/entries.json
 site/_data/scan-manifest.json
+
+# Generated entry crops
+site/assets/generated/entry-crops/

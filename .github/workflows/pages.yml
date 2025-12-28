@@ -28,9 +28,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: npm ci
+      - run: python3 -m pip install --upgrade pip
 
-      - run: python3 scripts/extract_entries.py
+      - run: python3 -m pip install -r requirements.txt
+
+      - run: npm ci
 
       - run: npm run build
 
