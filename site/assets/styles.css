@@ -264,6 +264,7 @@ a:hover { text-decoration: underline; }
 
 .entries-action {
   width: 16%;
+  white-space: nowrap;
 }
 
 .entries-action .button {
@@ -323,4 +324,3 @@ a:hover { text-decoration: underline; }
   .entries-table-wrapper { display: none; }
   .entries-cards { display: flex; }
 }
-
