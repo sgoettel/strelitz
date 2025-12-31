@@ -1,5 +1,6 @@
 const nunjucks = require('nunjucks');
 const scanPaths = require('./site/assets/scan-paths');
+const repoData = require('./site/_data/repo.json');
 
 function resolvePathPrefix() {
   if (process.env.ELEVENTY_PATH_PREFIX) {
@@ -17,6 +18,7 @@ function resolvePathPrefix() {
 module.exports = function(eleventyConfig) {
   const pathPrefix = resolvePathPrefix();
   eleventyConfig.addGlobalData("pathPrefix", pathPrefix);
+  eleventyConfig.addGlobalData("repo", repoData);
 
   eleventyConfig.addPassthroughCopy({ "site/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "site/public": "." });
